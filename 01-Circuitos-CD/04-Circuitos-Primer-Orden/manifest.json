@@ -1,0 +1,19 @@
+{
+  "id": "cd-04-circuitos-primer-orden",
+  "name": "Elementos Almacenadores de Energía y Circuitos de Primer Orden",
+  "description": "Análisis de circuitos con inductores y capacitores, respuesta transitoria de circuitos RL y RC",
+  "topics": [
+    "inductancia",
+    "capacitancia",
+    "circuitos-rl",
+    "circuitos-rc",
+    "respuesta-natural",
+    "respuesta-forzada",
+    "funciones-singulares"
+  ],
+  "prerequisites": ["cd-01-conceptos-leyes-fundamentales", "cd-02-tecnicas-analisis-circuitos", "cd-03-teoremas-circuitos"],
+  "status": "en_desarrollo",
+  "theoryFiles": 7,
+  "methodFiles": 0,
+  "problemFiles": 0
+}

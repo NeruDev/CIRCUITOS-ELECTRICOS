@@ -1,0 +1,17 @@
+{
+  "id": "ca-03-circuitos-acoplados-magneticamente",
+  "name": "Circuitos Acoplados Magnéticamente",
+  "description": "Inductancia mutua, transformadores y circuitos equivalentes",
+  "topics": [
+    "induccion-magnetica",
+    "inductancia-mutua",
+    "acoplamiento-magnetico",
+    "transformadores",
+    "impedancia-reflejada"
+  ],
+  "prerequisites": ["ca-01-analisis-ca-estado-estacionario"],
+  "status": "en_desarrollo",
+  "theoryFiles": 5,
+  "methodFiles": 0,
+  "problemFiles": 0
+}
