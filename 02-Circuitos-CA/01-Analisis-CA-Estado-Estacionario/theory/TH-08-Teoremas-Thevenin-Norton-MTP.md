@@ -100,6 +100,10 @@ $$\mathbf{V}_{th} = 100\angle 0° \times \frac{-j10}{10 + j10}$$
 
 $$\mathbf{V}_{th} = 100 \times \frac{-j10}{10 + j10} = \frac{-j1000}{10 + j10}$$
 
+Convirtiendo a forma polar:
+- Numerador: |-j1000| = 1000, ∠(-j1000) = -90°
+- Denominador: |10 + j10| = √(100+100) = 14.14, ∠(10 + j10) = arctan(10/10) = 45°
+
 $$\mathbf{V}_{th} = \frac{1000\angle -90°}{14.14\angle 45°} = 70.7\angle -135° \text{ V}$$
 
 **Paso 2: Calcular Zth**

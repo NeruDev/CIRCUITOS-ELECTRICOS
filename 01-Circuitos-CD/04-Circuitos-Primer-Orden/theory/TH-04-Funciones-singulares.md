@@ -39,6 +39,8 @@ $$\int_{-\infty}^{\infty} \delta(t) \, dt = 1$$
 **Propiedad de muestreo:**
 $$\int_{-\infty}^{\infty} f(t)\delta(t-t_0) \, dt = f(t_0)$$
 
+*Nota: Esta propiedad requiere que f(t) sea continua en t = t₀.*
+
 **Gráfica:**
 ```
 δ(t)
