@@ -1,0 +1,17 @@
+{
+  "id": "cd-02-tecnicas-analisis-circuitos",
+  "name": "Técnicas para el Análisis de Circuitos",
+  "description": "Métodos sistemáticos de análisis: topología de redes, método de nodos y método de mallas",
+  "topics": [
+    "topologia-redes",
+    "metodo-nodos",
+    "metodo-mallas",
+    "eslabones",
+    "analisis-lazos"
+  ],
+  "prerequisites": ["cd-01-conceptos-leyes-fundamentales"],
+  "status": "en_desarrollo",
+  "theoryFiles": 3,
+  "methodFiles": 0,
+  "problemFiles": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cd-01-conceptos-leyes-fundamentales",
+  "name": "Conceptos y Leyes Fundamentales",
+  "description": "Introducción a los circuitos eléctricos, leyes básicas y técnicas de simplificación",
+  "topics": [
+    "circuitos-electricos",
+    "ley-de-ohm",
+    "leyes-de-kirchhoff",
+    "resistencias",
+    "divisores",
+    "transformacion-fuentes"
+  ],
+  "prerequisites": [],
+  "status": "en_desarrollo",
+  "theoryFiles": 9,
+  "methodFiles": 0,
+  "problemFiles": 0
+}
