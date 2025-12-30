@@ -1,0 +1,18 @@
+{
+  "id": "ca-06-analisis-dominio-frecuencia",
+  "name": "Análisis en el Dominio de la Frecuencia",
+  "description": "Respuesta en frecuencia, resonancia, polos y ceros, y filtros",
+  "topics": [
+    "respuesta-frecuencia",
+    "funcion-transferencia",
+    "resonancia",
+    "factor-calidad",
+    "polos-ceros",
+    "filtros"
+  ],
+  "prerequisites": ["ca-01-analisis-ca-estado-estacionario", "cd-05-circuitos-segundo-orden"],
+  "status": "en_desarrollo",
+  "theoryFiles": 5,
+  "methodFiles": 0,
+  "problemFiles": 0
+}

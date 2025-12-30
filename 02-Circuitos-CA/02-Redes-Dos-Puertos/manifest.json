@@ -1,0 +1,17 @@
+{
+  "id": "ca-02-redes-dos-puertos",
+  "name": "Redes de Dos Puertos",
+  "description": "Parámetros z, y, h, T y sus interconexiones",
+  "topics": [
+    "parametros-impedancia",
+    "parametros-admitancia",
+    "parametros-hibridos",
+    "parametros-transmision",
+    "interconexion-redes"
+  ],
+  "prerequisites": ["ca-01-analisis-ca-estado-estacionario"],
+  "status": "en_desarrollo",
+  "theoryFiles": 3,
+  "methodFiles": 0,
+  "problemFiles": 0
+}

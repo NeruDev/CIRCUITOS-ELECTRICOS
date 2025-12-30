@@ -1,0 +1,17 @@
+{
+  "id": "ca-04-circuitos-trifasicos",
+  "name": "Circuitos Trifásicos",
+  "description": "Generación, cargas balanceadas y desbalanceadas en sistemas trifásicos",
+  "topics": [
+    "generacion-trifasica",
+    "conexion-estrella",
+    "conexion-delta",
+    "cargas-balanceadas",
+    "cargas-desbalanceadas"
+  ],
+  "prerequisites": ["ca-01-analisis-ca-estado-estacionario"],
+  "status": "en_desarrollo",
+  "theoryFiles": 3,
+  "methodFiles": 0,
+  "problemFiles": 0
+}

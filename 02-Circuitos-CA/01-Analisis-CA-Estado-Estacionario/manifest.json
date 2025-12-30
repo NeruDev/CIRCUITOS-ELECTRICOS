@@ -1,0 +1,22 @@
+{
+  "id": "ca-01-analisis-ca-estado-estacionario",
+  "name": "Análisis de Redes de Corriente Alterna en Estado Estacionario",
+  "description": "Fasores, impedancia, admitancia y teoremas de circuitos aplicados a CA",
+  "topics": [
+    "onda-senoidal",
+    "valor-eficaz",
+    "numeros-complejos",
+    "fasores",
+    "impedancia",
+    "admitancia",
+    "analisis-nodal",
+    "analisis-mallas",
+    "superposicion",
+    "thevenin-norton"
+  ],
+  "prerequisites": ["cd-01-conceptos-leyes-fundamentales", "cd-02-tecnicas-analisis-circuitos", "cd-03-teoremas-circuitos"],
+  "status": "en_desarrollo",
+  "theoryFiles": 8,
+  "methodFiles": 0,
+  "problemFiles": 0
+}
