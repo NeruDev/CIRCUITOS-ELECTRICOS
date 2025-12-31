@@ -12,18 +12,29 @@ XX-Nombre-Modulo/
 ├── problems/
 │   ├── PR-XX-Problema-Resuelto.md
 │   └── EJ-XX-Ejercicio-Propuesto.md
+├── simulation/
+│   └── SIM-XX-Nombre-Simulacion.pdsprj
 ├── Resumen-Formulas.md
 └── manifest.json
 ```
 
 ## Prefijos de Archivos
 
-| Prefijo | Tipo | Descripción |
-|---------|------|-------------|
-| TH-XX | Teoría | Contenido teórico del tema |
-| MT-XX | Método | Procedimientos paso a paso |
-| PR-XX | Problema | Problemas completamente resueltos |
-| EJ-XX | Ejercicio | Ejercicios para práctica |
+| Prefijo | Tipo | Descripción | Ubicación |
+|---------|------|-------------|-----------|
+| TH-XX | Teoría | Contenido teórico del tema | `theory/` |
+| MT-XX | Método | Procedimientos paso a paso | `methods/` |
+| PR-XX | Problema | Problemas completamente resueltos | `problems/` |
+| EJ-XX | Ejercicio | Ejercicios para práctica | `problems/` |
+| SIM-XX | Simulación | Archivos Proteus 8.15 | `simulation/` |
+
+## Niveles de Dificultad
+
+| Nivel | Símbolo | Descripción |
+|-------|---------|-------------|
+| Conceptual | ⭐ | Aplicación directa de fórmulas |
+| Intermedio | ⭐⭐ | Requiere sistemas de ecuaciones |
+| Avanzado | ⭐⭐⭐ | Circuitos complejos, fuentes dependientes |
 
 ## Convenciones de Nombres
 
@@ -36,6 +47,7 @@ XX-Nombre-Modulo/
    - Prefijo según tipo de contenido
    - XX = número de dos dígitos
    - Extensión `.md` para Markdown
+   - Extensión `.pdsprj` para Proteus
 
 ## Estructura de manifest.json
 
@@ -46,7 +58,23 @@ XX-Nombre-Modulo/
   "description": "Descripción breve",
   "topics": ["tema1", "tema2"],
   "prerequisites": ["modulo-anterior"],
-  "status": "en_desarrollo|completo"
+  "status": "en_desarrollo|completo",
+  "software_requirements": ["Proteus 8.15"],
+  "difficulty_levels": {
+    "conceptual": "⭐",
+    "intermedio": "⭐⭐",
+    "avanzado": "⭐⭐⭐"
+  },
+  "resource_map": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "simulation": "simulation/"
+  },
+  "theoryFiles": 0,
+  "methodFiles": 0,
+  "problemFiles": 0,
+  "simulationFiles": 0
 }
 ```
 

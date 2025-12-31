@@ -12,7 +12,20 @@
   ],
   "prerequisites": ["ca-01-analisis-ca-estado-estacionario", "cd-05-circuitos-segundo-orden"],
   "status": "en_desarrollo",
+  "software_requirements": ["Proteus 8.15"],
+  "difficulty_levels": {
+    "conceptual": "⭐",
+    "intermedio": "⭐⭐",
+    "avanzado": "⭐⭐⭐"
+  },
+  "resource_map": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "simulation": "simulation/"
+  },
   "theoryFiles": 5,
   "methodFiles": 0,
-  "problemFiles": 0
+  "problemFiles": 0,
+  "simulationFiles": 0
 }

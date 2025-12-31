@@ -16,7 +16,20 @@
   ],
   "prerequisites": ["cd-01-conceptos-leyes-fundamentales", "cd-02-tecnicas-analisis-circuitos", "cd-03-teoremas-circuitos"],
   "status": "en_desarrollo",
+  "software_requirements": ["Proteus 8.15"],
+  "difficulty_levels": {
+    "conceptual": "⭐",
+    "intermedio": "⭐⭐",
+    "avanzado": "⭐⭐⭐"
+  },
+  "resource_map": {
+    "theory": "theory/",
+    "methods": "methods/",
+    "problems": "problems/",
+    "simulation": "simulation/"
+  },
   "theoryFiles": 8,
   "methodFiles": 0,
-  "problemFiles": 0
+  "problemFiles": 0,
+  "simulationFiles": 0
 }

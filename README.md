@@ -79,18 +79,33 @@ XX-Nombre-Modulo/
 ├── theory/               # Archivos de teoría (TH-XX)
 ├── methods/              # Métodos y procedimientos (MT-XX)
 ├── problems/             # Problemas y ejercicios (PR-XX, EJ-XX)
+├── simulation/           # Simulaciones Proteus 8.15 (SIM-XX)
 ├── Resumen-Formulas.md   # Fórmulas importantes
 └── manifest.json         # Metadatos del módulo
 ```
 
+## 🎯 Niveles de Dificultad
+
+| Nivel | Símbolo | Descripción |
+|-------|---------|-------------|
+| Conceptual | ⭐ | Aplicación directa de fórmulas |
+| Intermedio | ⭐⭐ | Requiere sistemas de ecuaciones |
+| Avanzado | ⭐⭐⭐ | Circuitos complejos, fuentes dependientes |
+
 ## 🏷️ Nomenclatura de Archivos
 
-| Prefijo | Tipo de Contenido |
-|---------|-------------------|
-| `TH-XX` | Teoría |
-| `MT-XX` | Métodos/Procedimientos |
-| `PR-XX` | Problemas resueltos |
-| `EJ-XX` | Ejercicios propuestos |
+| Prefijo | Tipo de Contenido | Ubicación |
+|---------|-------------------|-----------|
+| `TH-XX` | Teoría | `theory/` |
+| `MT-XX` | Métodos/Procedimientos | `methods/` |
+| `PR-XX` | Problemas resueltos | `problems/` |
+| `EJ-XX` | Ejercicios propuestos | `problems/` |
+| `SIM-XX` | Simulaciones Proteus | `simulation/` |
+
+## 🔧 Herramientas de Simulación
+
+- **Software:** Proteus 8.15
+- **Modelos SPICE:** [00-META/spice-models/](00-META/spice-models/)
 
 ## 📊 Estado del Repositorio
 
