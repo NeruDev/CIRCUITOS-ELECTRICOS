@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Circuito RC - Respuesta Natural (Descarga) ⭐⭐
 
 ## Enunciado
@@ -153,4 +152,3 @@ $$i(t) = \frac{50}{10000}e^{-t} = 5\text{ mA} \times e^{-t}$$
 - Constante de tiempo τ = RC
 - Decaimiento exponencial
 - Energía almacenada en capacitor
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Circuito RL - Respuesta Natural ⭐⭐
 
 ## Enunciado
@@ -157,4 +156,3 @@ $$W_{disipada} = I_0^2 R \times \frac{\tau}{2} = (16)(20)(0.0125) = 4\text{ J} =
 - Constante de tiempo τ = L/R
 - Continuidad de corriente en inductor
 - Conservación de energía
-```

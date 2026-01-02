@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Potencia Activa, Reactiva y Aparente ⭐⭐
 
 ## Enunciado
@@ -193,4 +192,3 @@ I = 6.45 A, θ = -18.19°, FP = 0.95
 - Factor de potencia y su significado físico
 - Corrección de FP con capacitores
 - Relación entre valores pico y RMS
-```

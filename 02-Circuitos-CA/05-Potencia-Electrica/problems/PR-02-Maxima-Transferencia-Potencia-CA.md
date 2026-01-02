@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Máxima Transferencia de Potencia en CA ⭐⭐⭐
 
 ## Enunciado
@@ -204,4 +203,3 @@ RL2 13 0 50
 - Cancelación de reactancias
 - Compromiso potencia vs eficiencia
 - Factor de potencia unitario en máxima transferencia
-```

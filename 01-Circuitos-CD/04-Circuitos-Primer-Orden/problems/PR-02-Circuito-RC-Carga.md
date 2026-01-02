@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Circuito RC - Respuesta Completa (Carga) ⭐⭐
 
 ## Enunciado
@@ -161,4 +160,3 @@ $$v(t) = \underbrace{12(1-e^{-10t})}_{\text{Respuesta a escalón}} + \underbrace
 - Fórmula general: v(t) = v(∞) + [v(0⁺) - v(∞)]e^(-t/τ)
 - Continuidad del voltaje en capacitor
 - Relación i-v en capacitor
-```

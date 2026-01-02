@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Aplicación Básica de la Ley de Ohm ⭐
 
 ## Enunciado
@@ -79,4 +78,3 @@ I(V1) = -3.0000E-03
 - Ley de Ohm: V = IR
 - Potencia eléctrica: P = VI = I²R = V²/R
 - Energía: W = Pt
-```

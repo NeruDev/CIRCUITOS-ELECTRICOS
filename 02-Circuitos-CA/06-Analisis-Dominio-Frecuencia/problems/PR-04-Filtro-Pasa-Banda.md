@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Filtro Pasa-Banda RLC ⭐⭐⭐
 
 ## Enunciado
@@ -254,4 +253,3 @@ f = 20 kHz:   VDB(4) = -23.5 dB, VP(4) = -86°
 - Función de transferencia normalizada
 - Análisis de respuesta en frecuencia
 - Diagramas de Bode para filtros de segundo orden
-```

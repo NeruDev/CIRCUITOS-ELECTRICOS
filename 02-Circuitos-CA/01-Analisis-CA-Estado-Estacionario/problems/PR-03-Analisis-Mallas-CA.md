@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Análisis de Mallas en CA ⭐⭐⭐
 
 ## Enunciado
@@ -197,4 +196,3 @@ VM(3) = 59.16V,  VP(3) = 9.46°     (VC)
 - Potencia compleja: S = VI*
 - Factor de potencia
 - Verificación con LVK
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-05: Divisor de Corriente ⭐
 
 ## Enunciado
@@ -109,4 +108,3 @@ La resistencia menor (R₁ = 4kΩ) conduce más corriente (12mA) que la mayor (R
 - Divisor de corriente: i₁ = Is·R₂/(R₁+R₂)
 - La corriente es inversamente proporcional a la resistencia
 - Conservación de potencia
-```

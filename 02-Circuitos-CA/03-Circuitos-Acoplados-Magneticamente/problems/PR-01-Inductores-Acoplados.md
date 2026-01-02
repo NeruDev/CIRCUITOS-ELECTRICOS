@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Inductores Acoplados - Coeficiente de Acoplamiento ⭐⭐
 
 ## Enunciado
@@ -185,4 +184,3 @@ Leq (mH)
 - Acoplamiento aditivo y sustractivo
 - Convención de puntos
 - Inductancia equivalente en serie
-```

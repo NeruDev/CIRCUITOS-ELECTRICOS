@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Resonancia en Circuito RLC Serie ⭐⭐⭐
 
 ## Enunciado
@@ -211,4 +210,3 @@ f = 589 Hz:  I = 0.707A, θ = +45°
 - Ancho de banda BW = f₀/Q = R/(2πL)
 - Frecuencias de corte a -3dB
 - Amplificación de voltaje Q en L y C
-```

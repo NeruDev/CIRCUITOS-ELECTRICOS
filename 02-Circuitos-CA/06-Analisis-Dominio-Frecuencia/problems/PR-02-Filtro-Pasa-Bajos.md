@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Filtro Pasa-Bajos RC ⭐⭐
 
 ## Enunciado
@@ -191,4 +190,3 @@ f = 15915 Hz:   VDB(2) = -20.0 dB, VP(2) = -84.3°
 - Diagrama de Bode
 - Pendiente en dB/década
 - Relación fase-frecuencia
-```

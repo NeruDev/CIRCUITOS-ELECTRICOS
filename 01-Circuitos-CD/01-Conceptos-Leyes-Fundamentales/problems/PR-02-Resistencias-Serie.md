@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Resistencias en Serie ⭐
 
 ## Enunciado
@@ -92,4 +91,3 @@ I(R1) = I(R2) = I(R3) = 4.0000E-03
 - Resistencias en serie: Req = R₁ + R₂ + ... + Rₙ
 - Corriente igual en serie
 - Ley de Voltajes de Kirchhoff (LVK)
-```

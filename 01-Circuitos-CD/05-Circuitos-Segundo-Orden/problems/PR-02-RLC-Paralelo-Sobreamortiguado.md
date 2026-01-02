@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Circuito RLC Paralelo - Respuesta Natural Sobreamortiguada ⭐⭐⭐
 
 ## Enunciado
@@ -245,4 +244,3 @@ t=500ms:  V(1) = -0.13V, I(L1) = 0.013A
 - Dos constantes de tiempo exponenciales
 - Factor de amortiguamiento ζ > 1
 - Balance de corrientes LCK
-```

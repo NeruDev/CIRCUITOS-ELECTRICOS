@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Análisis con Fasores - Impedancia y Admitancia ⭐⭐
 
 ## Enunciado
@@ -192,4 +191,3 @@ VM(3) = 164.9V,   VP(3) = -114.03° (VC)
 - Ley de Ohm en fasores: V = IZ
 - Circuito inductivo vs capacitivo
 - Diagrama fasorial
-```

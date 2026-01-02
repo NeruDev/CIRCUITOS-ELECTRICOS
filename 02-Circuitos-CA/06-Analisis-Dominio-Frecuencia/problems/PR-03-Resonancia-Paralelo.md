@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Resonancia Paralelo RLC ⭐⭐⭐
 
 ## Enunciado
@@ -208,4 +207,3 @@ f = 15836 Hz (f1) y f = 15995 Hz (f2):
 - Amplificación de corriente Q:1
 - Impedancia máxima en resonancia
 - Ancho de banda y selectividad
-```

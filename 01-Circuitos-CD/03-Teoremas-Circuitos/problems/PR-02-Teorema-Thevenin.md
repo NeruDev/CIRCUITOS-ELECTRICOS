@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Teorema de Thévenin ⭐⭐
 
 ## Enunciado
@@ -177,4 +176,3 @@ I(RL) = 1.7143E+00
 - Resistencia con fuentes apagadas = Rth
 - Simplificación de circuitos
 - Análisis de carga variable
-```

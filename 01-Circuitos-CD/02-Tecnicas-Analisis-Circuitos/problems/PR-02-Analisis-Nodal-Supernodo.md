@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Análisis Nodal con Supernodo ⭐⭐⭐
 
 ## Enunciado
@@ -150,4 +149,3 @@ V(3) = -4.6154E-01
 - Supernodo para manejar fuentes de voltaje
 - Ecuación de restricción
 - LCK en supernodos
-```

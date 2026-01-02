@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Resistencias en Paralelo ⭐
 
 ## Enunciado
@@ -103,4 +102,3 @@ Observe que la resistencia más pequeña (R₃ = 2kΩ) lleva la mayor corriente 
 - Resistencias en paralelo: 1/Req = 1/R₁ + 1/R₂ + ... + 1/Rₙ
 - Voltaje igual en paralelo
 - Ley de Corrientes de Kirchhoff (LCK)
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-08: Leyes de Kirchhoff - Circuito con Dos Mallas ⭐⭐
 
 ## Enunciado
@@ -124,4 +123,3 @@ V(2) = 8.1818       (Voltaje en nodo central)
 - Ley de Voltajes de Kirchhoff (LVK)
 - Sistemas de ecuaciones lineales
 - Convención de signos
-```

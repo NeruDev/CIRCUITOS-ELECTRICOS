@@ -1,4 +1,3 @@
-```markdown
 # PR-05: Circuito RC con Entrada Escalón y Condición Inicial ⭐⭐⭐
 
 ## Enunciado
@@ -180,4 +179,3 @@ t=100ms: V(2) = 6.04,   I(C1) = -0.008mA
 - Cambio de fuentes (conmutación)
 - Balance de energía con fuente y resistencia
 - Fuente como elemento absorbente de energía
-```

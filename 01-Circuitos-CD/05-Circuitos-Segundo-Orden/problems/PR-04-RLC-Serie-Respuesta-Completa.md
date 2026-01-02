@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Circuito RLC Serie - Respuesta Completa con Fuente DC ⭐⭐⭐
 
 ## Enunciado
@@ -229,4 +228,3 @@ t=30ms:  V(3) ≈ 50V,   I(L1) ≈ 0mA
 - Circuito RLC serie con fuente DC
 - Comportamiento oscilatorio amortiguado
 - Estado estable: L→cortocircuito, C→abierto
-```

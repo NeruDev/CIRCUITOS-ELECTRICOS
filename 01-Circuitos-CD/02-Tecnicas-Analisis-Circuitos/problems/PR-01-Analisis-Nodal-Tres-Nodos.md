@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Análisis Nodal - Circuito con Tres Nodos ⭐⭐
 
 ## Enunciado
@@ -156,4 +155,3 @@ $$\begin{bmatrix} 0.75 & -0.25 \\ -0.25 & 0.625 \end{bmatrix} \begin{bmatrix} V_
 - Análisis nodal sistemático
 - Matriz de conductancias
 - LCK en cada nodo
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Análisis Nodal en CA con Fasores ⭐⭐⭐
 
 ## Enunciado
@@ -205,4 +204,3 @@ IM(L1) = 1.232A, IP(L1) = -67.5°
 - Condición de resonancia: XL = XC
 - Cancelación de corrientes reactivas
 - Transformación tiempo ↔ frecuencia
-```

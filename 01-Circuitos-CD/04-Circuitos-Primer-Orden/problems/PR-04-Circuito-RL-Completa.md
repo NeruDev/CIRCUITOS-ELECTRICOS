@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Circuito RL - Respuesta Completa ⭐⭐
 
 ## Enunciado
@@ -176,4 +175,3 @@ t=1s:    I(L1) = 2.963,  V(2) = 0.29
 - Fórmula general: i(t) = i(∞) + [i(0⁺) - i(∞)]e^(-t/τ)
 - Continuidad de corriente en inductor
 - L actúa como cortocircuito en DC estable
-```

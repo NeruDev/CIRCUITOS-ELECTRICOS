@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Análisis de Mallas con Supermalla ⭐⭐⭐
 
 ## Enunciado
@@ -154,4 +153,3 @@ I(R4) = -6.0000E-01
 - Supermalla para fuentes de corriente
 - Ecuación de restricción de corriente
 - LVK en supermallas
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Teorema de Superposición ⭐⭐
 
 ## Enunciado
@@ -191,4 +190,3 @@ I(R2) = 1.3333E+00
 - Teorema de superposición
 - Desactivación de fuentes
 - Suma algebraica de respuestas parciales
-```

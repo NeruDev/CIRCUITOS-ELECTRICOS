@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Divisor de Tensión ⭐
 
 ## Enunciado
@@ -128,4 +127,3 @@ Para minimizar el efecto de carga, la impedancia de carga debe ser mucho mayor q
 - Divisor de tensión: Vout = Vs · R₂/(R₁+R₂)
 - Efecto de carga en divisores
 - Resistencias en paralelo
-```

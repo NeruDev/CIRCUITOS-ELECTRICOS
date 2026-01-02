@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Parámetros Z de una Red de Dos Puertos ⭐⭐
 
 ## Enunciado
@@ -255,4 +254,3 @@ RL 3 0 50              ; Carga ZL = 50Ω
 - Ganancia de voltaje
 - Condición de reciprocidad
 - Determinante de la matriz Z
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Sistema Trifásico Y-Δ ⭐⭐⭐
 
 ## Enunciado
@@ -219,4 +218,3 @@ $$P = 1.732 \times 440 \times 16.94 \times 0.866 = 11180\text{ W ✓}$$
 - Relación corriente línea-fase en Δ: IL = √3 × IΔ
 - Desfase 30° entre corriente de línea y de fase
 - Potencia trifásica
-```

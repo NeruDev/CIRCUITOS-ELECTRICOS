@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Parámetros ABCD (Transmisión) ⭐⭐⭐
 
 ## Enunciado
@@ -225,4 +224,3 @@ RL 3 0 100
 - Multiplicación de matrices para cascada
 - Condición de reciprocidad: AD - BC = 1
 - Impedancia de entrada y ganancia
-```

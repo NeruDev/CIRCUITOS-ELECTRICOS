@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Transformador Ideal - Relación de Transformación ⭐⭐
 
 ## Enunciado
@@ -174,4 +173,3 @@ Potencia = V2 × I2 = 72W
 - Transformación de corriente: I₁ = I₂/n
 - Reflexión de impedancia: Zin = n²ZL
 - Conservación de potencia en transformador ideal
-```

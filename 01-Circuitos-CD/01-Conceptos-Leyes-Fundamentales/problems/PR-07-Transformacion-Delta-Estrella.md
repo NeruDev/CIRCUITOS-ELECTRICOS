@@ -1,4 +1,3 @@
-```markdown
 # PR-07: Transformación Delta-Estrella ⭐⭐
 
 ## Enunciado
@@ -134,4 +133,3 @@ $$R_a = \frac{R_1 R_2 + R_2 R_3 + R_1 R_3}{R_3}$$
 - Transformación Delta-Estrella
 - Equivalencia de circuitos
 - Simplificación de redes
-```

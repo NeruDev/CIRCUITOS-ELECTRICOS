@@ -1,4 +1,3 @@
-```markdown
 # PR-02: Parámetros Y y Conversión Y↔Z ⭐⭐⭐
 
 ## Enunciado
@@ -235,4 +234,3 @@ RL 2 0 50             ; Carga YL = 0.02 S (50Ω)
 - Admitancia de entrada con carga
 - Ganancia de corriente
 - Reciprocidad: Y₁₂ = Y₂₁
-```

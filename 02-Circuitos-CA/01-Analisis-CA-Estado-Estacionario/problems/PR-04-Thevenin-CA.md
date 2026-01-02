@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Teorema de Thévenin en CA ⭐⭐⭐
 
 ## Enunciado
@@ -217,4 +216,3 @@ IM(carga) = 1.636A, IP(carga) = 115.3°
 - Impedancias en paralelo
 - Superposición de voltajes
 - Reducción de circuitos
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Sistema Trifásico Balanceado Y-Y ⭐⭐
 
 ## Enunciado
@@ -197,4 +196,3 @@ $$I_n = 0 + j0 = 0 \checkmark$$
 - Relación VL/Vf en conexión Y
 - Potencias trifásicas
 - Factor de potencia
-```

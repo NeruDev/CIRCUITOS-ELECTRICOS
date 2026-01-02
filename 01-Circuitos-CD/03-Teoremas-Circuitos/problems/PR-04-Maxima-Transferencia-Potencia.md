@@ -1,4 +1,3 @@
-```markdown
 # PR-04: Máxima Transferencia de Potencia ⭐⭐
 
 ## Enunciado
@@ -176,4 +175,3 @@ En sistemas de **señales** (comunicaciones), se prioriza la máxima transferenc
 - RL = Rth para Pmax
 - Pmax = Vth²/(4Rth)
 - Eficiencia = 50% en Pmax
-```

@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Análisis de Mallas - Dos Mallas ⭐⭐
 
 ## Enunciado
@@ -152,4 +151,3 @@ I(R3) = 2.9091E-01
 - Corriente de rama = suma algebraica de corrientes de malla
 - Balance de potencia
 - Convención de signos
-```

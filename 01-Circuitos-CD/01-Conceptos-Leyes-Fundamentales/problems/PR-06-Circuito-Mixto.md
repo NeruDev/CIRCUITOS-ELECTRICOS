@@ -1,4 +1,3 @@
-```markdown
 # PR-06: Circuito Mixto Serie-Paralelo ⭐⭐
 
 ## Enunciado
@@ -118,4 +117,3 @@ I(R3) = 1.0000E-03
 - División de corriente en ramas paralelas
 - Conservación de energía
 - LCK y LVK
-```

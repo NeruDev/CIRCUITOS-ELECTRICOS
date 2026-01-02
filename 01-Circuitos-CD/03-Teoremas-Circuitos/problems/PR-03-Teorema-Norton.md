@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Teorema de Norton ⭐⭐
 
 ## Enunciado
@@ -180,4 +179,3 @@ I(RL) = 1.7143E+00
 - Equivalencia Thévenin-Norton
 - Rn = Rth siempre
 - Transformación de fuentes
-```

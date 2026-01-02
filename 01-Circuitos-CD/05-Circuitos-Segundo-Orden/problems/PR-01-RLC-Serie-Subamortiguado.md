@@ -1,4 +1,3 @@
-```markdown
 # PR-01: Circuito RLC Serie - Respuesta Natural Subamortiguada ⭐⭐⭐
 
 ## Enunciado
@@ -211,4 +210,3 @@ t=20ms:    V(3) ≈ 0.5,    I(L1) ≈ 1mA
 - Coeficiente de amortiguamiento α
 - Frecuencia natural ω₀ y amortiguada ωd
 - Factor de amortiguamiento ζ
-```

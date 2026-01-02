@@ -1,4 +1,3 @@
-```markdown
 # PR-03: Circuito RLC Serie - Críticamente Amortiguado ⭐⭐⭐
 
 ## Enunciado
@@ -204,4 +203,3 @@ t=200ms:   I(L1) = 2.9mA,   V(3) = 0.15V
 - Forma de solución: (A₁ + A₂t)e⁻αᵗ
 - Resistencia crítica: R = 2√(L/C)
 - Respuesta más rápida sin oscilaciones
-```
