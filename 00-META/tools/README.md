@@ -2,11 +2,73 @@
 
 Scripts Python para validación y mantenimiento del repositorio de Circuitos Eléctricos.
 
+> **Filosofía:** Convertir este repositorio en un "Jardín Digital" interconectado tipo Wikipedia/Zettelkasten.
+
 ---
 
 ## 📋 Scripts Disponibles
 
-### 1. `validate_repo.py` - Validador de Estructura
+| Script | Función | Estado |
+|--------|---------|--------|
+| `link_knowledge_base.py` | 🌳 Jardín Digital completo (hipervinculación + índice) | ✅ Principal |
+| `autolink_glossary.py` | 🔗 Solo hipervinculación al glosario | ✅ Funcional |
+| `validate_repo.py` | ✅ Validación de estructura | ✅ Funcional |
+
+---
+
+## 🌳 `link_knowledge_base.py` - Sistema Jardín Digital (PRINCIPAL)
+
+**Script unificado** que realiza dos tareas principales:
+
+### TAREA 1: Auto-Hipervinculación (Glosario Activo)
+- Analiza `glossary.md` y extrae términos (anclas HTML y encabezados h2/h3)
+- Escanea todos los `.md` en `theory/`, `problems/`, `methods/`, `simulation/`
+- Inyecta enlaces a la **primera mención** de cada término
+- Calcula rutas relativas automáticamente
+- NO modifica código, encabezados, tablas ni enlaces existentes
+
+### TAREA 2: Generación del Index Wiki
+- Genera `WIKI_INDEX.md` como directorio principal de navegación
+- Usa el **título H1** de cada archivo como texto del enlace
+- Organiza por módulos y submódulos con emojis:
+  - 📘 Teoría | 📝 Problemas | 🧪 Métodos | 💻 Simulación
+
+#### Uso
+
+```powershell
+# Vista previa (DRY_RUN = True, NO modifica nada)
+python link_knowledge_base.py
+
+# Aplicar TODOS los cambios
+python link_knowledge_base.py --apply
+
+# Solo generar WIKI_INDEX.md
+python link_knowledge_base.py --apply --index-only
+
+# Solo hipervinculación (sin índice)
+python link_knowledge_base.py --apply --links-only
+
+# Verificar enlaces rotos
+python link_knowledge_base.py --check
+
+# Generar reporte de uso
+python link_knowledge_base.py --report
+```
+
+#### Opciones
+
+| Opción | Descripción |
+|--------|-------------|
+| `--apply` | Aplica cambios (sin esto, solo muestra preview) |
+| `--index-only` | Solo genera `WIKI_INDEX.md` |
+| `--links-only` | Solo ejecuta auto-hipervinculación |
+| `--check` | Verifica enlaces rotos al glosario |
+| `--report` | Genera `00-META/knowledge-report.md` |
+| `-q, --quiet` | Modo silencioso |
+
+---
+
+### 2. `validate_repo.py` - Validador de Estructura
 
 Verifica la estructura de carpetas, archivos requeridos y nomenclatura del repositorio.
 
@@ -26,11 +88,13 @@ python validate_repo.py --module 01-Circuitos-CD
 
 ---
 
-### 2. `autolink_glossary.py` - Sistema de Hipervinculación Densa
+### 3. `autolink_glossary.py` - Hipervinculación (Legacy)
+
+> ⚠️ **Nota:** Usar `link_knowledge_base.py` preferentemente. Este script se mantiene por compatibilidad.
 
 Crea automáticamente enlaces tipo Wikipedia al [glosario](../../glossary.md) en todos los archivos de teoría y problemas.
 
-#### Uso Básico
+#### Uso
 
 ```powershell
 # Vista previa de cambios (dry-run)
@@ -46,44 +110,6 @@ python autolink_glossary.py --check
 python autolink_glossary.py --report
 ```
 
-#### ¿Qué hace?
-
-1. **Parsea el glosario:** Lee `glossary.md` y extrae todos los términos con sus anclas HTML.
-2. **Escanea archivos:** Busca archivos `TH-*.md`, `PR-*.md` y `MET-*.md`.
-3. **Inyecta enlaces:** Reemplaza la **primera mención** de cada término del glosario con un enlace Markdown.
-
-#### Ejemplo de Transformación
-
-**Antes:**
-```markdown
-El capacitor almacena energía en un campo eléctrico.
-La corriente en un inductor no puede cambiar instantáneamente.
-```
-
-**Después:**
-```markdown
-El [capacitor](../../../glossary.md#capacitor) almacena energía en un campo eléctrico.
-La [corriente](../../../glossary.md#corriente) en un [inductor](../../../glossary.md#inductor) no puede cambiar instantáneamente.
-```
-
-#### Características
-
-- ✅ Solo enlaza la **primera mención** de cada término por archivo
-- ✅ Respeta bloques de código (\`\`\`) y ecuaciones ($$)
-- ✅ No modifica encabezados, tablas ni enlaces existentes
-- ✅ Calcula rutas relativas automáticamente
-- ✅ Case-insensitive (detecta "Voltaje" y "voltaje")
-- ✅ Soporta aliases (LCK → Ley de Corrientes de Kirchhoff)
-
-#### Opciones
-
-| Opción | Descripción |
-|--------|-------------|
-| `--apply` | Aplicar cambios (sin esto, solo muestra preview) |
-| `--check` | Verificar enlaces rotos al glosario |
-| `--report` | Generar reporte de uso (`00-META/glossary-report.md`) |
-| `-q, --quiet` | Modo silencioso |
-
 ---
 
 ## 🔄 Flujo de Trabajo Recomendado
@@ -95,20 +121,23 @@ La [corriente](../../../glossary.md#corriente) en un [inductor](../../../glossar
    ```powershell
    python validate_repo.py
    ```
-3. **Agregar hiperenlaces al glosario:**
+3. **Aplicar Jardín Digital:**
    ```powershell
-   python autolink_glossary.py        # Vista previa
-   python autolink_glossary.py --apply # Aplicar
+   python link_knowledge_base.py          # Vista previa
+   python link_knowledge_base.py --apply  # Aplicar
    ```
 
 ### Mantenimiento periódico:
 
 ```powershell
 # Verificar enlaces rotos
-python autolink_glossary.py --check
+python link_knowledge_base.py --check
 
-# Generar reporte de términos no usados
-python autolink_glossary.py --report
+# Regenerar índice wiki
+python link_knowledge_base.py --apply --index-only
+
+# Generar reporte de términos
+python link_knowledge_base.py --report
 ```
 
 ---
@@ -117,8 +146,9 @@ python autolink_glossary.py --report
 
 | Archivo | Descripción |
 |---------|-------------|
-| `00-META/glossary-report.md` | Reporte de uso del glosario |
-| `00-META/validation-report.md` | Reporte de validación (si se genera) |
+| `WIKI_INDEX.md` | 📑 Directorio principal de navegación (raíz) |
+| `00-META/knowledge-report.md` | 📊 Reporte completo del Jardín Digital |
+| `00-META/glossary-report.md` | 📊 Reporte de uso del glosario (legacy) |
 
 ---
 
