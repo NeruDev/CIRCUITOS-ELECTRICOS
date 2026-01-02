@@ -1,11 +1,11 @@
 # PR-03: Resonancia Paralelo RLC ⭐⭐⭐
 
 ## Enunciado
-Un circuito RLC en paralelo tiene R = 100 kΩ, L = 10 mH y C = 10 nF. Una fuente de corriente alterna I = 10 mA conectada en paralelo. Determine:
-a) La frecuencia de resonancia f₀
+Un [circuito](../../../glossary.md#circuito) RLC en paralelo tiene R = 100 kΩ, L = 10 mH y C = 10 nF. Una fuente de [corriente alterna](../../../glossary.md#corriente) I = 10 mA conectada en paralelo. Determine:
+a) La [frecuencia](../../../glossary.md#frecuencia) de [resonancia](../../../glossary.md#resonancia) f₀
 b) El factor de calidad Q
 c) El ancho de banda BW y las frecuencias de corte f₁, f₂
-d) La impedancia y voltaje en resonancia
+d) La [impedancia](../../../glossary.md#impedancia) y [voltaje](../../../glossary.md#voltaje) en resonancia
 e) La corriente en cada elemento a la frecuencia de resonancia
 
 ## Diagrama del Circuito
@@ -54,7 +54,7 @@ C1 1 0 10n            ; C = 10nF en paralelo
 
 ### Parte a) Frecuencia de resonancia
 
-En el circuito paralelo, la resonancia ocurre cuando la parte imaginaria de la admitancia es cero:
+En el circuito paralelo, la resonancia ocurre cuando la parte imaginaria de la [admitancia](../../../glossary.md#admitancia) es cero:
 
 $$\omega_0 C = \frac{1}{\omega_0 L}$$
 

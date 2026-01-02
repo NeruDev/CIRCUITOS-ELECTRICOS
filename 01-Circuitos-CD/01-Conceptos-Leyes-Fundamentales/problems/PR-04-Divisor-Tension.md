@@ -1,9 +1,9 @@
 # PR-04: Divisor de Tensión ⭐
 
 ## Enunciado
-Diseñe un divisor de tensión que entregue 5V a partir de una fuente de 15V. La corriente total del divisor debe ser de 1mA.
+Diseñe un [divisor de tensión](../../../glossary.md#divisor-[tension](../../../glossary.md#voltaje)) que entregue 5V a partir de una fuente de 15V. La [corriente](../../../glossary.md#corriente) total del divisor debe ser de 1mA.
 a) Calcule los valores de R₁ y R₂
-b) Si se conecta una carga RL = 10kΩ en paralelo con R₂, ¿cuál es el nuevo voltaje de salida?
+b) Si se conecta una [carga](../../../glossary.md#carga) RL = 10kΩ en paralelo con R₂, ¿cuál es el nuevo voltaje de salida?
 
 ## Diagrama del Circuito
 
@@ -67,7 +67,7 @@ RL 2 0 10k         ; Carga RL = 10kΩ
 - Vout = 5 V
 - I = 1 mA
 
-**Cálculo de resistencia total:**
+**Cálculo de [resistencia](../../../glossary.md#resistencia) total:**
 $$R_{total} = \frac{V_s}{I} = \frac{15\text{ V}}{1\text{ mA}} = 15\text{ kΩ}$$
 
 **Fórmula del divisor de tensión:**

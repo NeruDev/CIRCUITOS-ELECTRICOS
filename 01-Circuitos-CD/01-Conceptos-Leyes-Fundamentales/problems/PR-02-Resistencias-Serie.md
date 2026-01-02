@@ -1,11 +1,11 @@
 # PR-02: Resistencias en Serie ⭐
 
 ## Enunciado
-Para el circuito serie mostrado con una fuente de 24V y tres resistencias R₁ = 2kΩ, R₂ = 3kΩ, R₃ = 1kΩ, calcule:
-a) La resistencia equivalente del circuito
-b) La corriente total del circuito
-c) El voltaje en cada resistencia
-d) Verifique la LVK
+Para el [circuito](../../../glossary.md#circuito) serie mostrado con una fuente de 24V y tres resistencias R₁ = 2kΩ, R₂ = 3kΩ, R₃ = 1kΩ, calcule:
+a) La [resistencia](../../../glossary.md#resistencia) equivalente del circuito
+b) La [corriente](../../../glossary.md#corriente) total del circuito
+c) El [voltaje](../../../glossary.md#voltaje) en cada resistencia
+d) Verifique la [LVK](../../../glossary.md#lvk)
 
 ## Diagrama del Circuito
 
@@ -55,7 +55,7 @@ En un circuito serie, la misma corriente fluye por todos los elementos.
 
 ### Parte c) Voltaje en cada resistencia
 
-Aplicando Ley de Ohm a cada resistencia:
+Aplicando [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad) a cada resistencia:
 
 $$V_1 = I \cdot R_1 = (4\text{ mA})(2\text{ kΩ}) = 8\text{ V}$$
 $$V_2 = I \cdot R_2 = (4\text{ mA})(3\text{ kΩ}) = 12\text{ V}$$

@@ -67,6 +67,7 @@ flowchart TD
 ## 📖 Recursos Adicionales
 
 - [📚 Glosario de Términos](glossary.md)
+- [⚡ Constantes Físicas](constants.md) — Constantes de electricidad y magnetismo
 - [🔣 Símbolos y Notación](00-META/notation-cheatsheet.md)
 - [📝 Guía de Estudio](00-META/study-guide.md)
 - [📋 Nomenclatura Estándar](00-META/nomenclatura-estandar.md)

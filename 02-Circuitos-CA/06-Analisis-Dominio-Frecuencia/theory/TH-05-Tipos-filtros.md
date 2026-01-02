@@ -34,7 +34,7 @@ Los filtros se clasifican según las frecuencias que permiten pasar:
       ωc
 ```
 
-**Circuito RC:**
+**[Circuito](../../../glossary.md#circuito) RC:**
 ```
     R
 ○──/\/\/──┬──○
@@ -84,7 +84,7 @@ $$H(s) = \frac{sRC}{1 + sRC}, \quad \omega_c = \frac{1}{RC}$$
    ω₁ ω₀ ω₂
 ```
 
-**Circuito RLC serie (voltaje en R):**
+**Circuito RLC serie ([voltaje](../../../glossary.md#voltaje) en R):**
 $$H(s) = \frac{sR/L}{s^2 + sR/L + 1/LC}$$
 
 **Parámetros:**
@@ -144,7 +144,7 @@ El **orden** determina qué tan rápido cae la respuesta fuera de la banda:
 
 ### Especificaciones de Filtros
 
-- **Frecuencia de corte (fc):** Punto de -3 dB
+- **[Frecuencia](../../../glossary.md#frecuencia) de corte (fc):** Punto de -3 dB
 - **Ancho de banda (BW):** Rango de frecuencias -3 dB
 - **Atenuación en banda de rechazo:** dB de reducción
 - **Rizado en banda de paso:** Variación permitida

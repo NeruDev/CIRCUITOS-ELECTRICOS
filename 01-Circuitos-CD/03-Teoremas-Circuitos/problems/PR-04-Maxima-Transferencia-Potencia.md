@@ -1,9 +1,9 @@
 # PR-04: Máxima Transferencia de Potencia ⭐⭐
 
 ## Enunciado
-Para el circuito mostrado, determine:
+Para el [circuito](../../../glossary.md#circuito) mostrado, determine:
 a) El valor de RL que permite máxima transferencia de potencia
-b) La potencia máxima transferida a la carga
+b) La potencia máxima transferida a la [carga](../../../glossary.md#carga)
 c) La eficiencia del circuito en condición de máxima transferencia
 
 Datos: Vs = 48V, R₁ = 8Ω, R₂ = 24Ω
@@ -69,8 +69,8 @@ RL 2 0 {Rload}
 
 ### Paso 1: Encontrar el equivalente de Thévenin
 
-**Voltaje de Thévenin (Vth):**
-Circuito abierto entre a-b. R₁ y R₂ forman un divisor de tensión.
+**[Voltaje](../../../glossary.md#voltaje) de [Thévenin](../../../glossary.md#thevenin) (Vth):**
+Circuito abierto entre a-b. R₁ y R₂ forman un [divisor de tensión](../../../glossary.md#divisor-tension).
 
 $$V_{th} = V_s \times \frac{R_2}{R_1 + R_2} = 48 \times \frac{24}{8 + 24} = 48 \times \frac{24}{32} = 48 \times 0.75 = 36\text{ V}$$
 
@@ -81,7 +81,7 @@ $$R_{th} = R_1 \| R_2 = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{8 \times 24}{8 
 
 ### Parte a) Valor de RL para máxima transferencia
 
-Por el teorema de máxima transferencia de potencia:
+Por el [teorema de](../../../glossary.md#norton) máxima transferencia de potencia:
 
 $$\boxed{R_L = R_{th} = 6\text{ Ω}}$$
 

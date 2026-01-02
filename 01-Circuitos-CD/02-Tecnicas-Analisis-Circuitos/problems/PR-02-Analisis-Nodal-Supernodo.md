@@ -1,9 +1,9 @@
 # PR-02: Análisis Nodal con Supernodo ⭐⭐⭐
 
 ## Enunciado
-Utilizando el método de nodos con supernodo, encuentre los voltajes en todos los nodos del circuito.
-- Vs = 10V (fuente de voltaje)
-- Is = 2A (fuente de corriente)
+Utilizando el método de nodos con supernodo, encuentre los voltajes en todos los nodos del [circuito](../../../glossary.md#circuito).
+- Vs = 10V (fuente de [voltaje](../../../glossary.md#voltaje))
+- Is = 2A (fuente de [corriente](../../../glossary.md#corriente))
 - R₁ = 2Ω, R₂ = 4Ω, R₃ = 6Ω, R₄ = 3Ω
 
 ## Diagrama del Circuito
@@ -62,7 +62,7 @@ Sumando todas las corrientes que entran y salen del supernodo:
 
 $$I_s - \frac{V_1}{R_2} - \frac{V_1 - 0}{R_1}^* - \frac{V_2 - V_3}{R_3} = 0$$
 
-*Nota: R₁ está dentro del supernodo, así que no se considera en LCK del supernodo.*
+*Nota: R₁ está dentro del supernodo, así que no se considera en [LCK](../../../glossary.md#lck) del supernodo.*
 
 Corrigiendo la ecuación:
 $$I_s - \frac{V_1}{R_2} - \frac{V_2 - V_3}{R_3} = 0$$
@@ -113,7 +113,7 @@ $$I_{R4} = \frac{V_3}{R_4} = \frac{-0.462}{3} = -0.154\text{ A}$$
 
 ### Verificación
 
-**LCK en nodo V₃:**
+**LCK en [nodo](../../../glossary.md#nodo) V₃:**
 $$I_{R3} = I_{R4}$$
 $$-0.154 = -0.154 \checkmark$$
 

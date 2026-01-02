@@ -1,9 +1,15 @@
 # PR-01: Análisis Nodal - Circuito con Tres Nodos ⭐⭐
 
 ## Enunciado
-Usando el método de nodos, determine los voltajes V₁ y V₂, y las corrientes en cada resistencia.
-- Is = 5A (fuente de corriente)
+Usando el método de nodos, determine los voltajes V₁ y V₂, y las corrientes en cada [resistencia](../../../glossary.md#resistencia).
+- Is = 5A (fuente de [corriente](../../../glossary.md#corriente))
 - R₁ = 2Ω, R₂ = 4Ω, R₃ = 8Ω, R₄ = 4Ω
+
+## 📚 Teoría Relacionada
+> Antes de resolver, revisa los conceptos fundamentales:
+> - [TH-02: Método de Nodos](../theory/TH-02-Metodo-nodos.md) - Fundamento teórico del análisis nodal
+> - [TH-01: Topología de Redes](../theory/TH-01-Topologia-redes.md) - Conceptos de nodos y ramas
+> - [Glosario: Nodo](../../../glossary.md#n) | [LCK](../../../glossary.md#k)
 
 ## Diagrama del Circuito
 
@@ -38,7 +44,7 @@ Rg 3 0 1m          ; Conexión a tierra
 .END
 ```
 
-**Nota:** El circuito simplificado tiene R₄ en paralelo con R₃.
+**Nota:** El [circuito](../../../glossary.md#circuito) simplificado tiene R₄ en paralelo con R₃.
 
 ```spice
 * PR-01 Simplificado: Analisis Nodal
@@ -59,12 +65,12 @@ R4 2 0 4           ; R4 = 4Ω en paralelo con R3
 ### Datos
 - Is = 5 A
 - R₁ = 2 Ω, R₂ = 4 Ω, R₃ = 8 Ω, R₄ = 4 Ω
-- Nodo de referencia: tierra (GND)
+- [Nodo](../../../glossary.md#nodo) de referencia: tierra (GND)
 - Variables: V₁ y V₂
 
 ### Paso 1: Ecuaciones nodales
 
-**Nodo 1:** (LCK: suma de corrientes = 0)
+**Nodo 1:** ([LCK](../../../glossary.md#lck): suma de corrientes = 0)
 
 Las corrientes que salen del nodo 1:
 $$\frac{V_1 - 0}{R_1} + \frac{V_1 - V_2}{R_2} = I_s$$

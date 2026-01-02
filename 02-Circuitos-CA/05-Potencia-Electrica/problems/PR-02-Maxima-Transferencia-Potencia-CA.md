@@ -1,8 +1,8 @@
 # PR-02: Máxima Transferencia de Potencia en CA ⭐⭐⭐
 
 ## Enunciado
-Una fuente de voltaje Vs = 100∠0° V tiene una impedancia interna Zs = 40 + j30 Ω. Determine:
-a) La impedancia de carga ZL para máxima transferencia de potencia
+Una fuente de [voltaje](../../../glossary.md#voltaje) Vs = 100∠0° V tiene una [impedancia](../../../glossary.md#impedancia) interna Zs = 40 + j30 Ω. Determine:
+a) La impedancia de [carga](../../../glossary.md#carga) ZL para máxima transferencia de potencia
 b) La potencia máxima transferida a la carga
 c) La potencia disipada en la fuente cuando se entrega potencia máxima
 d) La eficiencia del sistema en condición de máxima potencia
@@ -56,7 +56,7 @@ CL 3 0 88.4u          ; Parte capacitiva
 
 ### Parte a) Impedancia de carga para máxima potencia
 
-**Teorema de máxima transferencia de potencia en CA:**
+**[Teorema de](../../../glossary.md#norton) máxima transferencia de potencia en CA:**
 
 Para transferir máxima potencia a la carga, la impedancia de carga debe ser el **conjugado complejo** de la impedancia de la fuente:
 
@@ -66,11 +66,11 @@ $$\boxed{Z_L = 40 - j30\text{ Ω} = 50\angle -36.87°\text{ Ω}}$$
 
 Esto significa:
 - RL = Rs = 40 Ω (resistencias iguales)
-- XL = -Xs = -30 Ω (reactancia capacitiva para cancelar la inductiva)
+- XL = -Xs = -30 Ω ([reactancia](../../../glossary.md#reactancia) capacitiva para cancelar la inductiva)
 
 ### Parte b) Potencia máxima transferida
 
-**Impedancia total del circuito:**
+**Impedancia total del [circuito](../../../glossary.md#circuito):**
 $$Z_{total} = Z_s + Z_L = (40 + j30) + (40 - j30) = 80 + j0 = 80\text{ Ω}$$
 
 La parte reactiva se cancela completamente.
@@ -96,7 +96,7 @@ $$\boxed{P_{fuente} = 62.5\text{ W}}$$
 La potencia en la parte reactiva de Zs es reactiva (no disipada):
 $$Q_s = |I|^2 \times X_s = (1.25)^2 \times 30 = 46.875\text{ VAR}$$
 
-Pero esta potencia reactiva es cancelada por la parte capacitiva de ZL:
+Pero esta [potencia reactiva](../../../glossary.md#potencia-reactiva) es cancelada por la parte capacitiva de ZL:
 $$Q_L = |I|^2 \times X_L = (1.25)^2 \times (-30) = -46.875\text{ VAR}$$
 
 $$Q_{total} = Q_s + Q_L = 0\text{ VAR}$$
@@ -169,8 +169,8 @@ P (W)
 
 ## Componentes para ZL = 40 - j30 Ω @ 60 Hz
 
-- **Resistencia:** RL = 40 Ω
-- **Capacitancia:** C = 1/(ωXC) = 1/(377×30) = 88.4 μF
+- **[Resistencia](../../../glossary.md#resistencia):** RL = 40 Ω
+- **[Capacitancia](../../../glossary.md#capacitancia):** C = 1/(ωXC) = 1/(377×30) = 88.4 μF
 
 ## Netlist SPICE - Verificación
 
@@ -198,8 +198,8 @@ RL2 13 0 50
 ```
 
 ## Conceptos Aplicados
-- Teorema de máxima transferencia de potencia en CA
+- [Teorema de](../../../glossary.md#thevenin) máxima transferencia de potencia en CA
 - Conjugado complejo de impedancia
 - Cancelación de reactancias
 - Compromiso potencia vs eficiencia
-- Factor de potencia unitario en máxima transferencia
+- [Factor de potencia](../../../glossary.md#factor-potencia) unitario en máxima transferencia

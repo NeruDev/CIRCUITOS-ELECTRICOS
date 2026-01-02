@@ -1,11 +1,11 @@
 # PR-01: Análisis con Fasores - Impedancia y Admitancia ⭐⭐
 
 ## Enunciado
-Para el circuito mostrado con una fuente de voltaje v(t) = 170cos(377t)V, determine:
-a) La impedancia total vista desde la fuente
-b) La corriente total i(t) del circuito
+Para el [circuito](../../../glossary.md#circuito) mostrado con una fuente de [voltaje](../../../glossary.md#voltaje) v(t) = 170cos(377t)V, determine:
+a) La [impedancia](../../../glossary.md#impedancia) total vista desde la fuente
+b) La [corriente](../../../glossary.md#corriente) total i(t) del circuito
 c) Los voltajes vR(t), vL(t) y vC(t)
-d) Verifique que se cumple la LVK
+d) Verifique que se cumple la [LVK](../../../glossary.md#lvk)
 
 Datos: R = 50Ω, L = 0.2H, C = 50μF, ω = 377 rad/s (60 Hz)
 
@@ -60,7 +60,7 @@ C1 3 0 50u          ; C = 50μF
 
 ### Cálculo de impedancias individuales
 
-**Resistencia:**
+**[Resistencia](../../../glossary.md#resistencia):**
 $$Z_R = R = 50\angle 0° \text{ Ω}$$
 
 **Reactancia inductiva:**
@@ -87,7 +87,7 @@ $$\boxed{Z_T = 54.75\angle 24.03° \text{ Ω}}$$
 
 ### Parte b) Corriente total i(t)
 
-**Fasor de voltaje:**
+**[Fasor](../../../glossary.md#fasor) de voltaje:**
 $$\mathbf{V} = 170\angle 0° \text{ V}$$
 
 **Fasor de corriente:**
@@ -114,7 +114,7 @@ $$\mathbf{V}_L = 234.12\angle 65.97° \text{ V}$$
 
 $$\boxed{v_L(t) = 234.12\cos(377t + 65.97°)\text{ V}}$$
 
-**Voltaje en el capacitor:**
+**Voltaje en el [capacitor](../../../glossary.md#capacitancia):**
 $$\mathbf{V}_C = \mathbf{I} \times Z_C = 3.105\angle -24.03° \times 53.1\angle -90°$$
 $$\mathbf{V}_C = 164.88\angle -114.03° \text{ V}$$
 

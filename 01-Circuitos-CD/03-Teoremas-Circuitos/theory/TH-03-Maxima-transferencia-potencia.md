@@ -2,14 +2,14 @@
 
 ## Objetivos
 - Determinar la condición de máxima transferencia de potencia
-- Calcular la potencia máxima transferida a una carga
+- Calcular la potencia máxima transferida a una [carga](../../../glossary.md#carga)
 - Entender el compromiso entre eficiencia y potencia máxima
 
 ## Contenido
 
 ### Planteamiento del Problema
 
-Dado un circuito con equivalente de Thévenin (Vₜₕ, Rₜₕ) conectado a una carga RL, ¿cuál es el valor de RL que maximiza la potencia entregada a la carga?
+Dado un [circuito](../../../glossary.md#circuito) con equivalente de [Thévenin](../../../glossary.md#thevenin) (Vₜₕ, Rₜₕ) conectado a una carga RL, ¿cuál es el valor de RL que maximiza la potencia entregada a la carga?
 
 ```
      Rₜₕ
@@ -84,7 +84,7 @@ La potencia es máxima cuando RL = Rₜₕ
 
 ### Aplicaciones Prácticas
 
-1. **Audio:** Impedancia de altavoces = impedancia de salida del amplificador
+1. **Audio:** [Impedancia](../../../glossary.md#impedancia) de altavoces = impedancia de salida del amplificador
 2. **Comunicaciones:** Adaptación de impedancias en líneas de transmisión
 3. **Electrónica:** Diseño de etapas de potencia
 

@@ -1,7 +1,7 @@
 # TH-04: Elementos de un Circuito y Tipos de Circuitos
 
 ## Objetivos
-- Clasificar los elementos de un circuito
+- Clasificar los elementos de un [circuito](../../../glossary.md#circuito)
 - Identificar fuentes independientes y dependientes
 - Distinguir entre diferentes tipos de circuitos
 
@@ -11,14 +11,14 @@
 
 #### Elementos Activos
 Pueden suministrar energía al circuito:
-- Fuentes de voltaje
-- Fuentes de corriente
+- Fuentes de [voltaje](../../../glossary.md#voltaje)
+- Fuentes de [corriente](../../../glossary.md#corriente)
 
 #### Elementos Pasivos
 Absorben o almacenan energía:
-- **Resistor (R)**: Disipa energía en forma de calor
-- **Capacitor (C)**: Almacena energía en campo eléctrico
-- **Inductor (L)**: Almacena energía en campo magnético
+- **[Resistor](../../../glossary.md#resistencia) (R)**: Disipa energía en forma de calor
+- **[Capacitor](../../../glossary.md#capacitancia) (C)**: Almacena energía en campo eléctrico
+- **[Inductor](../../../glossary.md#inductancia) (L)**: Almacena energía en campo magnético
 
 ### Fuentes Independientes
 
@@ -43,7 +43,7 @@ Absorben o almacenan energía:
 - **Circuito mixto**: Combinación de serie y paralelo
 
 #### Por tipo de señal
-- **Circuito de CD**: Opera con corriente directa
+- **Circuito de CD**: Opera con [corriente directa](../../../glossary.md#corriente-directa)
 - **Circuito de CA**: Opera con corriente alterna
 
 #### Por comportamiento

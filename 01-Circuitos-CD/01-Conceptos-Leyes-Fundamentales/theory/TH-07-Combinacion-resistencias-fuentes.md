@@ -2,8 +2,8 @@
 
 ## Objetivos
 - Combinar resistencias en serie y paralelo
-- Realizar transformaciones delta-estrella (Δ-Y) y viceversa
-- Combinar fuentes de voltaje y corriente
+- Realizar transformaciones [delta](../../../glossary.md#delta)-[estrella](../../../glossary.md#estrella) (Δ-Y) y viceversa
+- Combinar fuentes de [voltaje](../../../glossary.md#voltaje) y [corriente](../../../glossary.md#corriente)
 
 ## Contenido
 
@@ -53,7 +53,7 @@ $$R_c = \frac{R_1 R_2 + R_2 R_3 + R_1 R_3}{R_1}$$
 - Polaridad opuesta: Veq = V₁ - V₂
 
 **En paralelo:**
-- Solo si tienen el mismo voltaje (de lo contrario, violación de LVK)
+- Solo si tienen el mismo voltaje (de lo contrario, violación de [LVK](../../../glossary.md#lvk))
 
 ### Combinación de Fuentes de Corriente
 
@@ -62,7 +62,7 @@ $$R_c = \frac{R_1 R_2 + R_2 R_3 + R_1 R_3}{R_1}$$
 - Sentido opuesto: Ieq = I₁ - I₂
 
 **En serie:**
-- Solo si tienen la misma corriente (de lo contrario, violación de LCK)
+- Solo si tienen la misma corriente (de lo contrario, violación de [LCK](../../../glossary.md#lck))
 
 ## Conceptos Clave
 - Reducción de circuitos

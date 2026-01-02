@@ -2,14 +2,14 @@
 
 ## Objetivos
 - Representar señales senoidales como fasores
-- Definir impedancia y admitancia de elementos
-- Aplicar la Ley de Ohm en forma fasorial
+- Definir [impedancia](../../../glossary.md#impedancia) y [admitancia](../../../glossary.md#admitancia) de elementos
+- Aplicar la [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad) en forma fasorial
 
 ## Contenido
 
 ### Concepto de Fasor
 
-Un **fasor** es la representación compleja de una señal senoidal que contiene información de amplitud y fase.
+Un **[fasor](../../../glossary.md#fasor)** es la representación compleja de una señal senoidal que contiene información de amplitud y fase.
 
 Para: $v(t) = V_m \cos(\omega t + \phi)$
 
@@ -25,7 +25,7 @@ El fasor es: $\mathbf{V} = V_m\angle\phi$ o $\mathbf{V} = V_m e^{j\phi}$
 
 ### Impedancia (Z)
 
-La **impedancia** es la oposición total al flujo de corriente en CA.
+La **impedancia** es la oposición total al flujo de [corriente](../../../glossary.md#corriente) en CA.
 
 $$\mathbf{Z} = \frac{\mathbf{V}}{\mathbf{I}}$$
 
@@ -33,8 +33,8 @@ Forma general:
 $$\mathbf{Z} = R + jX$$
 
 Donde:
-- R = resistencia (parte real)
-- X = reactancia (parte imaginaria)
+- R = [resistencia](../../../glossary.md#resistencia) (parte real)
+- X = [reactancia](../../../glossary.md#reactancia) (parte imaginaria)
 - |Z| = √(R² + X²)
 - θ = arctan(X/R)
 
@@ -46,9 +46,9 @@ $$\mathbf{Z}_R = R$$
 
 **Inductor:**
 $$\mathbf{Z}_L = j\omega L = \omega L\angle 90°$$
-- Corriente atrasa al voltaje 90°
+- Corriente atrasa al [voltaje](../../../glossary.md#voltaje) 90°
 
-**Capacitor:**
+**[Capacitor](../../../glossary.md#capacitancia):**
 $$\mathbf{Z}_C = \frac{1}{j\omega C} = -j\frac{1}{\omega C} = \frac{1}{\omega C}\angle -90°$$
 - Corriente adelanta al voltaje 90°
 
@@ -92,7 +92,7 @@ $$\mathbf{Y}_{eq} = \mathbf{Y}_1 + \mathbf{Y}_2 + ... + \mathbf{Y}_n$$
 
 ### Ejemplo
 
-Circuito serie: R = 4Ω, L = 0.1H, C = 100μF, f = 60Hz
+[Circuito](../../../glossary.md#circuito) serie: R = 4Ω, L = 0.1H, C = 100μF, f = 60Hz
 
 **Cálculos:**
 - ω = 2π(60) = 377 rad/s

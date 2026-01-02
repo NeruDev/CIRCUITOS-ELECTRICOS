@@ -8,19 +8,19 @@
 ## Contenido
 
 ### Fundamento
-El método de nodos aplica la Ley de Corrientes de Kirchhoff (LCK) en cada nodo, expresando las corrientes en términos de los voltajes de nodo.
+El método de nodos aplica la [Ley de Corrientes](../../../glossary.md#lck) de [Kirchhoff](../../../glossary.md#lvk) (LCK) en cada [nodo](../../../glossary.md#nodo), expresando las corrientes en términos de los voltajes de nodo.
 
 ### Procedimiento General
 
 1. **Seleccionar un nodo de referencia** (tierra, 0V)
 2. **Asignar voltajes** a los demás nodos (v₁, v₂, ...)
 3. **Aplicar LCK** en cada nodo no referencia
-4. **Expresar corrientes** usando ley de Ohm: i = (vₐ - v_b)/R
+4. **Expresar corrientes** usando [ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad): i = (vₐ - v_b)/R
 5. **Resolver** el sistema de ecuaciones
 
 ### Formulación
 
-Para un nodo k con voltaje vₖ:
+Para un nodo k con [voltaje](../../../glossary.md#voltaje) vₖ:
 $$\sum \frac{v_k - v_j}{R_{kj}} = \sum I_{fuentes}$$
 
 ### Forma Matricial

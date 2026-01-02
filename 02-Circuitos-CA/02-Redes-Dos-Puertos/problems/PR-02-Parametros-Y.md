@@ -2,10 +2,10 @@
 
 ## Enunciado
 Para la red π mostrada, determine:
-a) Los parámetros Y (admitancia)
+a) Los parámetros Y ([admitancia](../../../glossary.md#admitancia))
 b) Convierta los parámetros Y a parámetros Z
-c) La admitancia de entrada Yin con una carga YL = 0.02 S
-d) La ganancia de corriente Ai = I₂/I₁
+c) La admitancia de entrada Yin con una [carga](../../../glossary.md#carga) YL = 0.02 S
+d) La ganancia de [corriente](../../../glossary.md#corriente) Ai = I₂/I₁
 
 Datos: Y₁ = 0.01 S (100Ω), Y₂ = 0.005 S (200Ω), Y₃ = 0.02 S (50Ω)
 
@@ -93,7 +93,7 @@ $$Y_{11} = 0.01 + 0.005 = 0.015\text{ S}$$
 
 **Cálculo de Y₂₁ (V₂ = 0):**
 
-La corriente I₂ es la que fluye por Y_b desde el nodo 1 hacia el nodo 2 (cortocircuitado):
+La corriente I₂ es la que fluye por Y_b desde el [nodo](../../../glossary.md#nodo) 1 hacia el nodo 2 (cortocircuitado):
 $$Y_{21} = \frac{I_2}{V_1}\bigg|_{V_2=0} = -Y_b$$
 
 El signo negativo porque la corriente que entra al puerto 2 es la que sale del puerto 1 por Y_b:

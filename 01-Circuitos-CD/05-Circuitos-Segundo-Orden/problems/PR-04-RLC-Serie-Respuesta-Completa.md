@@ -1,7 +1,7 @@
 # PR-04: Circuito RLC Serie - Respuesta Completa con Fuente DC ⭐⭐⭐
 
 ## Enunciado
-En el circuito mostrado, el interruptor se cierra en t = 0. Las condiciones iniciales son vC(0) = 0V e iL(0) = 0A. Determine:
+En el [circuito](../../../glossary.md#circuito) mostrado, el interruptor se cierra en t = 0. Las condiciones iniciales son vC(0) = 0V e iL(0) = 0A. Determine:
 a) El tipo de amortiguamiento
 b) La expresión para iL(t) para t ≥ 0
 c) La expresión para vC(t) para t ≥ 0

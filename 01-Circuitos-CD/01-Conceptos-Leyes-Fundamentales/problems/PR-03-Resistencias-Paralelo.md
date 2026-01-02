@@ -1,11 +1,11 @@
 # PR-03: Resistencias en Paralelo ⭐
 
 ## Enunciado
-Una fuente de corriente de 12mA alimenta tres resistencias en paralelo: R₁ = 6kΩ, R₂ = 3kΩ, R₃ = 2kΩ. Determine:
-a) La resistencia equivalente
-b) El voltaje en las resistencias
+Una fuente de [corriente](../../../glossary.md#corriente) de 12mA alimenta tres resistencias en paralelo: R₁ = 6kΩ, R₂ = 3kΩ, R₃ = 2kΩ. Determine:
+a) La [resistencia](../../../glossary.md#resistencia) equivalente
+b) El [voltaje](../../../glossary.md#voltaje) en las resistencias
 c) La corriente a través de cada resistencia
-d) Verifique la LCK en el nodo superior
+d) Verifique la [LCK](../../../glossary.md#lck) en el [nodo](../../../glossary.md#nodo) superior
 
 ## Diagrama del Circuito
 
@@ -101,4 +101,4 @@ Observe que la resistencia más pequeña (R₃ = 2kΩ) lleva la mayor corriente 
 ## Conceptos Aplicados
 - Resistencias en paralelo: 1/Req = 1/R₁ + 1/R₂ + ... + 1/Rₙ
 - Voltaje igual en paralelo
-- Ley de Corrientes de Kirchhoff (LCK)
+- [Ley de](../../../glossary.md#ley-ohm) Corrientes de [Kirchhoff](../../../glossary.md#lvk) (LCK)

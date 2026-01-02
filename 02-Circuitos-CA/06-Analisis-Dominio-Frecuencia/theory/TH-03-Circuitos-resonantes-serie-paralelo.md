@@ -1,15 +1,15 @@
 # TH-03: Circuitos Resonantes Serie y Paralelo
 
 ## Objetivos
-- Definir resonancia en circuitos RLC
-- Calcular frecuencia de resonancia y factor de calidad
+- Definir [resonancia](../../../glossary.md#resonancia) en circuitos RLC
+- Calcular [frecuencia](../../../glossary.md#frecuencia) de resonancia y factor de calidad
 - Analizar circuitos resonantes serie y paralelo
 
 ## Contenido
 
 ### Concepto de Resonancia
 
-La **resonancia** ocurre cuando la reactancia inductiva iguala a la reactancia capacitiva:
+La **resonancia** ocurre cuando la [reactancia](../../../glossary.md#reactancia) inductiva iguala a la reactancia capacitiva:
 
 $$X_L = X_C$$
 $$\omega L = \frac{1}{\omega C}$$
@@ -19,7 +19,7 @@ $$\omega L = \frac{1}{\omega C}$$
 $$\omega_0 = \frac{1}{\sqrt{LC}}$$
 $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$
 
-A esta frecuencia, el circuito es puramente resistivo.
+A esta frecuencia, el [circuito](../../../glossary.md#circuito) es puramente resistivo.
 
 ### Circuito RLC Serie Resonante
 
@@ -28,7 +28,7 @@ A esta frecuencia, el circuito es puramente resistivo.
 ○──/\/\/──⌇⌇⌇──||──○
 ```
 
-**Impedancia:**
+**[Impedancia](../../../glossary.md#impedancia):**
 $$Z = R + j\omega L + \frac{1}{j\omega C} = R + j\left(\omega L - \frac{1}{\omega C}\right)$$
 
 **En resonancia (ω = ω₀):**
@@ -50,7 +50,7 @@ $$Y = \frac{1}{R} + \frac{1}{j\omega L} + j\omega C = \frac{1}{R} + j\left(\omeg
 **En resonancia (ω = ω₀):**
 - Y = 1/R (mínima)
 - Z = R (máxima)
-- Corriente de entrada mínima
+- [Corriente](../../../glossary.md#corriente) de entrada mínima
 
 ### Factor de Calidad (Q)
 

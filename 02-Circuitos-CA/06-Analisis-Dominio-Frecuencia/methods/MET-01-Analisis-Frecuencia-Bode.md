@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-El análisis en el dominio de la frecuencia estudia el comportamiento de circuitos cuando la frecuencia de la fuente varía. Es fundamental para diseño de filtros, análisis de respuesta en frecuencia y caracterización de sistemas.
+El análisis en el dominio de la [frecuencia](../../../glossary.md#frecuencia) estudia el comportamiento de circuitos cuando la frecuencia de la fuente varía. Es fundamental para diseño de filtros, análisis de respuesta en frecuencia y caracterización de sistemas.
 
 ---
 
@@ -29,9 +29,9 @@ Para análisis de frecuencia en estado estable:
 $$s = j\omega$$
 
 ### Impedancias en Términos de s
-- Resistor: $Z_R = R$
-- Inductor: $Z_L = sL$
-- Capacitor: $Z_C = \frac{1}{sC}$
+- [Resistor](../../../glossary.md#resistencia): $Z_R = R$
+- [Inductor](../../../glossary.md#inductancia): $Z_L = sL$
+- [Capacitor](../../../glossary.md#capacitancia): $Z_C = \frac{1}{sC}$
 
 ---
 
@@ -69,7 +69,7 @@ $$H(s) = K \frac{(1 + s/z_1)(1 + s/z_2)...}{(1 + s/p_1)(1 + s/p_2)...}$$
 
 ### Paso 5: Calcular Puntos Críticos
 - Frecuencias de corte (-3 dB)
-- Frecuencia de resonancia (si aplica)
+- Frecuencia de [resonancia](../../../glossary.md#resonancia) (si aplica)
 
 ---
 
@@ -187,11 +187,11 @@ A 1 kHz (por debajo de fc), el filtro atenúa poco la señal. A 10 kHz (por enci
 ## Ejemplo Clásico 2: Resonancia en Circuito RLC Serie
 
 ### Enunciado
-Un circuito RLC serie tiene R = 10 Ω, L = 100 mH, C = 10 μF. Calcule:
+Un [circuito](../../../glossary.md#circuito) RLC serie tiene R = 10 Ω, L = 100 mH, C = 10 μF. Calcule:
 a) Frecuencia de resonancia
 b) Factor de calidad Q
 c) Ancho de banda
-d) Impedancia a resonancia
+d) [Impedancia](../../../glossary.md#impedancia) a resonancia
 
 ### Solución
 

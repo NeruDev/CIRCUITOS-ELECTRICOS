@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-Los circuitos de segundo orden contienen **dos elementos almacenadores de energía** (capacitor e inductor). Su comportamiento se describe mediante ecuaciones diferenciales de segundo orden, y la respuesta depende del **tipo de amortiguamiento**.
+Los circuitos de segundo orden contienen **dos elementos almacenadores de energía** ([capacitor](../../../glossary.md#capacitancia) e [inductor](../../../glossary.md#inductancia)). Su comportamiento se describe mediante ecuaciones diferenciales de segundo orden, y la respuesta depende del **tipo de amortiguamiento**.
 
 ---
 
@@ -129,7 +129,7 @@ $$x(t) = B e^{-\alpha t} \cos(\omega_d t + \phi)$$
 ## Ejemplo Clásico 1: RLC Serie Subamortiguado
 
 ### Enunciado
-Un circuito RLC serie tiene R = 40 Ω, L = 1 H, C = 1/400 F. El capacitor tiene carga inicial V₀ = 10 V y no hay corriente inicial. Encuentre v(t) para t > 0.
+Un [circuito](../../../glossary.md#circuito) RLC serie tiene R = 40 Ω, L = 1 H, C = 1/400 F. El capacitor tiene [carga](../../../glossary.md#carga) inicial V₀ = 10 V y no hay [corriente](../../../glossary.md#corriente) inicial. Encuentre v(t) para t > 0.
 
 ### Diagrama
 ```
@@ -267,7 +267,7 @@ $$v(t) = -1.789 e^{-0.382t} + 1.789 e^{-2.618t}\text{ V}$$
 $$\boxed{v(t) = 1.789(e^{-2.618t} - e^{-0.382t})\text{ V}}$$
 
 ### Explicación de la Respuesta
-No hay oscilación porque el circuito está sobreamortiguado (α > ω₀). La resistencia es tan baja que disipa energía rápidamente, impidiendo el intercambio oscilatorio entre L y C.
+No hay oscilación porque el circuito está sobreamortiguado (α > ω₀). La [resistencia](../../../glossary.md#resistencia) es tan baja que disipa energía rápidamente, impidiendo el intercambio oscilatorio entre L y C.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-El **Teorema de Máxima Transferencia de Potencia** establece que una carga recibe máxima potencia de una fuente cuando la resistencia de carga iguala a la resistencia interna de la fuente (resistencia de Thévenin).
+El **[Teorema de](../../../glossary.md#norton) Máxima Transferencia de Potencia** establece que una [carga](../../../glossary.md#carga) recibe máxima potencia de una fuente cuando la [resistencia](../../../glossary.md#resistencia) de carga iguala a la resistencia interna de la fuente (resistencia de [Thévenin](../../../glossary.md#thevenin)).
 
 $$R_L = R_{th} \Rightarrow P_{max}$$
 
@@ -31,7 +31,7 @@ $$\eta = \frac{P_L}{P_{total}} = \frac{P_L}{P_L + P_{Rth}} = 50\%$$
 ## Demostración Matemática
 
 ### Potencia en la Carga
-Dado el circuito de Thévenin con carga RL:
+Dado el [circuito](../../../glossary.md#circuito) de Thévenin con carga RL:
 
 $$I = \frac{V_{th}}{R_{th} + R_L}$$
 
@@ -132,7 +132,7 @@ $$P_L = I^2 R_L = (1.5)^2 \times 8 = 2.25 \times 8 = 18\text{ W}$$ ✓
 $$\boxed{R_L = 8\text{ Ω}, \quad P_{max} = 18\text{ W}}$$
 
 ### Explicación de la Respuesta
-Con RL = 8 Ω (igual a Rth), la carga recibe exactamente la mitad del voltaje de la fuente de Thévenin (12 V de 24 V). La potencia de 18 W es el máximo posible; cualquier otro valor de RL resultaría en menor potencia transferida. La eficiencia es del 50% porque la otra mitad de la potencia (18 W) se disipa en Rth.
+Con RL = 8 Ω (igual a Rth), la carga recibe exactamente la mitad del [voltaje](../../../glossary.md#voltaje) de la fuente de Thévenin (12 V de 24 V). La potencia de 18 W es el máximo posible; cualquier otro valor de RL resultaría en menor potencia transferida. La eficiencia es del 50% porque la otra mitad de la potencia (18 W) se disipa en Rth.
 
 ---
 
@@ -260,7 +260,7 @@ $$\eta = \frac{R_L}{R_{th} + R_L} = \frac{1}{1 + \frac{R_{th}}{R_L}}$$
 
 ### 2. Comunicaciones RF
 - Líneas de transmisión de 50 Ω o 75 Ω
-- Antenas adaptadas a la impedancia del transmisor
+- Antenas adaptadas a la [impedancia](../../../glossary.md#impedancia) del transmisor
 
 ### 3. Circuitos de Medición
 - No siempre se busca máxima potencia

@@ -49,7 +49,7 @@ $$x(t) = x_{ss} + x_n(t)$$
 
 ### Procedimiento de Solución
 
-1. **Identificar** el tipo de circuito y obtener α, ω₀
+1. **Identificar** el tipo de [circuito](../../../glossary.md#circuito) y obtener α, ω₀
 
 2. **Determinar** el tipo de respuesta (comparar α con ω₀)
 
@@ -93,7 +93,7 @@ v_C(0⁻) = 0, i(0⁻) = 0
 2. ω₀ = 1/√(LC) = 1/√(0.25) = 2
 3. α = ω₀ → Críticamente amortiguada
 
-**v_C(∞):** Divisor de voltaje con L=corto, C=abierto
+**v_C(∞):** Divisor de [voltaje](../../../glossary.md#voltaje) con L=corto, C=abierto
 v_C(∞) = Vs = 12V
 
 **Forma de respuesta:**

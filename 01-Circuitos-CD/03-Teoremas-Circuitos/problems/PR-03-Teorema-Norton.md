@@ -1,7 +1,7 @@
 # PR-03: Teorema de Norton ⭐⭐
 
 ## Enunciado
-Encuentre el circuito equivalente de Norton visto desde los terminales a-b para el mismo circuito del problema anterior.
+Encuentre el [circuito](../../../glossary.md#circuito) equivalente de [Norton](../../../glossary.md#norton) visto desde los terminales a-b para el mismo circuito del problema anterior.
 - Vs = 32V
 - R₁ = 4Ω, R₂ = 12Ω, R₃ = 6Ω
 
@@ -82,11 +82,11 @@ $$R_N = R_{th} = 9\text{ Ω}$$
 R₃ está en paralelo con el cortocircuito → R₃ = 0 (efectivamente)
 R₂ queda en paralelo con un cortocircuito a través de R₃ → R₂ también se cortocircuita
 
-Simplificando: Solo R₁ limita la corriente desde Vs.
+Simplificando: Solo R₁ limita la [corriente](../../../glossary.md#corriente) desde Vs.
 
 **Pero espera**, R₂ no está directamente en paralelo con el cortocircuito. Analicemos más cuidadosamente:
 
-**Nodo 2:**
+**[Nodo](../../../glossary.md#nodo) 2:**
 $$\frac{V_2 - 32}{4} + \frac{V_2}{12} + \frac{V_2 - 0}{6} = 0$$
 
 El tercer término es porque Va = Vb = 0 (cortocircuito).

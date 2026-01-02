@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-La **respuesta completa** de un circuito de primer orden es la suma de:
+La **respuesta completa** de un [circuito](../../../glossary.md#circuito) de primer orden es la suma de:
 1. **Respuesta Natural (xn):** Comportamiento del circuito debido a la energía almacenada inicialmente
 2. **Respuesta Forzada (xf):** Comportamiento debido a la excitación externa (fuente)
 
@@ -57,8 +57,8 @@ Donde:
 ### Pasos del Método
 
 #### Paso 1: Encontrar x(0⁺) - Condición Inicial
-- Para capacitor: $v_C(0^+) = v_C(0^-)$ (continuidad del voltaje)
-- Para inductor: $i_L(0^+) = i_L(0^-)$ (continuidad de la corriente)
+- Para [capacitor](../../../glossary.md#capacitancia): $v_C(0^+) = v_C(0^-)$ (continuidad del [voltaje](../../../glossary.md#voltaje))
+- Para [inductor](../../../glossary.md#inductancia): $i_L(0^+) = i_L(0^-)$ (continuidad de la [corriente](../../../glossary.md#corriente))
 
 #### Paso 2: Encontrar x(∞) - Valor Final
 - Analizar el circuito en estado estacionario (t → ∞)
@@ -66,7 +66,7 @@ Donde:
 - Inductor = cortocircuito
 
 #### Paso 3: Calcular τ - Constante de Tiempo
-- Encontrar la resistencia equivalente vista por C o L
+- Encontrar la [resistencia](../../../glossary.md#resistencia) equivalente vista por C o L
 - $\tau = R_{eq}C$ o $\tau = L/R_{eq}$
 
 #### Paso 4: Escribir la Solución

@@ -28,7 +28,7 @@ $$u(t-t_0) = \begin{cases} 0 & t < t_0 \\ 1 & t > t_0 \end{cases}$$
 
 ### Función Impulso Unitario δ(t)
 
-La función impulso (delta de Dirac) se define como:
+La función impulso ([delta](../../../glossary.md#delta) de Dirac) se define como:
 
 $$\delta(t) = \frac{du(t)}{dt}$$
 

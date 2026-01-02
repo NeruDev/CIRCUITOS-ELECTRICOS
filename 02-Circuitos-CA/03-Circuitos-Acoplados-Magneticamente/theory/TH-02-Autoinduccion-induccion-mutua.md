@@ -1,7 +1,7 @@
 # TH-02: Autoinducción, Inducción Mutua y Acoplamiento Magnético
 
 ## Objetivos
-- Definir inductancia propia y mutua
+- Definir [inductancia](../../../glossary.md#inductancia) propia y mutua
 - Calcular el coeficiente de acoplamiento
 - Aplicar la convención del punto
 
@@ -9,7 +9,7 @@
 
 ### Autoinducción (Inductancia Propia)
 
-La **inductancia propia** L de una bobina relaciona el flujo propio con la corriente:
+La **inductancia propia** L de una bobina relaciona el flujo propio con la [corriente](../../../glossary.md#corriente):
 
 $$L = \frac{N\Phi}{i}$$
 
@@ -78,5 +78,5 @@ Lo que confirma: k ≤ 1
 
 ## Conceptos Clave
 - M = k√(L₁L₂)
-- Los puntos determinan el signo del voltaje mutuo
+- Los puntos determinan el signo del [voltaje](../../../glossary.md#voltaje) mutuo
 - k mide el grado de acoplamiento

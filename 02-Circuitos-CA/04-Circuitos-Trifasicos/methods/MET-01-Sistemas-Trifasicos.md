@@ -82,12 +82,12 @@ $$Z_Y = \frac{Z_\Delta}{3}$$
 
 #### Paso 1: Convertir todo a Y
 - Si la fuente está en Δ, convertir a Y
-- Si la carga está en Δ, convertir a Y
-- $Z_Y = Z_\Delta / 3$
+- Si la [carga](../../../glossary.md#carga) está en Δ, convertir a Y
+- $Z_Y = Z_\[Delta](../../../glossary.md#delta) / 3$
 
 #### Paso 2: Dibujar Circuito Monofásico
 - Una fase de la fuente
-- Impedancia de línea (si existe)
+- [Impedancia](../../../glossary.md#impedancia) de línea (si existe)
 - Impedancia de carga por fase
 - Retorno por neutro (impedancia = 0 si balanceado)
 
@@ -106,7 +106,7 @@ $$S_{3\phi} = 3 \times S_{1\phi}$$
 ## Relaciones de Corriente
 
 ### Sistema Y
-- Corriente de línea = Corriente de fase
+- [Corriente](../../../glossary.md#corriente) de línea = Corriente de fase
 $$I_L = I_p$$
 
 ### Sistema Δ
@@ -144,7 +144,7 @@ Una fuente trifásica balanceada en Y de 208 V línea-línea alimenta una carga 
 $$V_L = 208\text{ V}$$
 $$V_p = \frac{V_L}{\sqrt{3}} = \frac{208}{\sqrt{3}} = 120\text{ V}$$
 
-Fasores de voltaje:
+Fasores de [voltaje](../../../glossary.md#voltaje):
 $$\mathbf{V}_{an} = 120\angle 0°\text{ V}$$
 $$\mathbf{V}_{bn} = 120\angle -120°\text{ V}$$
 $$\mathbf{V}_{cn} = 120\angle 120°\text{ V}$$
@@ -221,7 +221,7 @@ $$\boxed{\mathbf{I}_a = 23.1\angle -45°\text{ A}}$$
 Una fuente Y de 240 V línea alimenta cargas en Y: Za = 10 Ω, Zb = 15 Ω, Zc = 20 Ω. Asumiendo neutros conectados, encuentre las corrientes.
 
 ### Nota
-En sistemas desbalanceados, no se puede usar el método de circuito equivalente por fase. Se debe analizar el circuito completo.
+En sistemas desbalanceados, no se puede usar el método de [circuito](../../../glossary.md#circuito) equivalente por fase. Se debe analizar el circuito completo.
 
 ### Solución (con neutros conectados)
 

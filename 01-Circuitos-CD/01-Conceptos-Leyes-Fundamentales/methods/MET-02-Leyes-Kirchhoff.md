@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-Las **Leyes de Kirchhoff** son dos principios fundamentales basados en la conservación de la carga y la energía, que permiten analizar cualquier circuito eléctrico.
+Las **Leyes de [Kirchhoff](../../../glossary.md#lck)** son dos principios fundamentales basados en la conservación de la [carga](../../../glossary.md#carga) y la energía, que permiten analizar cualquier [circuito](../../../glossary.md#circuito) eléctrico.
 
 ### Ley de Corrientes de Kirchhoff (LCK)
 > La suma algebraica de las corrientes que entran a un nodo es igual a cero.
@@ -16,7 +16,7 @@ $$\sum_{k=1}^{n} I_k = 0$$
 
 $$\sum_{k=1}^{n} V_k = 0$$
 
-*Suma de subidas de voltaje = Suma de caídas de voltaje*
+*Suma de subidas de [voltaje](../../../glossary.md#voltaje) = Suma de caídas de voltaje*
 
 ---
 
@@ -26,9 +26,9 @@ $$\sum_{k=1}^{n} V_k = 0$$
 
 1. **Identificar todos los nodos** del circuito
 2. **Asignar direcciones** a las corrientes (arbitrariamente)
-3. **Aplicar LCK** en cada nodo: ΣI_entrantes = ΣI_salientes
+3. **Aplicar LCK** en cada [nodo](../../../glossary.md#nodo): ΣI_entrantes = ΣI_salientes
 4. **Resolver** el sistema de ecuaciones
-5. **Interpretar:** Si una corriente resulta negativa, fluye en dirección opuesta a la asumida
+5. **Interpretar:** Si una [corriente](../../../glossary.md#corriente) resulta negativa, fluye en dirección opuesta a la asumida
 
 ### Convención de Signos
 ```
@@ -160,7 +160,7 @@ Un circuito serie tiene una fuente de 24 V y tres resistencias: R₁ = 2 Ω, R�
 Recorriendo en sentido horario desde la fuente:
 $$+V_s - V_{R1} - V_{R2} - V_{R3} = 0$$
 
-Usando Ley de Ohm: $V_R = IR$
+Usando [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad): $V_R = IR$
 $$+24 - I(2) - I(4) - I(6) = 0$$
 $$24 - 12I = 0$$
 $$I = 2\text{ A}$$
@@ -170,7 +170,7 @@ $$V_{R1} = IR_1 = 2 \times 2 = 4\text{ V}$$
 $$V_{R2} = IR_2 = 2 \times 4 = 8\text{ V}$$
 $$V_{R3} = IR_3 = 2 \times 6 = 12\text{ V}$$
 
-**Paso 6: Verificación con LVK**
+**Paso 6: Verificación con [LVK](../../../glossary.md#lvk)**
 $$V_s = V_{R1} + V_{R2} + V_{R3}$$
 $$24 = 4 + 8 + 12 = 24\text{ V}$$ ✓
 
@@ -205,7 +205,7 @@ En el circuito de dos mallas mostrado, determine las corrientes I₁, I₂ e I�
 **Paso 1: Aplicar LCK en el nodo central**
 $$I_1 = I_2 + I_3$$
 
-**Paso 2: Aplicar LVK en la malla izquierda (horario)**
+**Paso 2: Aplicar LVK en la [malla](../../../glossary.md#malla) izquierda (horario)**
 $$+12 - I_1 R_1 - I_2 R_2 = 0$$
 $$12 - 4I_1 - 2I_2 = 0 \quad \text{...(Ec. 1)}$$
 

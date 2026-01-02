@@ -1,7 +1,7 @@
 # PR-08: Leyes de Kirchhoff - Circuito con Dos Mallas ⭐⭐
 
 ## Enunciado
-En el circuito mostrado, determine las corrientes I₁, I₂ e I₃ usando las Leyes de Kirchhoff.
+En el [circuito](../../../glossary.md#circuito) mostrado, determine las corrientes I₁, I₂ e I₃ usando las Leyes de [Kirchhoff](../../../glossary.md#lck).
 - V₁ = 12V, V₂ = 6V
 - R₁ = 2Ω, R₂ = 4Ω, R₃ = 6Ω
 
@@ -45,11 +45,11 @@ R3 2 0 6           ; R3 = 6Ω
 ### Método: LCK + LVK
 
 **Paso 1: Definir corrientes**
-- I₁: corriente desde V₁ a través de R₁ (hacia la derecha)
+- I₁: [corriente](../../../glossary.md#corriente) desde V₁ a través de R₁ (hacia la derecha)
 - I₂: corriente hacia V₂ a través de R₂ (hacia la izquierda)
 - I₃: corriente a través de R₃ (hacia abajo)
 
-**Paso 2: Aplicar LCK en el nodo central**
+**Paso 2: Aplicar LCK en el [nodo](../../../glossary.md#nodo) central**
 $$I_1 = I_2 + I_3 \quad \text{...(1)}$$
 
 **Paso 3: Aplicar LVK a la Malla 1 (izquierda, sentido horario)**
@@ -57,7 +57,7 @@ $$-V_1 + I_1 R_1 + I_3 R_3 = 0$$
 $$-12 + 2I_1 + 6I_3 = 0$$
 $$2I_1 + 6I_3 = 12 \quad \text{...(2)}$$
 
-**Paso 4: Aplicar LVK a la Malla 2 (derecha, sentido horario)**
+**Paso 4: Aplicar [LVK](../../../glossary.md#lvk) a la [Malla](../../../glossary.md#malla) 2 (derecha, sentido horario)**
 $$-I_3 R_3 + I_2 R_2 + V_2 = 0$$
 $$-6I_3 + 4I_2 + 6 = 0$$
 $$4I_2 - 6I_3 = -6 \quad \text{...(3)}$$
@@ -119,7 +119,7 @@ V(2) = 8.1818       (Voltaje en nodo central)
 ```
 
 ## Conceptos Aplicados
-- Ley de Corrientes de Kirchhoff (LCK)
+- [Ley de](../../../glossary.md#ley-ohm) Corrientes de Kirchhoff (LCK)
 - Ley de Voltajes de Kirchhoff (LVK)
 - Sistemas de ecuaciones lineales
 - Convención de signos

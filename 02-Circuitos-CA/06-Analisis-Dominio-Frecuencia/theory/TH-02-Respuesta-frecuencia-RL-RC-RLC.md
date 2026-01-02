@@ -1,9 +1,9 @@
 # TH-02: Respuesta en Frecuencia de Circuitos RL, RC y RLC
 
 ## Objetivos
-- Analizar la respuesta en frecuencia de circuitos básicos
+- Analizar la respuesta en [frecuencia](../../../glossary.md#frecuencia) de circuitos básicos
 - Identificar comportamiento pasa-bajas y pasa-altas
-- Comprender el efecto de los parámetros del circuito
+- Comprender el efecto de los parámetros del [circuito](../../../glossary.md#circuito)
 
 ## Contenido
 
@@ -87,7 +87,7 @@ $$H(j\omega) = \frac{j\omega RC}{1 - \omega^2 LC + j\omega RC}$$
 $$H(j\omega) = \frac{j\omega/\omega_0 Q}{1 - (\omega/\omega_0)^2 + j\omega/(\omega_0 Q)}$$
 
 donde:
-- ω₀ = 1/√(LC) (frecuencia de resonancia)
+- ω₀ = 1/√(LC) (frecuencia de [resonancia](../../../glossary.md#resonancia))
 - Q = ω₀L/R = 1/(ω₀RC) (factor de calidad)
 
 ### Comparación de Filtros Básicos

@@ -1,10 +1,10 @@
 # PR-06: Circuito Mixto Serie-Paralelo ⭐⭐
 
 ## Enunciado
-Para el circuito mostrado con Vs = 36V, R₁ = 6kΩ, R₂ = 4kΩ, R₃ = 12kΩ, determine:
-a) La resistencia equivalente total
-b) La corriente total del circuito
-c) El voltaje y corriente en cada resistencia
+Para el [circuito](../../../glossary.md#circuito) mostrado con Vs = 36V, R₁ = 6kΩ, R₂ = 4kΩ, R₃ = 12kΩ, determine:
+a) La [resistencia](../../../glossary.md#resistencia) equivalente total
+b) La [corriente](../../../glossary.md#corriente) total del circuito
+c) El [voltaje](../../../glossary.md#voltaje) y corriente en cada resistencia
 d) La potencia total disipada
 
 ## Diagrama del Circuito
@@ -63,7 +63,7 @@ $$I_T = \frac{V_s}{R_{eq}} = \frac{36\text{ V}}{9\text{ kΩ}} = 4\text{ mA}$$
 **Voltaje en R₁:**
 $$V_1 = I_T \cdot R_1 = (4\text{ mA})(6\text{ kΩ}) = 24\text{ V}$$
 
-**Voltaje en R₂ y R₃ (nodo 2):**
+**Voltaje en R₂ y R₃ ([nodo](../../../glossary.md#nodo) 2):**
 $$V_{23} = V_s - V_1 = 36 - 24 = 12\text{ V}$$
 
 O también:
@@ -75,7 +75,7 @@ $$I_2 = \frac{V_{23}}{R_2} = \frac{12\text{ V}}{4\text{ kΩ}} = 3\text{ mA}$$
 **Corriente en R₃:**
 $$I_3 = \frac{V_{23}}{R_3} = \frac{12\text{ V}}{12\text{ kΩ}} = 1\text{ mA}$$
 
-**Verificación LCK en nodo 2:**
+**Verificación [LCK](../../../glossary.md#lck) en nodo 2:**
 $$I_T = I_2 + I_3 \Rightarrow 4\text{ mA} = 3\text{ mA} + 1\text{ mA} \checkmark$$
 
 ### Parte d) Potencia total
@@ -116,4 +116,4 @@ I(R3) = 1.0000E-03
 - Reducción de circuitos serie-paralelo
 - División de corriente en ramas paralelas
 - Conservación de energía
-- LCK y LVK
+- LCK y [LVK](../../../glossary.md#lvk)

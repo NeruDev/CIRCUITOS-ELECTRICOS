@@ -19,7 +19,7 @@ La **potencia real** es el promedio de la potencia instantánea:
 
 $$P = V_{rms} I_{rms} \cos\theta$$
 
-Donde θ = θv - θi es el ángulo de desfase entre voltaje y corriente.
+Donde θ = θv - θi es el ángulo de desfase entre [voltaje](../../../glossary.md#voltaje) y [corriente](../../../glossary.md#corriente).
 
 - **Unidad:** Watts (W)
 - Representa la potencia que realiza trabajo útil
@@ -27,7 +27,7 @@ Donde θ = θv - θi es el ángulo de desfase entre voltaje y corriente.
 
 ### Potencia Reactiva - Q
 
-La **potencia reactiva** se asocia con elementos reactivos (L y C):
+La **[potencia reactiva](../../../glossary.md#potencia-reactiva)** se asocia con elementos reactivos (L y C):
 
 $$Q = V_{rms} I_{rms} \sin\theta$$
 

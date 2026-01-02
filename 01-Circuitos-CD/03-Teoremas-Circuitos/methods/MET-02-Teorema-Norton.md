@@ -2,12 +2,12 @@
 
 ## Descripción del Método
 
-El **Teorema de Norton** establece que cualquier circuito lineal de dos terminales puede ser reemplazado por un circuito equivalente que consiste en:
-- Una **fuente de corriente** In (corriente de Norton)
-- Una **resistencia en paralelo** Rn (resistencia de Norton)
+El **[Teorema de](../../../glossary.md#norton) Norton** establece que cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede ser reemplazado por un circuito equivalente que consiste en:
+- Una **fuente de [corriente](../../../glossary.md#corriente)** In (corriente de Norton)
+- Una **[resistencia](../../../glossary.md#resistencia) en paralelo** Rn (resistencia de Norton)
 
 ### Relación con Thévenin
-Los equivalentes de Thévenin y Norton son **duales**:
+Los equivalentes de [Thévenin](../../../glossary.md#thevenin) y Norton son **duales**:
 $$I_n = \frac{V_{th}}{R_{th}}$$
 $$R_n = R_{th}$$
 
@@ -37,7 +37,7 @@ $$R_n = R_{th} = \frac{V_{oc}}{I_{sc}}$$
 
 ### Paso 1: Identificar los Terminales
 - Seleccionar los dos terminales (a, b)
-- Remover la carga
+- Remover la [carga](../../../glossary.md#carga)
 
 ### Paso 2: Calcular In (Corriente de Norton)
 - **Cortocircuitar** los terminales a-b
@@ -46,7 +46,7 @@ $$R_n = R_{th} = \frac{V_{oc}}{I_{sc}}$$
 ### Paso 3: Calcular Rn (Resistencia de Norton)
 **Método A:** Desactivar todas las fuentes independientes y calcular Req desde a-b
 
-**Método B:** $R_n = V_{oc} / I_{sc}$ (donde Voc es el voltaje en circuito abierto)
+**Método B:** $R_n = V_{oc} / I_{sc}$ (donde Voc es el [voltaje](../../../glossary.md#voltaje) en circuito abierto)
 
 ### Paso 4: Dibujar el Circuito Equivalente
 
@@ -104,7 +104,7 @@ $$R_{23} = \frac{12 \times 4}{12 + 4} = \frac{48}{16} = 3\text{ Ω}$$
 Corriente total de la fuente:
 $$I_T = \frac{24}{R_1 + R_{23}} = \frac{24}{6 + 3} = \frac{24}{9} = 2.667\text{ A}$$
 
-Corriente de Norton (por R₂, usando divisor de corriente):
+Corriente de Norton (por R₂, usando [divisor de corriente](../../../glossary.md#divisor-corriente)):
 $$I_n = I_T \times \frac{R_3}{R_2 + R_3} = 2.667 \times \frac{4}{12 + 4} = 2.667 \times \frac{4}{16}$$
 $$I_n = 2.667 \times 0.25 = 0.667\text{ A}$$
 

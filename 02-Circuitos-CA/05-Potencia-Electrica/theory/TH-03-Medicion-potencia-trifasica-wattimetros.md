@@ -3,15 +3,15 @@
 ## Objetivos
 - Comprender la medición de potencia con wattímetros
 - Aplicar el método de los dos wattímetros
-- Calcular potencia total y factor de potencia
+- Calcular potencia total y [factor de potencia](../../../glossary.md#factor-potencia)
 
 ## Contenido
 
 ### El Wattímetro
 
-Un **wattímetro** mide potencia activa mediante:
-- Bobina de corriente (en serie con la carga)
-- Bobina de voltaje (en paralelo con la carga)
+Un **[wattímetro](../../../glossary.md#wattimetro)** mide [potencia activa](../../../glossary.md#potencia-activa) mediante:
+- Bobina de [corriente](../../../glossary.md#corriente) (en serie con la [carga](../../../glossary.md#carga))
+- Bobina de [voltaje](../../../glossary.md#voltaje) (en paralelo con la carga)
 
 $$W = V_{rms} I_{rms} \cos\theta$$
 
@@ -94,7 +94,7 @@ $$pf = \cos\theta$$
 
 ### Ejemplo
 
-**Datos:** Sistema trifásico, W₁ = 5000 W, W₂ = 2000 W
+**Datos:** Sistema [trifásico](../../../glossary.md#trifasico), W₁ = 5000 W, W₂ = 2000 W
 
 **Cálculos:**
 1. Potencia total: P = 5000 + 2000 = 7000 W
@@ -107,7 +107,7 @@ $$pf = \cos\theta$$
 3. Potencia reactiva:
    $$Q = P\tan\theta = 7000 \times 0.742 = 5194 \text{ VAR}$$
 
-4. Potencia aparente:
+4. [Potencia aparente](../../../glossary.md#potencia-aparente):
    $$S = \sqrt{P^2 + Q^2} = \sqrt{7000^2 + 5194^2} = 8718 \text{ VA}$$
 
 ### Ventajas del Método

@@ -1,9 +1,9 @@
 # PR-05: Divisor de Corriente ⭐
 
 ## Enunciado
-En el circuito mostrado, una fuente de corriente de 20mA alimenta dos resistencias en paralelo: R₁ = 4kΩ y R₂ = 6kΩ. Determine:
-a) La corriente a través de cada resistencia usando la regla del divisor de corriente
-b) El voltaje en el nodo común
+En el [circuito](../../../glossary.md#circuito) mostrado, una fuente de [corriente](../../../glossary.md#corriente) de 20mA alimenta dos resistencias en paralelo: R₁ = 4kΩ y R₂ = 6kΩ. Determine:
+a) La corriente a través de cada [resistencia](../../../glossary.md#resistencia) usando la regla del [divisor de corriente](../../../glossary.md#divisor-corriente)
+b) El [voltaje](../../../glossary.md#voltaje) en el [nodo](../../../glossary.md#nodo) común
 c) La potencia disipada en cada resistencia
 
 ## Diagrama del Circuito
@@ -57,7 +57,7 @@ $$i_1 = 20\text{ mA} \cdot \frac{6\text{k}}{4\text{k} + 6\text{k}} = 20 \cdot \f
 **Cálculo de i₂:**
 $$i_2 = 20\text{ mA} \cdot \frac{4\text{k}}{4\text{k} + 6\text{k}} = 20 \cdot \frac{4}{10} = 20 \cdot 0.4 = 8\text{ mA}$$
 
-**Verificación (LCK):**
+**Verificación ([LCK](../../../glossary.md#lck)):**
 $$I_s = i_1 + i_2 = 12 + 8 = 20\text{ mA} \checkmark$$
 
 ### Parte b) Voltaje en el nodo

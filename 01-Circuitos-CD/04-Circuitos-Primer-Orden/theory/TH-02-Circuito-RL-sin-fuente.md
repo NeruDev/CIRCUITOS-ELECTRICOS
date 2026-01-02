@@ -1,9 +1,9 @@
 # TH-02: Circuito RL sin Fuente
 
 ## Objetivos
-- Analizar la respuesta natural del circuito RL
+- Analizar la respuesta natural del [circuito](../../../glossary.md#circuito) RL
 - Calcular la constante de tiempo
-- Determinar la corriente y voltaje en función del tiempo
+- Determinar la [corriente](../../../glossary.md#corriente) y [voltaje](../../../glossary.md#voltaje) en función del tiempo
 
 ## Contenido
 
@@ -18,12 +18,12 @@
   ○─────○
 ```
 
-En t < 0, el inductor tiene una corriente inicial I₀.
+En t < 0, el [inductor](../../../glossary.md#inductancia) tiene una corriente inicial I₀.
 En t = 0, se cierra el interruptor.
 
 ### Ecuación Diferencial
 
-Aplicando LVK:
+Aplicando [LVK](../../../glossary.md#lvk):
 $$L\frac{di}{dt} + Ri = 0$$
 
 Ecuación diferencial de primer orden homogénea.
@@ -57,7 +57,7 @@ $$v_L(t) = L\frac{di}{dt} = -RI_0 e^{-t/\tau}$$
 La energía inicial almacenada en el inductor:
 $$w_L(0) = \frac{1}{2}LI_0^2$$
 
-Esta energía se disipa completamente en el resistor:
+Esta energía se disipa completamente en el [resistor](../../../glossary.md#resistencia):
 $$w_R = \int_0^{\infty} i^2R \, dt = \frac{1}{2}LI_0^2$$
 
 ### Comportamiento Temporal

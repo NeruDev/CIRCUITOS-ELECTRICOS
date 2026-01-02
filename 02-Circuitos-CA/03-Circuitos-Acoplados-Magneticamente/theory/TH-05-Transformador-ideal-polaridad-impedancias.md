@@ -1,7 +1,7 @@
 # TH-05: El Transformador Ideal, Marcas de Polaridad e Impedancias Reflejadas
 
 ## Objetivos
-- Definir el transformador ideal
+- Definir el [transformador](../../../glossary.md#transformador) ideal
 - Aplicar las relaciones de transformación
 - Calcular impedancias reflejadas
 
@@ -70,11 +70,11 @@ Para máxima transferencia de potencia con transformador:
 
 $$n = \sqrt{\frac{\mathbf{Z}_L}{\mathbf{Z}_s}}$$
 
-Donde Zs es la impedancia de la fuente.
+Donde Zs es la [impedancia](../../../glossary.md#impedancia) de la fuente.
 
 ### Ejemplo
 
-**Circuito:**
+**[Circuito](../../../glossary.md#circuito):**
 ```
        10Ω      1:5     
 ○──/\/\/──┬──╭───╮──┬──○
@@ -91,13 +91,13 @@ $$Z_{ref} = \frac{250}{5^2} = \frac{250}{25} = 10Ω$$
 **Corriente primaria:**
 $$I_1 = \frac{50\angle 0°}{10 + 10} = 2.5\angle 0° \text{ A}$$
 
-**Voltaje primario del transformador:**
+**[Voltaje](../../../glossary.md#voltaje) primario del transformador:**
 $$V_1 = 50 - (2.5)(10) = 25 \text{ V}$$
 
 **Voltaje secundario:**
 $$V_2 = n \cdot V_1 = 5 \times 25 = 125 \text{ V}$$
 
-**Corriente secundaria:**
+**[Corriente](../../../glossary.md#corriente) secundaria:**
 $$I_2 = \frac{I_1}{n} = \frac{2.5}{5} = 0.5 \text{ A}$$
 
 **Verificación de potencia:**

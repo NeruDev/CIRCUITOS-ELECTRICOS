@@ -10,15 +10,15 @@
 ### Necesidad de Circuitos Equivalentes
 
 Los circuitos equivalentes permiten:
-- Analizar inductores acoplados sin usar ecuaciones de voltaje mutuo
+- Analizar inductores acoplados sin usar ecuaciones de [voltaje](../../../glossary.md#voltaje) mutuo
 - Usar técnicas estándar de análisis de circuitos
 - Simplificar circuitos complejos
 
 ### Circuito Equivalente T
 
-Para dos inductores acoplados con inductancia mutua M:
+Para dos inductores acoplados con [inductancia](../../../glossary.md#inductancia) mutua M:
 
-**Circuito original:**
+**[Circuito](../../../glossary.md#circuito) original:**
 ```
    •           •
    ╭───╮      ╭───╮

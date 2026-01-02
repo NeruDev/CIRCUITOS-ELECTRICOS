@@ -1,11 +1,11 @@
 # PR-05: Circuito RC con Entrada Escalón y Condición Inicial ⭐⭐⭐
 
 ## Enunciado
-El interruptor del circuito ha estado en la posición A por largo tiempo. En t = 0 se cambia a la posición B. Determine:
+El interruptor del [circuito](../../../glossary.md#circuito) ha estado en la posición A por largo tiempo. En t = 0 se cambia a la posición B. Determine:
 a) La expresión para v(t) para t ≥ 0
 b) El tiempo requerido para que v(t) alcance cero
-c) La corriente i(t) para t ≥ 0
-d) La energía disipada en la resistencia en el intervalo 0 < t < ∞
+c) La [corriente](../../../glossary.md#corriente) i(t) para t ≥ 0
+d) La energía disipada en la [resistencia](../../../glossary.md#resistencia) en el intervalo 0 < t < ∞
 
 Datos: V1 = 12V, V2 = 6V, R = 5kΩ, C = 4μF
 
@@ -61,7 +61,7 @@ $$\tau = RC = (5000)(4 \times 10^{-6}) = 0.02\text{ s} = 20\text{ ms}$$
 **Valor inicial:** Tras largo tiempo en posición A:
 $$v(0^-) = v(0^+) = 12\text{ V}$$
 
-**Valor final:** En posición B, cuando el capacitor actúa como circuito abierto:
+**Valor final:** En posición B, cuando el [capacitor](../../../glossary.md#capacitancia) actúa como circuito abierto:
 $$v(\infty) = V_2 = 6\text{ V}$$
 
 ### Parte a) Expresión de v(t)
@@ -98,9 +98,9 @@ $$i(t) = -1.2 \times 10^{-3}e^{-50t}\text{ A}$$
 
 $$\boxed{i(t) = -1.2e^{-50t}\text{ mA}, \quad t \geq 0}$$
 
-El signo negativo indica que la corriente fluye en sentido opuesto al de carga (el capacitor se descarga parcialmente de 12V a 6V).
+El signo negativo indica que la corriente fluye en sentido opuesto al de [carga](../../../glossary.md#carga) (el capacitor se descarga parcialmente de 12V a 6V).
 
-**Verificación con LVK en t = 0⁺:**
+**Verificación con [LVK](../../../glossary.md#lvk) en t = 0⁺:**
 $$V_2 = v_R(0^+) + v(0^+)$$
 $$v_R(0^+) = V_2 - v(0^+) = 6 - 12 = -6\text{ V}$$
 $$i(0^+) = \frac{v_R}{R} = \frac{-6}{5000} = -1.2\text{ mA ✓}$$

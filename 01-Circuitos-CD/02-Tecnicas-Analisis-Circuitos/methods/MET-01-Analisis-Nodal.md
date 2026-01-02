@@ -2,16 +2,16 @@
 
 ## Descripción del Método
 
-El **Análisis Nodal** es una técnica sistemática que aplica la Ley de Corrientes de Kirchhoff (LCK) para encontrar los voltajes en cada nodo del circuito. Una vez conocidos los voltajes nodales, todas las corrientes pueden calcularse.
+El **Análisis Nodal** es una técnica sistemática que aplica la [Ley de Corrientes](../../../glossary.md#lck) de [Kirchhoff](../../../glossary.md#lvk) (LCK) para encontrar los voltajes en cada [nodo](../../../glossary.md#nodo) del [circuito](../../../glossary.md#circuito). Una vez conocidos los voltajes nodales, todas las corrientes pueden calcularse.
 
 ### Ventajas
 - Reduce el número de ecuaciones (usa n-1 ecuaciones para n nodos)
 - Ideal para circuitos con muchos elementos en paralelo
-- Funciona bien con fuentes de corriente
+- Funciona bien con fuentes de [corriente](../../../glossary.md#corriente)
 
 ### Conceptos Clave
 - **Nodo:** Punto donde se conectan dos o más elementos
-- **Nodo de referencia (tierra):** Nodo con voltaje = 0 V
+- **Nodo de referencia (tierra):** Nodo con [voltaje](../../../glossary.md#voltaje) = 0 V
 - **Supernodo:** Región que incluye una fuente de voltaje y sus nodos adyacentes
 
 ---
@@ -25,7 +25,7 @@ El **Análisis Nodal** es una técnica sistemática que aplica la Ley de Corrien
 
 ### Paso 2: Aplicar LCK en Cada Nodo
 - Escribir ecuación: ΣI_salientes = 0
-- Expresar corrientes en términos de voltajes nodales usando Ley de Ohm:
+- Expresar corrientes en términos de voltajes nodales usando [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad):
 $$I = \frac{V_{nodo1} - V_{nodo2}}{R}$$
 
 ### Paso 3: Manejar Fuentes de Voltaje (si las hay)

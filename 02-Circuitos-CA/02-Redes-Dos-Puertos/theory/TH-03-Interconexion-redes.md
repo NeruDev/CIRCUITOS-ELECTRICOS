@@ -92,7 +92,7 @@ $$\begin{bmatrix} A & B \\ C & D \end{bmatrix} = \begin{bmatrix} A_a & B_a \\ C_
 
 ⚠️ **Importante:** No todas las conexiones son válidas para cualquier red.
 
-**Condición de validez:** Los puertos deben mantener la condición de puerto (la corriente que entra por un terminal debe ser igual a la que sale por el otro terminal del mismo puerto).
+**Condición de validez:** Los puertos deben mantener la condición de puerto (la [corriente](../../../glossary.md#corriente) que entra por un terminal debe ser igual a la que sale por el otro terminal del mismo puerto).
 
 Algunas interconexiones pueden violar esta condición y requerir transformadores de aislamiento.
 

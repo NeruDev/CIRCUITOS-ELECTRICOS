@@ -72,7 +72,7 @@ Raíces complejas conjugadas:
 
 $$s_{1,2} = -\alpha \pm j\omega_d$$
 
-donde $\omega_d = \sqrt{\omega_0^2 - \alpha^2}$ (frecuencia amortiguada)
+donde $\omega_d = \sqrt{\omega_0^2 - \alpha^2}$ ([frecuencia](../../../glossary.md#frecuencia) amortiguada)
 
 $$x(t) = e^{-\alpha t}(A_1 \cos\omega_d t + A_2 \sin\omega_d t)$$
 

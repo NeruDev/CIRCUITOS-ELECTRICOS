@@ -1,7 +1,7 @@
 # PR-03: Circuito RL - Respuesta Natural ⭐⭐
 
 ## Enunciado
-Un inductor de 0.5H tiene una corriente inicial de 4A. En t = 0, se desconecta de su fuente y se conecta a una resistencia de 20Ω. Determine:
+Un [inductor](../../../glossary.md#inductancia) de 0.5H tiene una [corriente](../../../glossary.md#corriente) inicial de 4A. En t = 0, se desconecta de su fuente y se conecta a una [resistencia](../../../glossary.md#resistencia) de 20Ω. Determine:
 a) La constante de tiempo
 b) La expresión de i(t) para t ≥ 0
 c) El tiempo para que la corriente caiga a 1A
@@ -84,13 +84,13 @@ $$i(\tau/2) = 4e^{-40(0.0125)} = 4e^{-0.5} = 4 \times 0.606 = 2.426\text{ A}$$
 **Potencia disipada en R:**
 $$P_R = i^2 R = (2.426)^2 (20) = 5.89 \times 20 = 117.7\text{ W}$$
 
-**Verificación con voltaje:**
+**Verificación con [voltaje](../../../glossary.md#voltaje):**
 $$v_L(t) = L\frac{di}{dt} = L \times I_0 \times (-40) e^{-40t} = -0.5 \times 4 \times 40 \times e^{-40t}$$
 $$v_L(t) = -80e^{-40t}\text{ V}$$
 
 En t = 0: vL(0) = -80V (el voltaje aparece negativo porque se opone al decaimiento de corriente)
 
-El voltaje en R: vR = -vL = 80e^(-40t) V (por LVK)
+El voltaje en R: vR = -vL = 80e^(-40t) V (por [LVK](../../../glossary.md#lvk))
 
 $$P_R(\tau/2) = \frac{v_R^2}{R} = \frac{(80 \times 0.606)^2}{20} = \frac{(48.5)^2}{20} = 117.7\text{ W} \checkmark$$
 
@@ -152,7 +152,7 @@ $$W_{disipada} = I_0^2 R \int_0^{\infty} e^{-2t/\tau} dt = I_0^2 R \left[-\frac{
 $$W_{disipada} = I_0^2 R \times \frac{\tau}{2} = (16)(20)(0.0125) = 4\text{ J} = W_0 \checkmark$$
 
 ## Conceptos Aplicados
-- Respuesta natural de circuito RL
+- Respuesta natural de [circuito](../../../glossary.md#circuito) RL
 - Constante de tiempo τ = L/R
 - Continuidad de corriente en inductor
 - Conservación de energía

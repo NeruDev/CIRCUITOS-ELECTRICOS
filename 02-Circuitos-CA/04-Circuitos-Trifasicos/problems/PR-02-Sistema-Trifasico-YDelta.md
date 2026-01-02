@@ -1,7 +1,7 @@
 # PR-02: Sistema Trifásico Y-Δ ⭐⭐⭐
 
 ## Enunciado
-Una fuente trifásica balanceada en Y con voltaje de línea VL = 440V alimenta una carga balanceada conectada en delta (Δ) con ZΔ = 45∠30° Ω por fase. Determine:
+Una fuente trifásica balanceada en Y con [voltaje](../../../glossary.md#voltaje) de línea VL = 440V alimenta una [carga](../../../glossary.md#carga) balanceada conectada en [delta](../../../glossary.md#delta) (Δ) con ZΔ = 45∠30° Ω por fase. Determine:
 a) Los voltajes de fase de la fuente y de la carga
 b) Las corrientes de fase en la carga
 c) Las corrientes de línea
@@ -77,7 +77,7 @@ Lca 3 1 59.7m
 
 ### Datos
 - VL = 440 V (voltaje de línea)
-- ZΔ = 45∠30° Ω (impedancia de carga por fase delta)
+- ZΔ = 45∠30° Ω ([impedancia](../../../glossary.md#impedancia) de carga por fase delta)
 
 ### Parte a) Voltajes
 
@@ -119,7 +119,7 @@ $$I_Δ = I_f = 9.78\text{ A}$$
 
 ### Parte c) Corrientes de línea
 
-En conexión delta, la corriente de línea es √3 veces la corriente de fase:
+En conexión delta, la [corriente](../../../glossary.md#corriente) de línea es √3 veces la corriente de fase:
 $$I_L = \sqrt{3} \times I_Δ = \sqrt{3} \times 9.78 = 16.94\text{ A}$$
 
 Por LCK en cada nodo de la delta:

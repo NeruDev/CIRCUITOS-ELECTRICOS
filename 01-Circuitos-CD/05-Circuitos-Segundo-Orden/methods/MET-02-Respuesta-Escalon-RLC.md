@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-La **respuesta al escalón** es la respuesta de un circuito RLC cuando se aplica una fuente de voltaje o corriente constante (escalón unitario). La respuesta completa incluye la **respuesta natural** (transitoria) y la **respuesta forzada** (estado estable).
+La **respuesta al escalón** es la respuesta de un [circuito](../../../glossary.md#circuito) RLC cuando se aplica una fuente de [voltaje](../../../glossary.md#voltaje) o [corriente](../../../glossary.md#corriente) constante (escalón unitario). La respuesta completa incluye la **respuesta natural** (transitoria) y la **respuesta forzada** (estado estable).
 
 ---
 
@@ -79,10 +79,10 @@ Un circuito RLC serie con R = 5 Ω, L = 1 H, C = 0.04 F tiene condiciones inicia
 ### Solución
 
 #### **Paso 1: Condiciones Iniciales**
-- $i_L(0^-) = 0$ A → $i_L(0^+) = 0$ A (corriente en inductor continua)
-- $v_C(0^-) = 0$ V → $v_C(0^+) = 0$ V (voltaje en capacitor continuo)
+- $i_L(0^-) = 0$ A → $i_L(0^+) = 0$ A (corriente en [inductor](../../../glossary.md#inductancia) continua)
+- $v_C(0^-) = 0$ V → $v_C(0^+) = 0$ V (voltaje en [capacitor](../../../glossary.md#capacitancia) continuo)
 
-Para la derivada, aplicamos LVK en t = 0⁺:
+Para la derivada, aplicamos [LVK](../../../glossary.md#lvk) en t = 0⁺:
 $$V_s = v_R + v_L + v_C$$
 $$24 = R i(0^+) + L\frac{di}{dt}\bigg|_{0^+} + v_C(0^+)$$
 $$24 = 5(0) + 1 \cdot \frac{di}{dt}\bigg|_{0^+} + 0$$
@@ -213,7 +213,7 @@ $$v(\infty) = I_s \times R = 12 \times 1 = 12\text{ V}$$
 - $v(0^+) = 0$ V
 - $i_L(0^+) = 0$ A, $i_C(0^+) = ?$
 
-Por LCK: $I_s = i_R + i_L + i_C$
+Por [LCK](../../../glossary.md#lck): $I_s = i_R + i_L + i_C$
 $$12 = \frac{v(0)}{R} + i_L(0) + i_C(0^+)$$
 $$12 = 0 + 0 + i_C(0^+)$$
 $$i_C(0^+) = 12\text{ A}$$

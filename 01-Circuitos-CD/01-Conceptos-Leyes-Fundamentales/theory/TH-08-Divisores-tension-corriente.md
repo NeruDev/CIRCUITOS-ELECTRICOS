@@ -1,15 +1,15 @@
 # TH-08: Divisores de Tensión y Corriente
 
 ## Objetivos
-- Aplicar el principio del divisor de tensión
-- Aplicar el principio del divisor de corriente
+- Aplicar el principio del [divisor de tensión](../../../glossary.md#divisor-[tension](../../../glossary.md#voltaje))
+- Aplicar el principio del divisor de [corriente](../../../glossary.md#corriente)
 - Resolver problemas prácticos usando divisores
 
 ## Contenido
 
 ### Divisor de Tensión
 
-En un circuito serie, el voltaje se divide proporcionalmente a las resistencias.
+En un [circuito](../../../glossary.md#circuito) serie, el voltaje se divide proporcionalmente a las resistencias.
 
 ```
       R₁           R₂
@@ -48,7 +48,7 @@ $$i_2 = I_s \cdot \frac{R_1}{R_1 + R_2}$$
 **Usando conductancias:**
 $$i_k = I_s \cdot \frac{G_k}{G_1 + G_2 + ... + G_n}$$
 
-**Observación:** La resistencia menor tiene la mayor corriente.
+**Observación:** La [resistencia](../../../glossary.md#resistencia) menor tiene la mayor corriente.
 
 ### Ejemplos Prácticos
 
@@ -57,7 +57,7 @@ $$i_k = I_s \cdot \frac{G_k}{G_1 + G_2 + ... + G_n}$$
 - v₁ = 20 × 4/(4+6) = 20 × 0.4 = 8V
 - v₂ = 20 × 6/(4+6) = 20 × 0.6 = 12V
 
-**Ejemplo 2: Divisor de Corriente**
+**Ejemplo 2: [Divisor de Corriente](../../../glossary.md#divisor-corriente)**
 - Is = 10mA, R₁ = 2kΩ, R₂ = 3kΩ
 - i₁ = 10 × 3/(2+3) = 10 × 0.6 = 6mA
 - i₂ = 10 × 2/(2+3) = 10 × 0.4 = 4mA
@@ -71,7 +71,7 @@ $$i_k = I_s \cdot \frac{G_k}{G_1 + G_2 + ... + G_n}$$
 
 ### Errores Comunes
 - Olvidar que el divisor de corriente es inversamente proporcional
-- No considerar la carga conectada al divisor
+- No considerar la [carga](../../../glossary.md#carga) conectada al divisor
 - Aplicar las fórmulas en circuitos que no son puramente serie o paralelo
 
 ## Conceptos Clave

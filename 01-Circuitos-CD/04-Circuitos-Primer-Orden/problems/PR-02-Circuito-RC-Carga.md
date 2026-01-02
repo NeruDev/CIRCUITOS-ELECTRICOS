@@ -1,11 +1,11 @@
 # PR-02: Circuito RC - Respuesta Completa (Carga) ⭐⭐
 
 ## Enunciado
-En t = 0, se cierra el interruptor conectando una fuente de 12V a un circuito RC. El capacitor tiene una carga inicial de 2V. Determine:
+En t = 0, se cierra el interruptor conectando una fuente de 12V a un [circuito](../../../glossary.md#circuito) RC. El [capacitor](../../../glossary.md#capacitancia) tiene una [carga](../../../glossary.md#carga) inicial de 2V. Determine:
 a) La constante de tiempo
 b) La expresión de v(t) para t ≥ 0
 c) El tiempo para que v alcance el 95% del valor final
-d) La corriente i(t) y su valor inicial
+d) La [corriente](../../../glossary.md#corriente) i(t) y su valor inicial
 
 Datos: R = 5kΩ, C = 20μF, v(0⁻) = 2V, Vs = 12V
 
@@ -47,7 +47,7 @@ C1 2 0 20u IC=2    ; C = 20μF con condición inicial 2V
 - Vs = 12 V
 - R = 5 kΩ = 5000 Ω
 - C = 20 μF = 20 × 10⁻⁶ F
-- v(0⁻) = v(0⁺) = 2 V (voltaje inicial)
+- v(0⁻) = v(0⁺) = 2 V ([voltaje](../../../glossary.md#voltaje) inicial)
 
 ### Parte a) Constante de tiempo
 

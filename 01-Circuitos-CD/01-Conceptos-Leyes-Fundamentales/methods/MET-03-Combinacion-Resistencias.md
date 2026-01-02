@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-Este método permite simplificar circuitos complejos combinando resistencias en **serie** y **paralelo** hasta obtener una resistencia equivalente única.
+Este método permite simplificar circuitos complejos combinando resistencias en **serie** y **paralelo** hasta obtener una [resistencia](../../../glossary.md#resistencia) equivalente única.
 
 ## Fórmulas Fundamentales
 
@@ -41,8 +41,8 @@ Mismo voltaje en todas
 ## Pasos del Método
 
 ### Paso 1: Identificar Conexiones
-- Elementos en **serie:** La misma corriente pasa por ambos
-- Elementos en **paralelo:** El mismo voltaje en ambos
+- Elementos en **serie:** La misma [corriente](../../../glossary.md#corriente) pasa por ambos
+- Elementos en **paralelo:** El mismo [voltaje](../../../glossary.md#voltaje) en ambos
 
 ### Paso 2: Simplificar de Adentro hacia Afuera
 - Comenzar por las combinaciones más internas
@@ -196,7 +196,7 @@ En redes escalera, siempre se trabaja desde el extremo hacia la entrada, combina
 ## Ejemplo Clásico 3: Calcular Corriente y Voltajes
 
 ### Enunciado
-Una fuente de 24 V alimenta el siguiente circuito. Calcule la corriente total y el voltaje en cada resistencia.
+Una fuente de 24 V alimenta el siguiente [circuito](../../../glossary.md#circuito). Calcule la corriente total y el voltaje en cada resistencia.
 
 ### Diagrama
 ```
@@ -294,6 +294,6 @@ En circuitos simétricos, puntos equivalentes tienen el mismo potencial.
 
 ## Conceptos Relacionados
 - Divisor de voltaje
-- Divisor de corriente
+- [Divisor de corriente](../../../glossary.md#divisor-corriente)
 - Transformación Δ-Y
 - Análisis de potencia

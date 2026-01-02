@@ -1,7 +1,7 @@
 # TH-08: Teoremas de Thévenin, Norton y Máxima Transferencia de Potencia en CA
 
 ## Objetivos
-- Obtener equivalentes de Thévenin y Norton en CA
+- Obtener equivalentes de [Thévenin](../../../glossary.md#thevenin) y [Norton](../../../glossary.md#norton) en CA
 - Calcular la condición de máxima transferencia de potencia en CA
 - Aplicar adaptación de impedancias
 
@@ -9,7 +9,7 @@
 
 ### Teorema de Thévenin en CA
 
-Cualquier circuito lineal de dos terminales puede reemplazarse por una fuente de voltaje fasorial **Vth** en serie con una impedancia **Zth**.
+Cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede reemplazarse por una fuente de [voltaje](../../../glossary.md#voltaje) fasorial **Vth** en serie con una [impedancia](../../../glossary.md#impedancia) **Zth**.
 
 ```
 Equivalente Thévenin:
@@ -75,7 +75,7 @@ $$P_{max} = \frac{|\mathbf{V}_{th}|^2}{4(R_{th} + |\mathbf{Z}_{th}|)}$$
 La condición ZL = Zth* se llama **adaptación conjugada**.
 
 **Importancia:**
-- Maximiza la potencia entregada a la carga
+- Maximiza la potencia entregada a la [carga](../../../glossary.md#carga)
 - Esencial en sistemas de comunicación y RF
 - Usado en diseño de amplificadores
 

@@ -2,14 +2,14 @@
 
 ## Descripción del Método
 
-Estos métodos permiten calcular voltajes y corrientes en circuitos serie y paralelo SIN necesidad de calcular primero la resistencia equivalente.
+Estos métodos permiten calcular voltajes y corrientes en circuitos serie y paralelo SIN necesidad de calcular primero la [resistencia](../../../glossary.md#resistencia) equivalente.
 
 ---
 
 ## Parte A: Divisor de Voltaje
 
 ### Fórmula Fundamental
-Para resistencias en **serie**, el voltaje se divide proporcionalmente a las resistencias:
+Para resistencias en **serie**, el [voltaje](../../../glossary.md#voltaje) se divide proporcionalmente a las resistencias:
 
 $$V_x = V_T \cdot \frac{R_x}{R_{total}}$$
 
@@ -87,14 +87,14 @@ $$V_1 + V_2 = 5 + 10 = 15\text{ V} = V_T$$ ✓
 $$\boxed{V_1 = 5\text{ V}, \quad V_2 = 10\text{ V}}$$
 
 ### Explicación de la Respuesta
-El voltaje se divide en proporción 1:2 (igual que la proporción de resistencias 10k:20k). La resistencia mayor (R₂) tiene el mayor voltaje. Esto tiene sentido: a mayor resistencia, mayor caída de voltaje para la misma corriente (V = IR). El punto medio (Vout = V₂ = 10V) es útil como referencia de voltaje.
+El voltaje se divide en proporción 1:2 (igual que la proporción de resistencias 10k:20k). La resistencia mayor (R₂) tiene el mayor voltaje. Esto tiene sentido: a mayor resistencia, mayor caída de voltaje para la misma [corriente](../../../glossary.md#corriente) (V = IR). El punto medio (Vout = V₂ = 10V) es útil como referencia de voltaje.
 
 ---
 
 ## Ejemplo Clásico 2: Divisor de Voltaje con Tres Resistencias
 
 ### Enunciado
-Un circuito tiene R₁ = 1 kΩ, R₂ = 2 kΩ, R₃ = 3 kΩ en serie con una fuente de 12 V. Encuentre el voltaje en cada resistencia.
+Un [circuito](../../../glossary.md#circuito) tiene R₁ = 1 kΩ, R₂ = 2 kΩ, R₃ = 3 kΩ en serie con una fuente de 12 V. Encuentre el voltaje en cada resistencia.
 
 ### Diagrama
 ```
@@ -188,7 +188,7 @@ Una corriente de 12 A se divide entre dos resistencias en paralelo: R₁ = 4 Ω 
 **Paso 1: Verificar conexión paralelo**
 - R₁ y R₂ comparten el mismo voltaje ✓
 
-**Paso 2: Aplicar divisor de corriente**
+**Paso 2: Aplicar [divisor de corriente](../../../glossary.md#divisor-corriente)**
 
 Para I₁ (usa R₂ en el numerador):
 $$I_1 = I_T \times \frac{R_2}{R_1 + R_2} = 12 \times \frac{12}{4 + 12} = 12 \times \frac{12}{16}$$
@@ -198,7 +198,7 @@ Para I₂ (usa R₁ en el numerador):
 $$I_2 = I_T \times \frac{R_1}{R_1 + R_2} = 12 \times \frac{4}{4 + 12} = 12 \times \frac{4}{16}$$
 $$I_2 = 12 \times 0.25 = 3\text{ A}$$
 
-**Paso 3: Verificación (LCK)**
+**Paso 3: Verificación ([LCK](../../../glossary.md#lck))**
 $$I_1 + I_2 = 9 + 3 = 12\text{ A} = I_T$$ ✓
 
 ### Respuesta
@@ -307,7 +307,7 @@ $$I_2 = \frac{V_{23}}{R_2} = \frac{14.4}{12} = 1.2\text{ A}$$ ✓
 $$\boxed{V_3 = 14.4\text{ V}, \quad I_2 = 1.2\text{ A}}$$
 
 ### Explicación de la Respuesta
-Primero usamos divisor de voltaje para encontrar el voltaje en el nodo del paralelo. Luego, dentro del paralelo, usamos divisor de corriente. Nótese que I₂ (por 12 Ω) es menor que I₃ (por 6 Ω), cumpliendo la regla de que menor resistencia lleva mayor corriente.
+Primero usamos divisor de voltaje para encontrar el voltaje en el [nodo](../../../glossary.md#nodo) del paralelo. Luego, dentro del paralelo, usamos divisor de corriente. Nótese que I₂ (por 12 Ω) es menor que I₃ (por 6 Ω), cumpliendo la regla de que menor resistencia lleva mayor corriente.
 
 ---
 
@@ -327,6 +327,6 @@ Primero usamos divisor de voltaje para encontrar el voltaje en el nodo del paral
 4. **Olvidar verificar:** Siempre comprobar que las corrientes/voltajes sumen correctamente
 
 ## Conceptos Relacionados
-- Ley de Ohm
+- [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad)
 - Combinación de resistencias
-- Leyes de Kirchhoff
+- Leyes de [Kirchhoff](../../../glossary.md#lvk)

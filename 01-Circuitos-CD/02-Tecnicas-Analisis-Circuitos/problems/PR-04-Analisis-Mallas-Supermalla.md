@@ -1,9 +1,9 @@
 # PR-04: Análisis de Mallas con Supermalla ⭐⭐⭐
 
 ## Enunciado
-Utilizando el método de mallas con supermalla, determine las corrientes de malla en el circuito.
+Utilizando el método de mallas con supermalla, determine las corrientes de [malla](../../../glossary.md#malla) en el [circuito](../../../glossary.md#circuito).
 - Vs = 24V
-- Is = 3A (fuente de corriente en rama compartida)
+- Is = 3A (fuente de [corriente](../../../glossary.md#corriente) en rama compartida)
 - R₁ = 4Ω, R₂ = 8Ω, R₃ = 6Ω, R₄ = 2Ω
 
 ## Diagrama del Circuito
@@ -105,7 +105,7 @@ $$I_{Is} = i_1 - i_2 = 2.4 - (-0.6) = 3\text{ A} \checkmark$$
 **Malla 1 (evitando Is, usando la rama R₂):**
 $$-24 + 4(2.4) + 8(2.4) = -24 + 9.6 + 19.2 = 4.8 \neq 0$$
 
-Esto indica que necesitamos incluir el voltaje de la fuente de corriente.
+Esto indica que necesitamos incluir el [voltaje](../../../glossary.md#voltaje) de la fuente de corriente.
 
 **Verificación alternativa - Balance de potencia:**
 

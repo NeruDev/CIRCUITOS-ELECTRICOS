@@ -2,16 +2,16 @@
 
 ## Descripción del Método
 
-El **Análisis de Mallas** es una técnica sistemática que aplica la Ley de Voltajes de Kirchhoff (LVK) para encontrar las corrientes de malla en un circuito planar. Es el dual del análisis nodal.
+El **Análisis de Mallas** es una técnica sistemática que aplica la [Ley de Voltajes](../../../glossary.md#lvk) de [Kirchhoff](../../../glossary.md#lck) (LVK) para encontrar las corrientes de [malla](../../../glossary.md#malla) en un [circuito](../../../glossary.md#circuito) planar. Es el dual del análisis nodal.
 
 ### Conceptos Clave
 - **Malla:** Lazo cerrado que no contiene otros lazos en su interior
-- **Corriente de malla:** Corriente hipotética que circula alrededor de una malla
+- **[Corriente](../../../glossary.md#corriente) de malla:** Corriente hipotética que circula alrededor de una malla
 - **Supermalla:** Región formada cuando una fuente de corriente está entre dos mallas
 
 ### Ventajas
 - Ideal para circuitos con muchos elementos en serie
-- Funciona bien con fuentes de voltaje
+- Funciona bien con fuentes de [voltaje](../../../glossary.md#voltaje)
 - Número reducido de ecuaciones para circuitos planares
 
 ---
@@ -28,7 +28,7 @@ El **Análisis de Mallas** es una técnica sistemática que aplica la Ley de Vol
 ### Paso 3: Aplicar LVK a Cada Malla
 - Recorrer cada malla en el sentido de su corriente
 - Sumar voltajes: $\sum V = 0$
-- Usar $V = IR$ para cada resistencia
+- Usar $V = IR$ para cada [resistencia](../../../glossary.md#resistencia)
 
 ### Paso 4: Manejar Fuentes de Corriente
 - **Fuente en el perímetro:** La corriente de malla es igual a la fuente

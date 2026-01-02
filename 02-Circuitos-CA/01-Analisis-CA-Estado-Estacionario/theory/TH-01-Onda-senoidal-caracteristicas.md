@@ -2,14 +2,14 @@
 
 ## Objetivos
 - Describir los parámetros de una onda senoidal
-- Calcular período, frecuencia y fase
+- Calcular período, [frecuencia](../../../glossary.md#frecuencia) y fase
 - Relacionar valores instantáneos y máximos
 
 ## Contenido
 
 ### La Onda Senoidal
 
-La corriente alterna se describe mediante funciones senoidales:
+La [corriente alterna](../../../glossary.md#corriente) se describe mediante funciones senoidales:
 
 $$v(t) = V_m \sin(\omega t + \phi)$$
 

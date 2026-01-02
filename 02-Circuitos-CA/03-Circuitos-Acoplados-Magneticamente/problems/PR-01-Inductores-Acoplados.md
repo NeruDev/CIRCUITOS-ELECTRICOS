@@ -2,7 +2,7 @@
 
 ## Enunciado
 Dos bobinas con L₁ = 100mH y L₂ = 400mH tienen un coeficiente de acoplamiento k = 0.6. Se conectan en serie con acoplamiento aditivo. Determine:
-a) La inductancia mutua M
+a) La [inductancia](../../../glossary.md#inductancia) mutua M
 b) La inductancia total equivalente Leq
 c) La inductancia total si se conectan con acoplamiento sustractivo
 d) El rango de Leq para 0 ≤ k ≤ 1
@@ -147,8 +147,8 @@ Leq (mH)
 
 ## Conceptos Físicos
 
-**Regla del punto:** Los puntos indican los terminales con la misma polaridad de voltaje inducido.
-- Si la corriente **entra** por el terminal con punto en ambas bobinas → acoplamiento aditivo
+**Regla del punto:** Los puntos indican los terminales con la misma polaridad de [voltaje](../../../glossary.md#voltaje) inducido.
+- Si la [corriente](../../../glossary.md#corriente) **entra** por el terminal con punto en ambas bobinas → acoplamiento aditivo
 - Si la corriente entra por el punto en una y sale por el punto en otra → acoplamiento sustractivo
 
 **Coeficiente de acoplamiento:**

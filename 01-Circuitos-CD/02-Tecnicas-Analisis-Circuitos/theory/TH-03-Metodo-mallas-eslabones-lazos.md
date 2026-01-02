@@ -9,20 +9,20 @@
 ## Contenido
 
 ### Fundamento
-El método de mallas aplica la Ley de Voltajes de Kirchhoff (LVK) alrededor de cada malla, expresando los voltajes en términos de las corrientes de malla.
+El método de mallas aplica la [Ley de Voltajes](../../../glossary.md#lvk) de [Kirchhoff](../../../glossary.md#lck) (LVK) alrededor de cada [malla](../../../glossary.md#malla), expresando los voltajes en términos de las corrientes de malla.
 
 ### Definiciones
 
-**Corriente de malla:** Corriente ficticia que circula alrededor de una malla.
+**[Corriente](../../../glossary.md#corriente) de malla:** Corriente ficticia que circula alrededor de una malla.
 
 **Malla:** Lazo que no contiene otros lazos en su interior.
 
 ### Procedimiento General
 
-1. **Identificar las mallas** del circuito
+1. **Identificar las mallas** del [circuito](../../../glossary.md#circuito)
 2. **Asignar corrientes de malla** (i₁, i₂, ...)
 3. **Aplicar LVK** en cada malla
-4. **Expresar voltajes** usando ley de Ohm
+4. **Expresar voltajes** usando [ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad)
 5. **Resolver** el sistema de ecuaciones
 
 ### Formulación
@@ -42,7 +42,7 @@ Donde:
 ### Construcción de la Matriz R
 
 - **Diagonal (Rₖₖ):** Suma de resistencias en la malla k
-- **Fuera de diagonal (Rₖⱼ):** Negativo de la resistencia compartida entre mallas k y j
+- **Fuera de diagonal (Rₖⱼ):** Negativo de la [resistencia](../../../glossary.md#resistencia) compartida entre mallas k y j
 
 ### Caso Especial: Supermalla
 

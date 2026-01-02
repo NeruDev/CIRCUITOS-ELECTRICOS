@@ -17,7 +17,7 @@ $$\mathbf{V} = V_m \angle \phi = V_m e^{j\phi} = V_m(\cos\phi + j\sin\phi)$$
 Donde:
 - $V_m$ = amplitud (valor pico)
 - $\phi$ = ángulo de fase
-- $\omega$ = frecuencia angular (rad/s)
+- $\omega$ = [frecuencia](../../../glossary.md#frecuencia) angular (rad/s)
 
 ---
 
@@ -49,7 +49,7 @@ Voltaje y corriente **en fase**
 ### Inductor
 $$\mathbf{Z}_L = j\omega L = \omega L \angle 90°$$
 
-Voltaje **adelanta** 90° a la corriente
+[Voltaje](../../../glossary.md#voltaje) **adelanta** 90° a la [corriente](../../../glossary.md#corriente)
 
 ### Capacitor
 $$\mathbf{Z}_C = \frac{1}{j\omega C} = -\frac{j}{\omega C} = \frac{1}{\omega C} \angle -90°$$
@@ -203,14 +203,14 @@ Suma: $(80 + 33.3 - 13.3) + j(-40 + 66.6 - 26.6) = 100 + j0$ V ✓
 $$\boxed{i(t) = 2.98\cos(500t - 26.57°)\text{ A}}$$
 
 ### Explicación
-El circuito es inductivo (XL > XC), por lo que la corriente atrasa al voltaje de la fuente. La reactancia neta es XL - XC = 25 - 10 = 15 Ω inductiva.
+El [circuito](../../../glossary.md#circuito) es inductivo (XL > XC), por lo que la corriente atrasa al voltaje de la fuente. La [reactancia](../../../glossary.md#reactancia) neta es XL - XC = 25 - 10 = 15 Ω inductiva.
 
 ---
 
 ## Ejemplo Clásico 3: Circuito Paralelo RL
 
 ### Enunciado
-Un circuito paralelo tiene una resistencia de 60 Ω y una inductancia de 0.1 H conectados a una fuente v(t) = 120cos(200t + 45°) V. Calcule la corriente total de la fuente.
+Un circuito paralelo tiene una [resistencia](../../../glossary.md#resistencia) de 60 Ω y una [inductancia](../../../glossary.md#inductancia) de 0.1 H conectados a una fuente v(t) = 120cos(200t + 45°) V. Calcule la corriente total de la fuente.
 
 ### Diagrama
 ```

@@ -1,7 +1,7 @@
 # TH-09: Transformación de Fuentes
 
 ## Objetivos
-- Comprender la equivalencia entre fuentes de voltaje y corriente
+- Comprender la equivalencia entre fuentes de [voltaje](../../../glossary.md#voltaje) y [corriente](../../../glossary.md#corriente)
 - Realizar transformaciones de fuentes
 - Simplificar circuitos usando transformaciones
 
@@ -9,7 +9,7 @@
 
 ### Principio de Equivalencia
 
-Una fuente de voltaje Vs en serie con una resistencia Rs es equivalente a una fuente de corriente Is en paralelo con la misma resistencia Rs.
+Una fuente de voltaje Vs en serie con una [resistencia](../../../glossary.md#resistencia) Rs es equivalente a una fuente de corriente Is en paralelo con la misma resistencia Rs.
 
 ### Transformación de Fuente de Voltaje a Corriente
 
@@ -47,7 +47,7 @@ La resistencia Rs permanece igual, pero cambia de paralelo a serie.
 1. Identificar fuentes con resistencias asociadas
 2. Transformar fuentes según convenga (todas a voltaje o todas a corriente)
 3. Combinar fuentes y resistencias equivalentes
-4. Resolver el circuito simplificado
+4. Resolver el [circuito](../../../glossary.md#circuito) simplificado
 
 ### Ejemplo de Aplicación
 
@@ -74,7 +74,7 @@ La resistencia Rs permanece igual, pero cambia de paralelo a serie.
 
 - Simplificación de circuitos complejos
 - Análisis de circuitos con múltiples fuentes
-- Obtención de equivalentes de Thévenin y Norton
+- Obtención de equivalentes de [Thévenin](../../../glossary.md#thevenin) y [Norton](../../../glossary.md#norton)
 
 ## Conceptos Clave
 - Equivalencia de fuentes

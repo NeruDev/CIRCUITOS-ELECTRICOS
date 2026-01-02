@@ -2,14 +2,14 @@
 
 ## Objetivos
 - Comprender el concepto de linealidad en circuitos
-- Aplicar el principio de superposición
+- Aplicar el principio de [superposición](../../../glossary.md#superposicion)
 - Identificar las limitaciones del principio
 
 ## Contenido
 
 ### Linealidad
 
-Un circuito es **lineal** si cumple dos propiedades:
+Un [circuito](../../../glossary.md#circuito) es **lineal** si cumple dos propiedades:
 
 **1. Homogeneidad (escalamiento):**
 Si una entrada x produce una respuesta y, entonces una entrada kx produce una respuesta ky.
@@ -32,8 +32,8 @@ $$f(x_1 + x_2) = f(x_1) + f(x_2)$$
 ### Procedimiento
 
 1. **Desactivar** todas las fuentes excepto una:
-   - Fuente de voltaje: reemplazar por cortocircuito
-   - Fuente de corriente: reemplazar por circuito abierto
+   - Fuente de [voltaje](../../../glossary.md#voltaje): reemplazar por cortocircuito
+   - Fuente de [corriente](../../../glossary.md#corriente): reemplazar por circuito abierto
    
 2. **Calcular** la respuesta debida a esa fuente
 
@@ -58,7 +58,7 @@ $$f(x_1 + x_2) = f(x_1) + f(x_2)$$
 
 **Paso 2: Solo fuente de 2A (V₁=0)**
 - Cortocircuito donde estaba V₁
-- i''ᵣ₁ = 2 × 4/(2+4) = 1.33A (divisor de corriente)
+- i''ᵣ₁ = 2 × 4/(2+4) = 1.33A ([divisor de corriente](../../../glossary.md#divisor-corriente))
 
 **Paso 3: Sumar**
 - iᵣ₁ = i'ᵣ₁ + i''ᵣ₁ = 1.67 + 1.33 = 3A

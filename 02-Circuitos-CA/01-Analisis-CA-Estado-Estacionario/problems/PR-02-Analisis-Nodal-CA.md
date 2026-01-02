@@ -1,9 +1,9 @@
 # PR-02: Análisis Nodal en CA con Fasores ⭐⭐⭐
 
 ## Enunciado
-En el circuito mostrado, las fuentes son v₁(t) = 10cos(1000t)V y v₂(t) = 20cos(1000t + 45°)V. Usando análisis nodal en el dominio fasorial, determine:
+En el [circuito](../../../glossary.md#circuito) mostrado, las fuentes son v₁(t) = 10cos(1000t)V y v₂(t) = 20cos(1000t + 45°)V. Usando análisis nodal en el dominio fasorial, determine:
 a) Los voltajes fasoriales V₁ y V₂ en los nodos 1 y 2
-b) La corriente en el inductor IL
+b) La [corriente](../../../glossary.md#corriente) en el [inductor](../../../glossary.md#inductancia) IL
 c) Las expresiones en el dominio del tiempo v₁(t), v₂(t), iL(t)
 
 Datos: R₁ = 10Ω, R₂ = 20Ω, L = 10mH, C = 100μF, ω = 1000 rad/s
@@ -63,7 +63,7 @@ C1 2 0 100u          ; C = 100μF
 $$Y_{R1} = \frac{1}{R_1} = \frac{1}{10} = 0.1\text{ S}$$
 $$Y_{R2} = \frac{1}{R_2} = \frac{1}{20} = 0.05\text{ S}$$
 
-**Reactancia inductiva:**
+**[Reactancia](../../../glossary.md#reactancia) inductiva:**
 $$X_L = \omega L = 1000 \times 0.01 = 10\text{ Ω}$$
 $$Y_L = \frac{1}{jX_L} = \frac{1}{j10} = -j0.1\text{ S}$$
 
@@ -73,8 +73,8 @@ $$Y_C = j\omega C = j(1000)(100 \times 10^{-6}) = j0.1\text{ S}$$
 
 ### Parte a) Análisis nodal
 
-**Nodo 1:** (tomando el nodo inferior como referencia)
-La fuente V₁ fija directamente el voltaje:
+**[Nodo](../../../glossary.md#nodo) 1:** (tomando el nodo inferior como referencia)
+La fuente V₁ fija directamente el [voltaje](../../../glossary.md#voltaje):
 $$\mathbf{V}_1 = 10\angle 0° \text{ V}$$
 
 **Nodo 2:**
@@ -135,12 +135,12 @@ $$\mathbf{I}_{R1} = \frac{10 - (11.38 + j4.71)}{10} = \frac{-1.38 - j4.71}{10}$$
 
 $$\mathbf{I}_{R1} = -0.138 - j0.471 = 0.491\angle -106.3° \text{ A}$$
 
-**Corriente en el capacitor:**
+**Corriente en el [capacitor](../../../glossary.md#capacitancia):**
 $$\mathbf{I}_C = \frac{\mathbf{V}_2}{Z_C} = \frac{12.32\angle 22.5°}{10\angle -90°}$$
 
 $$\mathbf{I}_C = 1.232\angle 112.5° \text{ A}$$
 
-**Verificación LCK en nodo 2:**
+**Verificación [LCK](../../../glossary.md#lck) en nodo 2:**
 $$\mathbf{I}_{R1} + \mathbf{I}_{R2} = \mathbf{I}_L + \mathbf{I}_C$$
 
 - $\mathbf{I}_{R1} = 0.491\angle -106.3°$

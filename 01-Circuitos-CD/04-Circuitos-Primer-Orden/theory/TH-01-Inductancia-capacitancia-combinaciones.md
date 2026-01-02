@@ -1,7 +1,7 @@
 # TH-01: Inductancia y Capacitancia - Combinación de Elementos
 
 ## Objetivos
-- Comprender el comportamiento del inductor y capacitor
+- Comprender el comportamiento del [inductor](../../../glossary.md#[inductor](../../../glossary.md#inductancia)) y [capacitor](../../../glossary.md#[capacitor](../../../glossary.md#capacitancia))
 - Calcular energía almacenada en L y C
 - Combinar inductores y capacitores en serie y paralelo
 
@@ -9,7 +9,7 @@
 
 ### El Capacitor
 
-El capacitor almacena energía en un campo eléctrico.
+El [capacitor](../../../glossary.md#capacitor) almacena energía en un campo eléctrico.
 
 **Relación v-i:**
 $$i = C\frac{dv}{dt}$$
@@ -19,13 +19,13 @@ $$v = \frac{1}{C}\int_{t_0}^{t} i \, d\tau + v(t_0)$$
 $$w_C = \frac{1}{2}Cv^2$$
 
 **Propiedades:**
-- No puede cambiar instantáneamente de voltaje
-- En CD (estado estable): se comporta como circuito abierto
+- No puede cambiar instantáneamente de [voltaje](../../../glossary.md#voltaje)
+- En [CD](../../../glossary.md#corriente-directa) (estado estable): se comporta como circuito abierto
 - El voltaje es una variable de estado
 
 ### El Inductor
 
-El inductor almacena energía en un campo magnético.
+El [inductor](../../../glossary.md#inductor) almacena energía en un campo magnético.
 
 **Relación v-i:**
 $$v = L\frac{di}{dt}$$
@@ -35,7 +35,7 @@ $$i = \frac{1}{L}\int_{t_0}^{t} v \, d\tau + i(t_0)$$
 $$w_L = \frac{1}{2}Li^2$$
 
 **Propiedades:**
-- No puede cambiar instantáneamente de corriente
+- No puede cambiar instantáneamente de [corriente](../../../glossary.md#[corriente](../../../glossary.md#corriente))
 - En CD (estado estable): se comporta como cortocircuito
 - La corriente es una variable de estado
 
@@ -57,15 +57,20 @@ $$\frac{1}{L_{eq}} = \frac{1}{L_1} + \frac{1}{L_2} + ... + \frac{1}{L_n}$$
 
 ### Comparación L, R, C
 
-| Propiedad | Resistor | Capacitor | Inductor |
+| Propiedad | [Resistor](../../../glossary.md#resistor) | Capacitor | Inductor |
 |-----------|----------|-----------|----------|
-| Relación v-i | v = iR | i = C(dv/dt) | v = L(di/dt) |
+| Relación v-i | v = iR ([Ley de Ohm](../../../glossary.md#ley-ohm)) | i = C(dv/dt) | v = L(di/dt) |
 | Energía | Disipa | Almacena | Almacena |
 | En CD | v = iR | Abierto | Corto |
 | En serie | Suma R | Suma 1/C | Suma L |
 | En paralelo | Suma 1/R | Suma C | Suma 1/L |
 
 ## Conceptos Clave
-- Continuidad de voltaje en capacitor
+- Continuidad de [voltaje](../../../glossary.md#voltaje) en capacitor
 - Continuidad de corriente en inductor
 - Dualidad entre L y C
+
+## 🔗 Navegación
+> **Siguiente:** [TH-02: Circuito RL sin Fuente](TH-02-Circuito-RL-sin-fuente.md)
+> 
+> **Constantes relacionadas:** [Permitividad y Permeabilidad](../../../constants.md#permitividad) | [Dieléctricos](../../../constants.md#dielectricos)

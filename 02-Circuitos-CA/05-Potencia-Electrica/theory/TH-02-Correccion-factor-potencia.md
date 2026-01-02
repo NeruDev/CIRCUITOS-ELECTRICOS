@@ -1,7 +1,7 @@
 # TH-02: Corrección del Factor de Potencia
 
 ## Objetivos
-- Comprender la importancia del factor de potencia
+- Comprender la importancia del [factor de potencia](../../../glossary.md#factor-potencia)
 - Calcular capacitores para corrección
 - Analizar beneficios económicos de la corrección
 
@@ -10,7 +10,7 @@
 ### Importancia del Factor de Potencia
 
 Un factor de potencia bajo significa:
-- Mayor corriente para la misma potencia útil
+- Mayor [corriente](../../../glossary.md#corriente) para la misma potencia útil
 - Mayores pérdidas en líneas de transmisión
 - Mayor capacidad requerida de generadores y transformadores
 - Penalizaciones tarifarias de las compañías eléctricas
@@ -27,7 +27,7 @@ Para entregar P = 1000 W con V = 120 V:
 
 ### Método de Corrección
 
-Se agregan **capacitores en paralelo** con la carga para reducir la potencia reactiva.
+Se agregan **capacitores en paralelo** con la [carga](../../../glossary.md#carga) para reducir la [potencia reactiva](../../../glossary.md#potencia-reactiva).
 
 ```
         ┌──────┐
@@ -42,7 +42,7 @@ Se agregan **capacitores en paralelo** con la carga para reducir la potencia rea
 ### Cálculo del Capacitor
 
 **Antes de la corrección:**
-- P = potencia activa (no cambia)
+- P = [potencia activa](../../../glossary.md#potencia-activa) (no cambia)
 - Q₁ = P tan(θ₁)
 - pf₁ = cos(θ₁)
 
@@ -51,7 +51,7 @@ Se agregan **capacitores en paralelo** con la carga para reducir la potencia rea
 - Q₂ = P tan(θ₂)
 - pf₂ = cos(θ₂) (nuevo, mejorado)
 
-**Potencia reactiva del capacitor:**
+**Potencia reactiva del [capacitor](../../../glossary.md#capacitancia):**
 $$Q_C = Q_1 - Q_2 = P(\tan\theta_1 - \tan\theta_2)$$
 
 **Capacitancia requerida:**

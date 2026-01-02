@@ -9,7 +9,7 @@
 
 ### Descomposición de la Respuesta
 
-La respuesta completa de un circuito se puede expresar como:
+La respuesta completa de un [circuito](../../../glossary.md#circuito) se puede expresar como:
 
 $$x(t) = x_n(t) + x_f(t)$$
 

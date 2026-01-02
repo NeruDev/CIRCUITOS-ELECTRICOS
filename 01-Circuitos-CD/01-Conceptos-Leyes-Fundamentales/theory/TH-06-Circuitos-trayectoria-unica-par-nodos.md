@@ -3,13 +3,13 @@
 ## Objetivos
 - Analizar circuitos con una sola trayectoria (serie)
 - Analizar circuitos con un par de nodos (paralelo)
-- Aplicar LCK y LVK en configuraciones básicas
+- Aplicar [LCK](../../../glossary.md#lck) y [LVK](../../../glossary.md#lvk) en configuraciones básicas
 
 ## Contenido
 
 ### Circuito de Una Sola Trayectoria (Serie)
 
-En un circuito serie, todos los elementos comparten la **misma corriente**.
+En un [circuito](../../../glossary.md#circuito) serie, todos los elementos comparten la **misma [corriente](../../../glossary.md#corriente)**.
 
 ```
     R₁        R₂        R₃
@@ -24,7 +24,7 @@ Vs        v₁        v₂        v₃
 - La corriente es igual en todos los elementos: i = i₁ = i₂ = i₃
 - Los voltajes se suman: Vs = v₁ + v₂ + v₃
 
-**Resistencia equivalente en serie:**
+**[Resistencia](../../../glossary.md#resistencia) equivalente en serie:**
 $$R_{eq} = R_1 + R_2 + R_3 + ... + R_n$$
 
 **Corriente en el circuito:**
@@ -32,7 +32,7 @@ $$i = \frac{V_s}{R_{eq}} = \frac{V_s}{R_1 + R_2 + ... + R_n}$$
 
 ### Circuito de Un Par de Nodos (Paralelo)
 
-En un circuito paralelo, todos los elementos comparten el **mismo voltaje**.
+En un circuito paralelo, todos los elementos comparten el **mismo [voltaje](../../../glossary.md#voltaje)**.
 
 ```
         ┌──/\/\/──┐

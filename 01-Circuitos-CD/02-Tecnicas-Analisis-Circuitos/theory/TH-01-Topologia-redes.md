@@ -9,15 +9,15 @@
 
 ### Conceptos Topológicos
 
-**Rama:** Camino único entre dos nodos que contiene un elemento de circuito.
+**Rama:** Camino único entre dos nodos que contiene un elemento de [circuito](../../../glossary.md#circuito).
 
-**Nodo:** Punto de conexión de dos o más ramas.
+**[Nodo](../../../glossary.md#nodo):** Punto de conexión de dos o más ramas.
 
 **Nodo de referencia:** Nodo al que se asigna potencial cero (tierra).
 
 **Lazo:** Cualquier trayectoria cerrada en un circuito.
 
-**Malla:** Lazo que no contiene ningún otro lazo en su interior.
+**[Malla](../../../glossary.md#malla):** Lazo que no contiene ningún otro lazo en su interior.
 
 ### Relaciones Topológicas
 
@@ -25,7 +25,7 @@ Para un circuito con:
 - b = número de ramas
 - n = número de nodos
 
-**Número de ecuaciones LCK independientes:**
+**Número de ecuaciones [LCK](../../../glossary.md#lck) independientes:**
 $$n - 1$$
 
 **Número de ecuaciones LVK independientes (eslabones):**

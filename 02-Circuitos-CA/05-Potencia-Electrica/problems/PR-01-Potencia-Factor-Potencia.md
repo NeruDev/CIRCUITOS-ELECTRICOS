@@ -1,12 +1,12 @@
 # PR-01: Potencia Activa, Reactiva y Aparente ⭐⭐
 
 ## Enunciado
-Una carga consume una corriente i(t) = 10cos(377t - 30°) A cuando se le aplica un voltaje v(t) = 120cos(377t) V. Determine:
-a) La potencia activa P
-b) La potencia reactiva Q
-c) La potencia aparente S
-d) El factor de potencia
-e) La corriente que debe suministrar un capacitor para corregir el FP a 0.95 en atraso
+Una [carga](../../../glossary.md#carga) consume una [corriente](../../../glossary.md#corriente) i(t) = 10cos(377t - 30°) A cuando se le aplica un [voltaje](../../../glossary.md#voltaje) v(t) = 120cos(377t) V. Determine:
+a) La [potencia activa](../../../glossary.md#potencia-activa) P
+b) La [potencia reactiva](../../../glossary.md#potencia-reactiva) Q
+c) La [potencia aparente](../../../glossary.md#potencia-aparente) S
+d) El [factor de potencia](../../../glossary.md#factor-potencia)
+e) La corriente que debe suministrar un [capacitor](../../../glossary.md#capacitancia) para corregir el FP a 0.95 en atraso
 
 ## Diagrama del Circuito
 
@@ -191,4 +191,4 @@ I = 6.45 A, θ = -18.19°, FP = 0.95
 - Triángulo de potencias
 - Factor de potencia y su significado físico
 - Corrección de FP con capacitores
-- Relación entre valores pico y RMS
+- Relación entre valores pico y [RMS](../../../glossary.md#valor-eficaz)

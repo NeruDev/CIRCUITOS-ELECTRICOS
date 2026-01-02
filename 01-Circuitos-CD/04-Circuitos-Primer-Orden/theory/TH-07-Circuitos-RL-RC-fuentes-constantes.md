@@ -9,7 +9,7 @@
 
 ### Método General de Solución
 
-Para cualquier circuito de primer orden con fuente constante:
+Para cualquier [circuito](../../../glossary.md#circuito) de primer orden con fuente constante:
 
 $$x(t) = x(\infty) + [x(0^+) - x(\infty)]e^{-t/\tau}$$
 
@@ -88,7 +88,7 @@ v_C(0⁻) = 6V
 
 1. **v_C(0⁺)** = v_C(0⁻) = 6V
 
-2. **v_C(∞):** Divisor de voltaje
+2. **v_C(∞):** Divisor de [voltaje](../../../glossary.md#voltaje)
    - v_C(∞) = 12 × 6/(4+6) = 7.2V
 
 3. **τ:** R_eq vista por C

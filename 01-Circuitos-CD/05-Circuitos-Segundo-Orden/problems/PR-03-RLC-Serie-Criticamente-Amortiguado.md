@@ -1,11 +1,11 @@
 # PR-03: Circuito RLC Serie - Críticamente Amortiguado ⭐⭐⭐
 
 ## Enunciado
-Un circuito RLC serie tiene L = 1H y C = 1mF. Determine:
+Un [circuito](../../../glossary.md#circuito) RLC serie tiene L = 1H y C = 1mF. Determine:
 a) El valor de R para amortiguamiento crítico
 b) La expresión para i(t) si v(0) = 10V e iL(0) = 0A
 c) El tiempo en que i(t) alcanza su máximo
-d) El valor máximo de la corriente
+d) El valor máximo de la [corriente](../../../glossary.md#corriente)
 
 ## Diagrama del Circuito
 
@@ -66,7 +66,7 @@ $$R_{crit} = 2\sqrt{\frac{1}{10^{-3}}} = 2\sqrt{1000} = 2 \times 31.62$$
 
 $$\boxed{R_{crit} = 63.25\text{ Ω}}$$
 
-**Frecuencia crítica:**
+**[Frecuencia](../../../glossary.md#frecuencia) crítica:**
 $$\omega_0 = \alpha = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{(1)(10^{-3})}} = \frac{1}{0.03162} = 31.62\text{ rad/s}$$
 
 ### Parte b) Expresión de i(t)
@@ -106,7 +106,7 @@ $$\boxed{i(t) = -10t \cdot e^{-31.62t}\text{ A}}$$
 
 **Verificación:**
 - i(0) = -10(0)e⁰ = 0 A ✓
-- El signo negativo indica que la corriente fluye en dirección opuesta a la referencia (el capacitor se descarga)
+- El signo negativo indica que la corriente fluye en dirección opuesta a la referencia (el [capacitor](../../../glossary.md#capacitancia) se descarga)
 
 **Forma con signo correcto (corriente de descarga):**
 Si definimos la corriente positiva en la dirección de descarga del capacitor:
@@ -201,5 +201,5 @@ t=200ms:   I(L1) = 2.9mA,   V(3) = 0.15V
 - Amortiguamiento crítico: α = ω₀
 - Raíces repetidas: s₁ = s₂ = -α
 - Forma de solución: (A₁ + A₂t)e⁻αᵗ
-- Resistencia crítica: R = 2√(L/C)
+- [Resistencia](../../../glossary.md#resistencia) crítica: R = 2√(L/C)
 - Respuesta más rápida sin oscilaciones

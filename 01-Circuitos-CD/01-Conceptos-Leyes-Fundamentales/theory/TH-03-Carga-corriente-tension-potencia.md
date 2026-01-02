@@ -1,8 +1,8 @@
 # TH-03: Carga, Corriente, Tensión y Potencia
 
 ## Objetivos
-- Definir carga eléctrica y sus propiedades
-- Comprender el concepto de corriente eléctrica
+- Definir [carga](../../../glossary.md#carga) eléctrica y sus propiedades
+- Comprender el concepto de [corriente](../../../glossary.md#corriente) eléctrica
 - Entender la tensión como diferencia de potencial
 - Calcular potencia y energía en circuitos
 
@@ -45,7 +45,7 @@ La **energía** es la capacidad de realizar trabajo.
 
 $$w = \int_{t_0}^{t} p \, dt = \int_{t_0}^{t} vi \, dt$$
 
-- Unidad: Joule (J) = Watt·segundo
+- Unidad: Joule (J) = [Watt](../../../glossary.md#watt)·segundo
 - También: kWh (kilovatio-hora)
 
 ## Convención de Signos

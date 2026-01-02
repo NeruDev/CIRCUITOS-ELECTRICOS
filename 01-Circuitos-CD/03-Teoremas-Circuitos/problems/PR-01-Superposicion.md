@@ -1,7 +1,7 @@
 # PR-01: Teorema de Superposición ⭐⭐
 
 ## Enunciado
-Utilizando el teorema de superposición, determine la corriente Ix que circula por la resistencia R₂.
+Utilizando el [teorema de](../../../glossary.md#norton) [superposición](../../../glossary.md#superposicion), determine la [corriente](../../../glossary.md#corriente) Ix que circula por la [resistencia](../../../glossary.md#resistencia) R₂.
 - V₁ = 12V, I₂ = 2A
 - R₁ = 6Ω, R₂ = 3Ω, R₃ = 6Ω
 
@@ -111,7 +111,7 @@ cortocircuito   R₂=3Ω        (I₂)↓
     └─────────────┴─────────────┘
 ```
 
-**Análisis del circuito:**
+**Análisis del [circuito](../../../glossary.md#circuito):**
 - R₁ está en paralelo con R₂ (ambas conectadas entre el mismo par de nodos)
 - Esa combinación está en serie con R₃
 
@@ -119,13 +119,13 @@ $$R_{12} = R_1 \| R_2 = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\text{ Ω}$$
 
 $$R_{total} = R_{12} + R_3 = 2 + 6 = 8\text{ Ω}$$
 
-**Voltaje en el nodo central:**
+**[Voltaje](../../../glossary.md#voltaje) en el [nodo](../../../glossary.md#nodo) central:**
 $$V_{nodo} = I_2 \times R_{12} = 2 \times 2 = 4\text{ V}$$
 
 **Corriente por R₂:**
 $$I_x'' = \frac{V_{nodo}}{R_2} = \frac{4}{3} = 1.333\text{ A}$$
 
-Usando divisor de corriente:
+Usando [divisor de corriente](../../../glossary.md#divisor-corriente):
 $$I_x'' = I_2 \times \frac{R_1}{R_1 + R_2} = 2 \times \frac{6}{6 + 3} = 2 \times \frac{6}{9} = 1.333\text{ A}$$
 
 La corriente fluye hacia abajo por R₂ (mismo sentido que Ix).
@@ -187,6 +187,6 @@ I(R2) = 1.3333E+00
 4. **No aplica a potencia:** P ≠ P' + P''
 
 ## Conceptos Aplicados
-- Teorema de superposición
+- [Teorema de](../../../glossary.md#thevenin) superposición
 - Desactivación de fuentes
 - Suma algebraica de respuestas parciales

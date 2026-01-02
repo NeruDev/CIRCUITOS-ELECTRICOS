@@ -1,7 +1,7 @@
 # PR-02: Circuito RLC Paralelo - Respuesta Natural Sobreamortiguada ⭐⭐⭐
 
 ## Enunciado
-En el circuito RLC paralelo mostrado, las condiciones iniciales son v(0) = 0V e iL(0) = 2A. Determine:
+En el [circuito](../../../glossary.md#circuito) RLC paralelo mostrado, las condiciones iniciales son v(0) = 0V e iL(0) = 2A. Determine:
 a) Las raíces de la ecuación característica
 b) El tipo de respuesta
 c) La expresión para v(t) para t ≥ 0
@@ -61,7 +61,7 @@ $$s^2 + \frac{1}{RC}s + \frac{1}{LC} = 0$$
 **Coeficiente de amortiguamiento (α):**
 $$\alpha = \frac{1}{2RC} = \frac{1}{2(200)(200 \times 10^{-6})} = \frac{1}{0.08} = 12.5\text{ rad/s}$$
 
-**Frecuencia de resonancia (ω₀):**
+**[Frecuencia](../../../glossary.md#frecuencia) de [resonancia](../../../glossary.md#resonancia) (ω₀):**
 $$\omega_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{(0.05)(200 \times 10^{-6})}} = \frac{1}{\sqrt{10^{-5}}}$$
 $$\omega_0 = \frac{1}{3.162 \times 10^{-3}} = 316.2\text{ rad/s}$$
 
@@ -243,4 +243,4 @@ t=500ms:  V(1) = -0.13V, I(L1) = 0.013A
 - Respuesta sobreamortiguada (sin oscilaciones)
 - Dos constantes de tiempo exponenciales
 - Factor de amortiguamiento ζ > 1
-- Balance de corrientes LCK
+- Balance de corrientes [LCK](../../../glossary.md#lck)

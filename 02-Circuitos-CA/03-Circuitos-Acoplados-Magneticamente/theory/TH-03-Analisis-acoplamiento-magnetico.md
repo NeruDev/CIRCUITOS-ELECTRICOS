@@ -1,7 +1,7 @@
 # TH-03: Análisis de Circuitos con Acoplamiento Magnético
 
 ## Objetivos
-- Escribir las ecuaciones de malla para circuitos acoplados
+- Escribir las ecuaciones de [malla](../../../glossary.md#malla) para circuitos acoplados
 - Aplicar métodos de análisis a transformadores
 - Resolver circuitos con múltiples acoplamientos
 
@@ -16,7 +16,7 @@
 
 ### Ecuaciones de Malla con Acoplamiento
 
-Para un circuito con dos mallas acopladas:
+Para un [circuito](../../../glossary.md#circuito) con dos mallas acopladas:
 
 ```
       R₁        •          R₂
@@ -38,7 +38,7 @@ $$0 = j\omega M \mathbf{I}_1 + (R_2 + j\omega L_2 + \mathbf{Z}_L)\mathbf{I}_2$$
 
 ### Determinación del Signo de M
 
-**Paso 1:** Asignar direcciones de corriente de malla
+**Paso 1:** Asignar direcciones de [corriente](../../../glossary.md#corriente) de malla
 
 **Paso 2:** Verificar la dirección de cada corriente respecto a los puntos:
 - Si ambas entran (o salen) por los puntos: +M

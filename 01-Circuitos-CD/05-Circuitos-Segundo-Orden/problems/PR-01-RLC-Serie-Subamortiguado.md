@@ -1,7 +1,7 @@
 # PR-01: Circuito RLC Serie - Respuesta Natural Subamortiguada ⭐⭐⭐
 
 ## Enunciado
-El interruptor del circuito RLC serie ha estado cerrado por largo tiempo. En t = 0 se abre el interruptor. Determine:
+El interruptor del [circuito](../../../glossary.md#circuito) RLC serie ha estado cerrado por largo tiempo. En t = 0 se abre el interruptor. Determine:
 a) Las raíces de la ecuación característica
 b) El tipo de amortiguamiento
 c) La expresión para v(t) para t ≥ 0
@@ -66,7 +66,7 @@ $$s^2 + \frac{R}{L}s + \frac{1}{LC} = 0$$
 **Coeficiente de amortiguamiento (α):**
 $$\alpha = \frac{R}{2L} = \frac{200}{2(0.5)} = 200\text{ rad/s}$$
 
-**Frecuencia de resonancia (ω₀):**
+**[Frecuencia](../../../glossary.md#frecuencia) de [resonancia](../../../glossary.md#resonancia) (ω₀):**
 $$\omega_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{0.5 \times 10 \times 10^{-6}}} = \frac{1}{\sqrt{5 \times 10^{-6}}}$$
 $$\omega_0 = \frac{1}{2.236 \times 10^{-3}} = 447.2\text{ rad/s}$$
 
@@ -108,9 +108,9 @@ $$A_1 = 10\text{ V}$$
 2) Derivada en t = 0⁺:
 $$\frac{dv(0^+)}{dt} = \frac{i_C(0^+)}{C}$$
 
-En t = 0⁺, por LVK: $v_R + v_L + v_C = 0$
+En t = 0⁺, por [LVK](../../../glossary.md#lvk): $v_R + v_L + v_C = 0$
 
-La corriente del inductor fluye por todo el circuito serie:
+La [corriente](../../../glossary.md#corriente) del [inductor](../../../glossary.md#inductancia) fluye por todo el circuito serie:
 $$i_C(0^+) = i_L(0^+) = 50\text{ mA}$$
 
 $$\frac{dv(0^+)}{dt} = \frac{0.05}{10 \times 10^{-6}} = 5000\text{ V/s}$$

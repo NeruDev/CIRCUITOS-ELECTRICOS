@@ -1,10 +1,16 @@
 # PR-01: Aplicación Básica de la Ley de Ohm ⭐
 
 ## Enunciado
-En el circuito mostrado, una fuente de voltaje de 12V alimenta una resistencia de 4kΩ. Determine:
-a) La corriente que circula por el circuito
+En el [circuito](../../../glossary.md#circuito) mostrado, una fuente de [voltaje](../../../glossary.md#voltaje) de 12V alimenta una [resistencia](../../../glossary.md#resistencia) de 4kΩ. Determine:
+a) La [corriente](../../../glossary.md#corriente) que circula por el circuito
 b) La potencia disipada en la resistencia
 c) La energía consumida en 2 horas
+
+## 📚 Teoría Relacionada
+> Antes de resolver, revisa los conceptos fundamentales:
+> - [TH-05: Ley de Ohm y Leyes de Kirchhoff](../theory/TH-05-Ley-Ohm-Leyes-Kirchhoff.md) - Relación V = IR y cálculo de potencia
+> - [TH-03: Carga, Corriente, Tensión y Potencia](../theory/TH-03-Carga-corriente-tension-potencia.md) - Definiciones básicas
+> - [Glosario: Ley de Ohm](../../../glossary.md#o) | [Resistencia](../../../glossary.md#r)
 
 ## Diagrama del Circuito
 
@@ -41,7 +47,7 @@ R1 1 0 4k          ; Resistencia de 4kΩ entre nodo 1 y tierra
 
 ### Parte a) Corriente en el circuito
 
-Aplicando la Ley de Ohm:
+Aplicando la [Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad):
 $$I = \frac{V}{R} = \frac{12\text{ V}}{4000\text{ Ω}} = 0.003\text{ A} = 3\text{ mA}$$
 
 ### Parte b) Potencia disipada

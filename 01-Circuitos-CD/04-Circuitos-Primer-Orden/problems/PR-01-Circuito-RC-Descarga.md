@@ -1,9 +1,9 @@
 # PR-01: Circuito RC - Respuesta Natural (Descarga) ⭐⭐
 
 ## Enunciado
-Un capacitor de 100μF está inicialmente cargado a 50V. En t = 0, se conecta a una resistencia de 10kΩ. Determine:
-a) La constante de tiempo del circuito
-b) La expresión del voltaje v(t) para t ≥ 0
+Un [capacitor](../../../glossary.md#capacitancia) de 100μF está inicialmente cargado a 50V. En t = 0, se conecta a una [resistencia](../../../glossary.md#resistencia) de 10kΩ. Determine:
+a) La constante de tiempo del [circuito](../../../glossary.md#circuito)
+b) La expresión del [voltaje](../../../glossary.md#voltaje) v(t) para t ≥ 0
 c) El voltaje en el capacitor en t = 1s y t = 5τ
 d) El tiempo requerido para que el voltaje caiga a 5V
 e) La energía inicial almacenada y la disipada en 2τ

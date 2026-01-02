@@ -9,7 +9,7 @@
 
 ### Red de Dos Puertos
 
-Una **red de dos puertos** es un circuito eléctrico con dos pares de terminales (puertos) para conexión externa.
+Una **red de dos puertos** es un [circuito](../../../glossary.md#circuito) eléctrico con dos pares de terminales (puertos) para conexión externa.
 
 ```
         ┌─────────────────┐
@@ -26,7 +26,7 @@ Una **red de dos puertos** es un circuito eléctrico con dos pares de terminales
 
 - **Puerto 1 (entrada):** V₁, I₁
 - **Puerto 2 (salida):** V₂, I₂
-- La corriente que entra por cada terminal superior es positiva
+- La [corriente](../../../glossary.md#corriente) que entra por cada terminal superior es positiva
 
 ### Conjuntos de Parámetros
 

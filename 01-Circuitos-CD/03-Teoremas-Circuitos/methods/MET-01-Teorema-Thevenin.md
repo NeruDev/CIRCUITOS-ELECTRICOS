@@ -2,12 +2,12 @@
 
 ## Descripción del Método
 
-El **Teorema de Thévenin** establece que cualquier circuito lineal de dos terminales puede ser reemplazado por un circuito equivalente que consiste en:
-- Una **fuente de voltaje** Vth (voltaje de Thévenin)
-- Una **resistencia en serie** Rth (resistencia de Thévenin)
+El **[Teorema de](../../../glossary.md#norton) [Thévenin](../../../glossary.md#thevenin)** establece que cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede ser reemplazado por un circuito equivalente que consiste en:
+- Una **fuente de [voltaje](../../../glossary.md#voltaje)** Vth (voltaje de Thévenin)
+- Una **[resistencia](../../../glossary.md#resistencia) en serie** Rth (resistencia de Thévenin)
 
 ### Utilidad
-- Simplifica el análisis cuando se cambia la carga
+- Simplifica el análisis cuando se cambia la [carga](../../../glossary.md#carga)
 - Facilita cálculos de máxima transferencia de potencia
 - Permite caracterizar circuitos complejos con solo dos parámetros
 
@@ -92,7 +92,7 @@ $$I_{R2} = 0 \Rightarrow V_{R2} = 0$$
 
 El voltaje Vth = voltaje en R₃
 
-Corriente por R₁ y R₃ (en serie):
+[Corriente](../../../glossary.md#corriente) por R₁ y R₃ (en serie):
 $$I = \frac{32}{R_1 + R_3} = \frac{32}{4 + 6} = \frac{32}{10} = 3.2\text{ A}$$
 
 Voltaje en R₃:
@@ -170,7 +170,7 @@ Pero con a-b abierto, R₂ está en serie con circuito abierto → I_R2 = 0
 Toda la corriente 4A pasa por R₁:
 $$V_{R1} = 4 \times 6 = 24\text{ V}$$
 
-Voltaje del nodo intermedio respecto a b:
+Voltaje del [nodo](../../../glossary.md#nodo) intermedio respecto a b:
 $$V_{nodo} = 24\text{ V}$$
 
 Voltaje en R₃ (con I = 0 en R₂):
@@ -187,7 +187,7 @@ $$V_{th} = V_a - V_b = V_{nodo} - I_{R2} \times R_2 = 24 - 0 \times 3 = 24\text{
 
 Hmm, reconsideremos la topología. Con a-b abierto:
 - El nodo tiene potencial V_n
-- $I_{R1} + I_{R3} = 4A$ (LCK)
+- $I_{R1} + I_{R3} = 4A$ ([LCK](../../../glossary.md#lck))
 - $I_{R1} = V_n/R_1$... 
 
 Revisión: La fuente de corriente tiene su terminal + arriba.

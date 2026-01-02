@@ -22,7 +22,7 @@ $$\begin{bmatrix} \mathbf{V}_1 \\ \mathbf{V}_2 \end{bmatrix} = \begin{bmatrix} z
 $$\begin{bmatrix} \mathbf{I}_1 \\ \mathbf{I}_2 \end{bmatrix} = \begin{bmatrix} y_{11} & y_{12} \\ y_{21} & y_{22} \end{bmatrix} \begin{bmatrix} \mathbf{V}_1 \\ \mathbf{V}_2 \end{bmatrix}$$
 
 **Definiciones:**
-- $y_{11} = \frac{I_1}{V_1}\bigg|_{V_2=0}$ (admitancia de entrada con salida en corto)
+- $y_{11} = \frac{I_1}{V_1}\bigg|_{V_2=0}$ ([admitancia](../../../glossary.md#admitancia) de entrada con salida en corto)
 - $y_{12} = \frac{I_1}{V_2}\bigg|_{V_1=0}$ (admitancia de transferencia inversa)
 - $y_{21} = \frac{I_2}{V_1}\bigg|_{V_2=0}$ (admitancia de transferencia directa)
 - $y_{22} = \frac{I_2}{V_2}\bigg|_{V_1=0}$ (admitancia de salida con entrada en corto)
@@ -44,10 +44,10 @@ $$\begin{bmatrix} \mathbf{V}_1 \\ \mathbf{I}_2 \end{bmatrix} = \begin{bmatrix} h
 $$\begin{bmatrix} \mathbf{V}_1 \\ \mathbf{I}_1 \end{bmatrix} = \begin{bmatrix} A & B \\ C & D \end{bmatrix} \begin{bmatrix} \mathbf{V}_2 \\ -\mathbf{I}_2 \end{bmatrix}$$
 
 **Definiciones:**
-- $A = \frac{V_1}{V_2}\bigg|_{I_2=0}$ (ganancia de voltaje inversa, salida abierta)
-- $B = -\frac{V_1}{I_2}\bigg|_{V_2=0}$ (impedancia de transferencia)
+- $A = \frac{V_1}{V_2}\bigg|_{I_2=0}$ (ganancia de [voltaje](../../../glossary.md#voltaje) inversa, salida abierta)
+- $B = -\frac{V_1}{I_2}\bigg|_{V_2=0}$ ([impedancia](../../../glossary.md#impedancia) de transferencia)
 - $C = \frac{I_1}{V_2}\bigg|_{I_2=0}$ (admitancia de transferencia)
-- $D = -\frac{I_1}{I_2}\bigg|_{V_2=0}$ (ganancia de corriente inversa)
+- $D = -\frac{I_1}{I_2}\bigg|_{V_2=0}$ (ganancia de [corriente](../../../glossary.md#corriente) inversa)
 
 **Aplicación:** Análisis de redes en cascada.
 
@@ -85,7 +85,7 @@ donde $\Delta_z = z_{11}z_{22} - z_{12}z_{21}$
 - z₂₂ = Z₂ + Z₃
 
 ## Conceptos Clave
-- z: condiciones de circuito abierto
+- z: condiciones de [circuito](../../../glossary.md#circuito) abierto
 - y: condiciones de cortocircuito
 - h: mezclado, útil para transistores
 - T: útil para cascada

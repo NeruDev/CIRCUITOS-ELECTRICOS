@@ -1,11 +1,11 @@
 # PR-01: Sistema Trifásico Balanceado Y-Y ⭐⭐
 
 ## Enunciado
-Un sistema trifásico balanceado tiene una fuente en estrella (Y) con voltaje de línea VL = 380V conectada a una carga balanceada también en Y con ZY = 30 + j40 Ω por fase. Determine:
+Un sistema [trifásico](../../../glossary.md#trifasico) balanceado tiene una fuente en [estrella](../../../glossary.md#estrella) (Y) con [voltaje](../../../glossary.md#voltaje) de línea VL = 380V conectada a una [carga](../../../glossary.md#carga) balanceada también en Y con ZY = 30 + j40 Ω por fase. Determine:
 a) Los voltajes de fase de la fuente
 b) Las corrientes de línea
-c) La potencia activa, reactiva y aparente total
-d) El factor de potencia
+c) La [potencia activa](../../../glossary.md#potencia-activa), reactiva y aparente total
+d) El [factor de potencia](../../../glossary.md#factor-potencia)
 
 Secuencia de fases: positiva (abc)
 
@@ -81,7 +81,7 @@ Lc 3 0 106m
 
 ### Datos
 - VL = 380 V (voltaje de línea)
-- ZY = 30 + j40 Ω (impedancia de carga por fase)
+- ZY = 30 + j40 Ω ([impedancia](../../../glossary.md#impedancia) de carga por fase)
 - Secuencia: positiva (abc)
 
 ### Parte a) Voltajes de fase de la fuente
@@ -145,7 +145,7 @@ El factor de potencia está en atraso porque la carga es inductiva (parte imagin
 
 ## Verificación: Corriente de neutro
 
-En sistema balanceado, la corriente de neutro debe ser cero:
+En sistema balanceado, la [corriente](../../../glossary.md#corriente) de neutro debe ser cero:
 $$I_n = I_a + I_b + I_c$$
 
 En forma rectangular:

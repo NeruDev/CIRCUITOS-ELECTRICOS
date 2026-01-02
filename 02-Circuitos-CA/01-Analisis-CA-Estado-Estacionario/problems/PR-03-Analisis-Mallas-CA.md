@@ -1,9 +1,9 @@
 # PR-03: Análisis de Mallas en CA ⭐⭐⭐
 
 ## Enunciado
-Para el circuito CA mostrado, usando análisis de mallas en el dominio fasorial, determine:
-a) Las corrientes de malla I₁ e I₂
-b) El voltaje en el capacitor VC
+Para el [circuito](../../../glossary.md#circuito) CA mostrado, usando análisis de mallas en el dominio fasorial, determine:
+a) Las corrientes de [malla](../../../glossary.md#malla) I₁ e I₂
+b) El [voltaje](../../../glossary.md#voltaje) en el [capacitor](../../../glossary.md#capacitancia) VC
 c) La potencia compleja entregada por la fuente
 d) Las expresiones en el dominio del tiempo
 
@@ -123,10 +123,10 @@ $$\mathbf{S} = 334.8\angle 35.54° = 272.3 + j194.7\text{ VA}$$
 $$\boxed{\mathbf{S} = 334.8\angle 35.54° \text{ VA}}$$
 
 **Componentes de potencia:**
-- Potencia activa: $P = 272.3$ W
-- Potencia reactiva: $Q = 194.7$ VAR (inductiva positiva)
-- Potencia aparente: $|S| = 334.8$ VA
-- Factor de potencia: $\cos(35.54°) = 0.813$ en atraso
+- [Potencia activa](../../../glossary.md#potencia-activa): $P = 272.3$ W
+- [Potencia reactiva](../../../glossary.md#potencia-reactiva): $Q = 194.7$ VAR (inductiva positiva)
+- [Potencia aparente](../../../glossary.md#potencia-aparente): $|S| = 334.8$ VA
+- [Factor de potencia](../../../glossary.md#factor-potencia): $\cos(35.54°) = 0.813$ en atraso
 
 ### Parte d) Expresiones en el dominio del tiempo
 
@@ -147,7 +147,7 @@ $$= 3.55\angle -46.83°\text{ A}$$
 
 $$\mathbf{V}_L = 3.55\angle -46.83° \times 20\angle 90° = 71.0\angle 43.17°\text{ V}$$
 
-**Verificación LVK (Malla 1):**
+**Verificación [LVK](../../../glossary.md#lvk) (Malla 1):**
 $$V_s = V_{R1} + V_L$$
 
 - $V_{R1} = I_1 \times R_1 = 2.79\angle -35.54° \times 30 = 83.7\angle -35.54°$ V

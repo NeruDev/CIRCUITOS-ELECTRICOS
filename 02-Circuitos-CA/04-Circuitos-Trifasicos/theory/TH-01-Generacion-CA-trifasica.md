@@ -9,7 +9,7 @@
 
 ### Sistema Trifásico
 
-Un **sistema trifásico** consiste en tres voltajes senoidales de igual magnitud y frecuencia, desfasados 120° entre sí.
+Un **sistema [trifásico](../../../glossary.md#trifasico)** consiste en tres voltajes senoidales de igual magnitud y [frecuencia](../../../glossary.md#frecuencia), desfasados 120° entre sí.
 
 ### Generación de Voltajes Trifásicos
 

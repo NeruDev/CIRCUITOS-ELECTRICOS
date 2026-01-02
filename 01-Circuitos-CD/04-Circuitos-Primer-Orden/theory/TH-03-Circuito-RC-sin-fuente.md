@@ -1,9 +1,9 @@
 # TH-03: Circuito RC sin Fuente
 
 ## Objetivos
-- Analizar la respuesta natural del circuito RC
+- Analizar la respuesta natural del [circuito](../../../glossary.md#circuito) RC
 - Calcular la constante de tiempo
-- Determinar el voltaje y corriente en función del tiempo
+- Determinar el [voltaje](../../../glossary.md#voltaje) y [corriente](../../../glossary.md#corriente) en función del tiempo
 
 ## Contenido
 
@@ -18,12 +18,12 @@
   ○─────○
 ```
 
-En t < 0, el capacitor tiene un voltaje inicial V₀.
+En t < 0, el [capacitor](../../../glossary.md#capacitancia) tiene un voltaje inicial V₀.
 En t = 0, se cierra el interruptor.
 
 ### Ecuación Diferencial
 
-Aplicando LCK:
+Aplicando [LCK](../../../glossary.md#lck):
 $$C\frac{dv}{dt} + \frac{v}{R} = 0$$
 
 Ecuación diferencial de primer orden homogénea.
@@ -57,7 +57,7 @@ $$i_R(t) = \frac{v(t)}{R} = \frac{V_0}{R} e^{-t/\tau}$$
 La energía inicial almacenada en el capacitor:
 $$w_C(0) = \frac{1}{2}CV_0^2$$
 
-Esta energía se disipa completamente en el resistor:
+Esta energía se disipa completamente en el [resistor](../../../glossary.md#resistencia):
 $$w_R = \int_0^{\infty} \frac{v^2}{R} \, dt = \frac{1}{2}CV_0^2$$
 
 ### Comportamiento Temporal

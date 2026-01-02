@@ -1,9 +1,9 @@
 # PR-07: Transformación Delta-Estrella ⭐⭐
 
 ## Enunciado
-Un circuito contiene una configuración delta (triángulo) con Ra = 30Ω, Rb = 60Ω, Rc = 90Ω conectada a una fuente de 120V. Determine:
-a) Las resistencias equivalentes en configuración estrella (Y)
-b) La corriente entregada por la fuente
+Un [circuito](../../../glossary.md#circuito) contiene una configuración [delta](../../../glossary.md#delta) (triángulo) con Ra = 30Ω, Rb = 60Ω, Rc = 90Ω conectada a una fuente de 120V. Determine:
+a) Las resistencias equivalentes en configuración [estrella](../../../glossary.md#estrella) (Y)
+b) La [corriente](../../../glossary.md#corriente) entregada por la fuente
 
 ## Diagrama del Circuito
 
@@ -84,7 +84,7 @@ $$R_3 = \frac{R_b \cdot R_c}{R_a + R_b + R_c}$$
 **Denominador común:**
 $$R_a + R_b + R_c = 30 + 60 + 90 = 180\text{ Ω}$$
 
-**Cálculo de R₁ (conectada al nodo a):**
+**Cálculo de R₁ (conectada al [nodo](../../../glossary.md#nodo) a):**
 $$R_1 = \frac{R_a \cdot R_b}{180} = \frac{(30)(60)}{180} = \frac{1800}{180} = 10\text{ Ω}$$
 
 **Cálculo de R₂ (conectada al nodo b):**
@@ -102,7 +102,7 @@ Asumiendo que los nodos b y c están conectados a tierra (referencia):
 
 $$R_{23} = \frac{R_2 \cdot R_3}{R_2 + R_3} = \frac{(15)(30)}{15 + 30} = \frac{450}{45} = 10\text{ Ω}$$
 
-**Resistencia total:**
+**[Resistencia](../../../glossary.md#resistencia) total:**
 $$R_{total} = R_1 + R_{23} = 10 + 10 = 20\text{ Ω}$$
 
 **Corriente de la fuente:**

@@ -1,14 +1,14 @@
 # TH-01: Introducción a los Circuitos Eléctricos
 
 ## Objetivos
-- Definir qué es un circuito eléctrico
+- Definir qué es un [circuito](../../../glossary.md#circuito) eléctrico
 - Comprender la importancia de los circuitos en la ingeniería
 - Identificar los componentes básicos de un circuito
 
 ## Contenido
 
 ### ¿Qué es un circuito eléctrico?
-Un **circuito eléctrico** es una interconexión de elementos eléctricos que proporciona una o más trayectorias cerradas para el flujo de corriente eléctrica.
+Un **circuito eléctrico** es una interconexión de elementos eléctricos que proporciona una o más trayectorias cerradas para el flujo de [corriente](../../../glossary.md#corriente) eléctrica.
 
 ### Importancia de los circuitos eléctricos
 Los circuitos eléctricos son fundamentales en:

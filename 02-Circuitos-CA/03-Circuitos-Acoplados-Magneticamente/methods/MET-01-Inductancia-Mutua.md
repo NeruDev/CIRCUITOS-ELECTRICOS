@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-Los **circuitos acoplados magnéticamente** contienen inductores que comparten flujo magnético, creando inductancia mutua. El análisis requiere considerar tanto la auto-inductancia como la inductancia mutua.
+Los **circuitos acoplados magnéticamente** contienen inductores que comparten flujo magnético, creando [inductancia](../../../glossary.md#inductancia) mutua. El análisis requiere considerar tanto la auto-inductancia como la inductancia mutua.
 
 ---
 
@@ -88,7 +88,7 @@ Las corrientes entran por los puntos: **signo positivo** en M.
 **Malla 1:**
 $$v_1 = L_1\frac{di_1}{dt} + M\frac{di_2}{dt}$$
 
-**Malla 2 (cortocircuito):**
+**[Malla](../../../glossary.md#malla) 2 (cortocircuito):**
 $$0 = M\frac{di_1}{dt} + L_2\frac{di_2}{dt}$$
 
 #### **Paso 2: Dominio fasorial**
@@ -124,14 +124,14 @@ $$\boxed{i_1(t) = 5.56\sin(100t)\text{ A}}$$
 $$\boxed{i_2(t) = -2.22\sin(100t)\text{ A}}$$
 
 ### Explicación
-La corriente i₂ fluye en dirección opuesta a i₁ debido a la ley de Lenz: el campo magnético inducido se opone al cambio del campo original. El acoplamiento magnético permite transferir energía sin conexión eléctrica directa.
+La [corriente](../../../glossary.md#corriente) i₂ fluye en dirección opuesta a i₁ debido a la [ley de](../../../glossary.md#ley-ohm) Lenz: el campo magnético inducido se opone al cambio del campo original. El acoplamiento magnético permite transferir energía sin conexión eléctrica directa.
 
 ---
 
 ## Ejemplo Clásico 2: Transformador con Carga
 
 ### Enunciado
-Un transformador tiene L₁ = 10 mH, L₂ = 40 mH, k = 0.9. La frecuencia es 1000 rad/s. El primario se conecta a 50∠0° V y el secundario a una carga de 100 Ω. Encuentre las corrientes y el voltaje en la carga.
+Un [transformador](../../../glossary.md#transformador) tiene L₁ = 10 mH, L₂ = 40 mH, k = 0.9. La [frecuencia](../../../glossary.md#frecuencia) es 1000 rad/s. El primario se conecta a 50∠0° V y el secundario a una [carga](../../../glossary.md#carga) de 100 Ω. Encuentre las corrientes y el [voltaje](../../../glossary.md#voltaje) en la carga.
 
 ### Diagrama
 ```
@@ -228,7 +228,7 @@ $$L_b = L_2 - M = 8 - 4 = 4\text{ H}$$
 $$L_c = M = 4\text{ H}$$
 
 ### Verificación
-**Con el circuito original:**
+**Con el [circuito](../../../glossary.md#circuito) original:**
 $$V_1 = j\omega L_1 I_1 + j\omega M I_2 = j\omega(5I_1 + 4I_2)$$
 $$V_2 = j\omega M I_1 + j\omega L_2 I_2 = j\omega(4I_1 + 8I_2)$$
 

@@ -1,7 +1,7 @@
 # PR-02: Teorema de Thévenin ⭐⭐
 
 ## Enunciado
-Encuentre el circuito equivalente de Thévenin visto desde los terminales a-b. Luego calcule la corriente que circula por una carga RL = 5Ω conectada entre dichos terminales.
+Encuentre el [circuito](../../../glossary.md#circuito) equivalente de [Thévenin](../../../glossary.md#thevenin) visto desde los terminales a-b. Luego calcule la [corriente](../../../glossary.md#corriente) que circula por una [carga](../../../glossary.md#carga) RL = 5Ω conectada entre dichos terminales.
 - Vs = 32V
 - R₁ = 4Ω, R₂ = 12Ω, R₃ = 6Ω
 
@@ -66,11 +66,11 @@ RL 2 0 5           ; Carga de 5Ω
 
 ### Paso 1: Calcular Vth (Voltaje de Thévenin)
 
-Vth es el voltaje de circuito abierto entre los terminales a-b.
+Vth es el [voltaje](../../../glossary.md#voltaje) de circuito abierto entre los terminales a-b.
 
 **Con terminales abiertos:**
 - No circula corriente por R₃ (está en serie con circuito abierto)
-- R₁ y R₂ forman un divisor de tensión
+- R₁ y R₂ forman un [divisor de tensión](../../../glossary.md#divisor-tension)
 
 $$V_{th} = V_s \times \frac{R_2}{R_1 + R_2} = 32 \times \frac{12}{4 + 12} = 32 \times \frac{12}{16} = 32 \times 0.75$$
 
@@ -78,7 +78,7 @@ $$V_{th} = 24\text{ V}$$
 
 ### Paso 2: Calcular Rth (Resistencia de Thévenin)
 
-Rth es la resistencia vista desde a-b con todas las fuentes independientes apagadas.
+Rth es la [resistencia](../../../glossary.md#resistencia) vista desde a-b con todas las fuentes independientes apagadas.
 
 **Apagando Vs (cortocircuito):**
 

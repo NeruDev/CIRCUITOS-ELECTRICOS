@@ -1,9 +1,9 @@
 # PR-04: Circuito RL - Respuesta Completa ⭐⭐
 
 ## Enunciado
-En t = 0 se cierra el interruptor en el circuito mostrado. Si la corriente inicial en el inductor es i(0⁻) = 1A, determine:
+En t = 0 se cierra el interruptor en el [circuito](../../../glossary.md#circuito) mostrado. Si la [corriente](../../../glossary.md#corriente) inicial en el [inductor](../../../glossary.md#inductancia) es i(0⁻) = 1A, determine:
 a) La corriente i(t) para t ≥ 0
-b) El voltaje vL(t) en el inductor
+b) El [voltaje](../../../glossary.md#voltaje) vL(t) en el inductor
 c) El tiempo para que i alcance el 90% del valor final
 d) La energía suministrada por la fuente en el intervalo 0 < t < 2τ
 
@@ -80,7 +80,7 @@ $$v_L(t) = 2 \times (-2)(-4)e^{-4t} = 16e^{-4t}\text{ V}$$
 
 $$\boxed{v_L(t) = 16e^{-4t}\text{ V}, \quad t \geq 0}$$
 
-**Verificación con LVK:**
+**Verificación con [LVK](../../../glossary.md#lvk):**
 $$v_R(t) = i(t) \times R = 8(3 - 2e^{-4t}) = 24 - 16e^{-4t}\text{ V}$$
 
 $$V_s = v_R + v_L$$

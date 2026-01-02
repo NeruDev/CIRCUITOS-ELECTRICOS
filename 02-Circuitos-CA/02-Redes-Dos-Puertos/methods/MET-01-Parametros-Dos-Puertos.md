@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-Una **red de dos puertos** es un circuito con dos pares de terminales: un puerto de entrada y uno de salida. Los parámetros de dos puertos relacionan los voltajes y corrientes de ambos puertos mediante matrices.
+Una **red de dos puertos** es un [circuito](../../../glossary.md#circuito) con dos pares de terminales: un puerto de entrada y uno de salida. Los parámetros de dos puertos relacionan los voltajes y corrientes de ambos puertos mediante matrices.
 
 ---
 
@@ -150,7 +150,7 @@ Con: Ya = 0.1 S, Yb = 0.05 S, Yc = 0.2 S
 ### Solución
 
 #### **Con V₂ = 0 (puerto 2 en corto):**
-Por LCK en nodo izquierdo:
+Por [LCK](../../../glossary.md#lck) en [nodo](../../../glossary.md#nodo) izquierdo:
 $$I_1 = V_1(Y_a + Y_b) = V_1(0.1 + 0.05) = 0.15V_1$$
 $$Y_{11} = \frac{I_1}{V_1} = 0.15\text{ S}$$
 
@@ -174,7 +174,7 @@ $$Y_{22} = Y_b + Y_c$$
 $$\boxed{[Y] = \begin{bmatrix} 0.15 & -0.05 \\ -0.05 & 0.25 \end{bmatrix}\text{ S}}$$
 
 ### Explicación
-Los signos negativos en Y₁₂ e Y₂₁ indican que la corriente en un puerto fluye en dirección opuesta cuando se excita el otro puerto.
+Los signos negativos en Y₁₂ e Y₂₁ indican que la [corriente](../../../glossary.md#corriente) en un puerto fluye en dirección opuesta cuando se excita el otro puerto.
 
 ---
 
@@ -183,9 +183,9 @@ Los signos negativos en Y₁₂ e Y₂₁ indican que la corriente en un puerto 
 ### Enunciado
 Dos redes de dos puertos están conectadas en cascada. Encuentre los parámetros ABCD totales.
 
-Red 1: $[ABCD]_1 = \begin{bmatrix} 1 & 10 \\ 0 & 1 \end{bmatrix}$ (Impedancia serie)
+Red 1: $[ABCD]_1 = \begin{bmatrix} 1 & 10 \\ 0 & 1 \end{bmatrix}$ ([Impedancia](../../../glossary.md#impedancia) serie)
 
-Red 2: $[ABCD]_2 = \begin{bmatrix} 1 & 0 \\ 0.1 & 1 \end{bmatrix}$ (Admitancia paralelo)
+Red 2: $[ABCD]_2 = \begin{bmatrix} 1 & 0 \\ 0.1 & 1 \end{bmatrix}$ ([Admitancia](../../../glossary.md#admitancia) paralelo)
 
 ### Diagrama
 ```

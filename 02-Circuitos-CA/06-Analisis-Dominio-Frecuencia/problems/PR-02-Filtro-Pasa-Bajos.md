@@ -2,7 +2,7 @@
 
 ## Enunciado
 Un filtro pasa-bajos RC de primer orden tiene R = 10kΩ y C = 10nF. Determine:
-a) La frecuencia de corte fc
+a) La [frecuencia](../../../glossary.md#frecuencia) de corte fc
 b) La función de transferencia H(jω)
 c) La ganancia en dB y fase a las frecuencias: 0.1fc, fc, 10fc
 d) Dibuje el diagrama de Bode (magnitud y fase)

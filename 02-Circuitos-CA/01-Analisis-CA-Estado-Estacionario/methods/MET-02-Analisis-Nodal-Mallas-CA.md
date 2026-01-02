@@ -9,7 +9,7 @@ Los métodos de análisis nodal y de mallas se aplican a circuitos CA de la mism
 ## Análisis Nodal en CA
 
 ### Ecuación Fundamental
-Por LCK en cada nodo:
+Por [LCK](../../../glossary.md#lck) en cada [nodo](../../../glossary.md#nodo):
 $$\sum \mathbf{I} = 0$$
 
 Usando admitancias:
@@ -39,7 +39,7 @@ $$[\mathbf{Z}][\mathbf{I}] = [\mathbf{V}_s]$$
 
 Donde:
 - $[\mathbf{Z}]$ = matriz de impedancias (complejas)
-- $[\mathbf{I}]$ = vector de corrientes de malla (fasores)
+- $[\mathbf{I}]$ = vector de corrientes de [malla](../../../glossary.md#malla) (fasores)
 - $[\mathbf{V}_s]$ = vector de voltajes de fuente
 
 ---
@@ -75,7 +75,7 @@ Donde:
 - Sentido horario (convención)
 
 ### Paso 3: Aplicar LVK en Cada Malla
-- Suma de caídas de voltaje = 0
+- Suma de caídas de [voltaje](../../../glossary.md#voltaje) = 0
 
 ### Paso 4: Resolver Sistema de Ecuaciones
 
@@ -86,7 +86,7 @@ Donde:
 ## Ejemplo Clásico 1: Análisis Nodal con 2 Fuentes
 
 ### Enunciado
-Determine V₁ y V₂ en el siguiente circuito donde ω = 4 rad/s.
+Determine V₁ y V₂ en el siguiente [circuito](../../../glossary.md#circuito) donde ω = 4 rad/s.
 
 ### Diagrama
 ```
@@ -103,10 +103,10 @@ Determine V₁ y V₂ en el siguiente circuito donde ω = 4 rad/s.
 
 **Datos:**
 - Fuente de voltaje: $\mathbf{V}_s = 20\angle 0°$ V
-- Fuente de corriente: $\mathbf{I}_s = 4\angle 0°$ A
+- Fuente de [corriente](../../../glossary.md#corriente): $\mathbf{I}_s = 4\angle 0°$ A
 - R₁ = 10 Ω, R₂ = 10 Ω
-- X_L = 8 Ω (inductor)
-- X_C = 5 Ω (capacitor)
+- X_L = 8 Ω ([inductor](../../../glossary.md#inductancia))
+- X_C = 5 Ω ([capacitor](../../../glossary.md#capacitancia))
 
 ### Solución
 
@@ -182,7 +182,7 @@ Encuentre las corrientes de malla I₁ e I₂ donde ω = 10 rad/s.
 ### Solución
 
 #### **Paso 1: Impedancias**
-- $\mathbf{Z}_1 = 4$ Ω (resistor)
+- $\mathbf{Z}_1 = 4$ Ω ([resistor](../../../glossary.md#resistencia))
 - $\mathbf{Z}_L = j3$ Ω (inductor)
 - $\mathbf{Z}_C = -j2$ Ω (capacitor)
 - $\mathbf{Z}_2 = 2$ Ω (resistor)

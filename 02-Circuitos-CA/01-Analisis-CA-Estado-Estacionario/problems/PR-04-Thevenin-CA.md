@@ -1,7 +1,7 @@
 # PR-04: Teorema de Thévenin en CA ⭐⭐⭐
 
 ## Enunciado
-Para el circuito mostrado, determine el equivalente de Thévenin visto desde los terminales a-b y luego calcule la corriente en una carga ZL = 10 + j5 Ω conectada entre dichos terminales.
+Para el [circuito](../../../glossary.md#circuito) mostrado, determine el equivalente de [Thévenin](../../../glossary.md#thevenin) visto desde los terminales a-b y luego calcule la [corriente](../../../glossary.md#corriente) en una [carga](../../../glossary.md#carga) ZL = 10 + j5 Ω conectada entre dichos terminales.
 
 Datos: Vs = 50∠30° V, R₁ = 10Ω, R₂ = 20Ω, XL = 15Ω, XC = 25Ω, ω = 1000 rad/s
 
@@ -55,15 +55,15 @@ C1 3 0 40u           ; C para XC = 25Ω
 - Vs = 50∠30° V
 - R₁ = 10 Ω
 - R₂ = 20 Ω
-- ZL = j15 Ω (inductor)
-- ZC = -j25 Ω (capacitor)
+- ZL = j15 Ω ([inductor](../../../glossary.md#inductancia))
+- ZC = -j25 Ω ([capacitor](../../../glossary.md#capacitancia))
 
 ### Paso 1: Calcular Vth (voltaje de circuito abierto)
 
 Con los terminales a-b abiertos, no fluye corriente por el inductor ni el capacitor en esa rama.
 
 **Análisis del circuito:**
-El circuito se puede ver como dos divisores de voltaje en paralelo desde la fuente.
+El circuito se puede ver como dos divisores de [voltaje](../../../glossary.md#voltaje) en paralelo desde la fuente.
 
 **Rama 1 (R₁ y L):**
 $$\mathbf{V}_a = V_s \times \frac{Z_L}{R_1 + Z_L} = 50\angle 30° \times \frac{j15}{10 + j15}$$

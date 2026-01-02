@@ -1,7 +1,7 @@
 # TH-07: Teorema de Reciprocidad en CA
 
 ## Objetivos
-- Aplicar el teorema de reciprocidad a circuitos CA
+- Aplicar el [teorema de](../../../glossary.md#norton) reciprocidad a circuitos CA
 - Identificar las condiciones de aplicabilidad
 - Verificar la reciprocidad en circuitos con elementos reactivos
 
@@ -9,7 +9,7 @@
 
 ### Enunciado para CA
 
-En un circuito lineal, bilateral, sin fuentes dependientes y con una sola frecuencia, si una fuente de excitación en la posición 1 produce una respuesta en la posición 2, entonces la misma fuente colocada en la posición 2 producirá la misma respuesta en la posición 1.
+En un [circuito](../../../glossary.md#circuito) lineal, bilateral, sin fuentes dependientes y con una sola [frecuencia](../../../glossary.md#frecuencia), si una fuente de excitación en la posición 1 produce una respuesta en la posición 2, entonces la misma fuente colocada en la posición 2 producirá la misma respuesta en la posición 1.
 
 ### Condiciones de Aplicabilidad
 
@@ -21,7 +21,7 @@ En un circuito lineal, bilateral, sin fuentes dependientes y con una sola frecue
 
 ### Formas del Teorema en CA
 
-**Forma 1: Fuente de Voltaje - Corriente**
+**Forma 1: Fuente de [Voltaje](../../../glossary.md#voltaje) - [Corriente](../../../glossary.md#corriente)**
 Si una fuente **Vs** en la rama k produce una corriente **I** en la rama j, entonces **Vs** en la rama j produce la misma corriente **I** en la rama k.
 
 **Forma 2: Fuente de Corriente - Voltaje**

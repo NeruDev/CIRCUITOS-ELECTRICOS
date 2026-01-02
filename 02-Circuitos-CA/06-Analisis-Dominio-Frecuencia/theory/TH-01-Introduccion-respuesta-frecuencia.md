@@ -1,7 +1,7 @@
 # TH-01: Introducción al Problema de Respuesta en Frecuencia
 
 ## Objetivos
-- Comprender el concepto de respuesta en frecuencia
+- Comprender el concepto de respuesta en [frecuencia](../../../glossary.md#frecuencia)
 - Definir la función de transferencia
 - Introducir magnitud y fase en función de la frecuencia
 
@@ -9,7 +9,7 @@
 
 ### ¿Qué es la Respuesta en Frecuencia?
 
-La **respuesta en frecuencia** describe cómo un circuito responde a señales de entrada senoidales de diferentes frecuencias.
+La **respuesta en frecuencia** describe cómo un [circuito](../../../glossary.md#circuito) responde a señales de entrada senoidales de diferentes frecuencias.
 
 ### Función de Transferencia
 

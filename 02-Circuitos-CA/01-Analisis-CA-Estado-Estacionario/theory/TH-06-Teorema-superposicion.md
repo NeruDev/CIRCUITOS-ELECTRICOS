@@ -1,15 +1,15 @@
 # TH-06: Teorema de Superposición en CA
 
 ## Objetivos
-- Aplicar superposición a circuitos CA
-- Manejar fuentes de diferente frecuencia
+- Aplicar [superposición](../../../glossary.md#superposicion) a circuitos CA
+- Manejar fuentes de diferente [frecuencia](../../../glossary.md#frecuencia)
 - Sumar respuestas en el dominio del tiempo
 
 ## Contenido
 
 ### Principio de Superposición en CA
 
-En un circuito lineal con múltiples fuentes CA, la respuesta total es la suma de las respuestas debidas a cada fuente actuando sola.
+En un [circuito](../../../glossary.md#circuito) lineal con múltiples fuentes CA, la respuesta total es la suma de las respuestas debidas a cada fuente actuando sola.
 
 ### Procedimiento (Fuentes de Misma Frecuencia)
 
@@ -32,8 +32,8 @@ $$v(t) = v_1(t) + v_2(t) + ... + v_n(t)$$
 
 ### Desactivar Fuentes
 
-**Fuente de voltaje AC:** Reemplazar por cortocircuito
-**Fuente de corriente AC:** Reemplazar por circuito abierto
+**Fuente de [voltaje](../../../glossary.md#voltaje) AC:** Reemplazar por cortocircuito
+**Fuente de [corriente](../../../glossary.md#corriente) AC:** Reemplazar por circuito abierto
 **Fuente DC:** Se trata como CA con ω = 0
 
 ### Ejemplo: Misma Frecuencia

@@ -1,11 +1,11 @@
 # PR-02: Transformador Ideal - Relación de Transformación ⭐⭐
 
 ## Enunciado
-Un transformador ideal tiene N₁ = 500 vueltas en el primario y N₂ = 100 vueltas en el secundario. Se conecta una carga ZL = 8Ω en el secundario y una fuente Vs = 120∠0° V en el primario. Determine:
+Un [transformador](../../../glossary.md#transformador) ideal tiene N₁ = 500 vueltas en el primario y N₂ = 100 vueltas en el secundario. Se conecta una [carga](../../../glossary.md#carga) ZL = 8Ω en el secundario y una fuente Vs = 120∠0° V en el primario. Determine:
 a) La relación de transformación n
-b) El voltaje en el secundario V₂
+b) El [voltaje](../../../glossary.md#voltaje) en el secundario V₂
 c) Las corrientes I₁ e I₂
-d) La impedancia vista desde el primario Zin
+d) La [impedancia](../../../glossary.md#impedancia) vista desde el primario Zin
 e) La potencia entregada a la carga
 
 ## Diagrama del Circuito

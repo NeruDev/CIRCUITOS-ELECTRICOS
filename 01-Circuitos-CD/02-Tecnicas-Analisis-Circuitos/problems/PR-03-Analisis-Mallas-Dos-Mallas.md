@@ -1,9 +1,15 @@
 # PR-03: Análisis de Mallas - Dos Mallas ⭐⭐
 
 ## Enunciado
-Utilizando el método de mallas, determine las corrientes de malla i₁ e i₂, y calcule la potencia entregada por cada fuente.
+Utilizando el método de mallas, determine las corrientes de [malla](../../../glossary.md#malla) i₁ e i₂, y calcule la potencia entregada por cada fuente.
 - V₁ = 20V, V₂ = 8V
 - R₁ = 5Ω, R₂ = 10Ω, R₃ = 15Ω
+
+## 📚 Teoría Relacionada
+> Antes de resolver, revisa los conceptos fundamentales:
+> - [TH-03: Método de Mallas, Eslabones y Lazos](../theory/TH-03-Metodo-mallas-eslabones-lazos.md) - Fundamento teórico del análisis de mallas
+> - [TH-01: Topología de Redes](../theory/TH-01-Topologia-redes.md) - Conceptos de mallas y lazos
+> - [Glosario: Malla](../../../glossary.md#m) | [LVK](../../../glossary.md#k)
 
 ## Diagrama del Circuito
 
@@ -30,6 +36,35 @@ Utilizando el método de mallas, determine las corrientes de malla i₁ e i₂, 
      - │              │            │ +
        │              │            │
        └──────────────┴────────────┘
+```
+
+**Diagrama de flujo del método de mallas (Mermaid):**
+```mermaid
+flowchart TD
+    subgraph Malla1["🔄 Malla 1 (i₁)"]
+        V1["+V₁ = 20V-"] --> R1["R₁ = 5Ω"]
+        R1 --> N1(("Nodo\nCompartido"))
+        N1 --> GND1["GND"]
+        GND1 --> V1
+    end
+    
+    subgraph Malla2["🔄 Malla 2 (i₂)"]
+        N1 --> R3["R₃ = 15Ω"]
+        R3 --> V2["-V₂ = 8V+"]
+        V2 --> GND2["GND"]
+        GND2 --> N1
+    end
+    
+    subgraph RamaCompartida["⚡ Rama Compartida"]
+        R2["R₂ = 10Ω\nI = i₁ - i₂"]
+    end
+    
+    N1 -.-> R2
+    R2 -.-> GND1
+    
+    style Malla1 fill:#e1f5fe,stroke:#0288d1
+    style Malla2 fill:#fff3e0,stroke:#f57c00
+    style RamaCompartida fill:#f3e5f5,stroke:#7b1fa2
 ```
 
 ## Netlist SPICE
@@ -93,7 +128,7 @@ $$i_2 = \frac{\begin{vmatrix} 15 & 20 \\ -10 & -8 \end{vmatrix}}{275} = \frac{(1
 
 ### Paso 4: Corrientes de rama
 
-**Corriente por R₁:**
+**[Corriente](../../../glossary.md#corriente) por R₁:**
 $$I_{R1} = i_1 = 1.527\text{ A}$$
 
 **Corriente por R₂ (rama compartida):**

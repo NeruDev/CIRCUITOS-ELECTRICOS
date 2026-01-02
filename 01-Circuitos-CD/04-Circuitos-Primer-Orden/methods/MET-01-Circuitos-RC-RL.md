@@ -2,10 +2,10 @@
 
 ## Descripción del Método
 
-Los circuitos de primer orden contienen **un solo elemento almacenador de energía** (capacitor o inductor) y resistencias. Su comportamiento se describe mediante ecuaciones diferenciales de primer orden.
+Los circuitos de primer orden contienen **un solo elemento almacenador de energía** ([capacitor](../../../glossary.md#capacitancia) o [inductor](../../../glossary.md#inductancia)) y resistencias. Su comportamiento se describe mediante ecuaciones diferenciales de primer orden.
 
 ### Tipos de Respuesta
-1. **Respuesta Natural:** Comportamiento del circuito sin fuentes externas (energía almacenada inicialmente)
+1. **Respuesta Natural:** Comportamiento del [circuito](../../../glossary.md#circuito) sin fuentes externas (energía almacenada inicialmente)
 2. **Respuesta Forzada:** Comportamiento debido a fuentes externas (estado estacionario)
 3. **Respuesta Completa:** Suma de respuesta natural + respuesta forzada
 
@@ -20,7 +20,7 @@ $$\tau = RC$$
 $$\tau = \frac{L}{R}$$
 
 ### Significado Físico
-- Tiempo para alcanzar ≈63.2% del valor final (carga)
+- Tiempo para alcanzar ≈63.2% del valor final ([carga](../../../glossary.md#carga))
 - Tiempo para decaer a ≈36.8% del valor inicial (descarga)
 - Después de 5τ, se considera que el circuito alcanzó estado estacionario (>99%)
 
@@ -69,9 +69,9 @@ $$v_C(t) = V_s(1 - e^{-t/\tau})$$
 ## Ejemplo Clásico 1: Carga de Capacitor
 
 ### Enunciado
-Un capacitor de 100 μF inicialmente descargado se conecta a través de una resistencia de 10 kΩ a una fuente de 12 V. Determine:
+Un capacitor de 100 μF inicialmente descargado se conecta a través de una [resistencia](../../../glossary.md#resistencia) de 10 kΩ a una fuente de 12 V. Determine:
 a) La constante de tiempo
-b) El voltaje en el capacitor a t = τ, 3τ, 5τ
+b) El [voltaje](../../../glossary.md#voltaje) en el capacitor a t = τ, 3τ, 5τ
 c) El tiempo para alcanzar 9 V
 
 ### Diagrama
@@ -172,7 +172,7 @@ La energía decae más rápido que el voltaje porque $W \propto v^2$. En un tiem
 ```
 
 ### Condiciones Iniciales en Inductor
-- **Corriente en inductor:** Continua (no puede cambiar instantáneamente)
+- **[Corriente](../../../glossary.md#corriente) en inductor:** Continua (no puede cambiar instantáneamente)
 $$i_L(0^+) = i_L(0^-)$$
 
 ### Respuesta Natural RL
@@ -229,7 +229,7 @@ $$\boxed{i(t) = 5e^{-2t}\text{ A para } t > 0}$$
 $$\boxed{v_L(t) = -20e^{-2t}\text{ V para } t > 0}$$
 
 ### Explicación de la Respuesta
-La corriente decae exponencialmente desde 5 A hasta 0 A con τ = 0.5 s. El voltaje negativo en el inductor indica que se opone al cambio de corriente (Ley de Lenz). En t = 0⁺, el inductor "ve" un voltaje de -20 V para tratar de mantener la corriente.
+La corriente decae exponencialmente desde 5 A hasta 0 A con τ = 0.5 s. El voltaje negativo en el inductor indica que se opone al cambio de corriente ([Ley de](../../../glossary.md#ley-ohm) Lenz). En t = 0⁺, el inductor "ve" un voltaje de -20 V para tratar de mantener la corriente.
 
 ---
 

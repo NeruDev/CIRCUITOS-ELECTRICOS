@@ -1,7 +1,7 @@
 # TH-02: Circuitos Trifásicos con Cargas Balanceadas en Estrella y Delta
 
 ## Objetivos
-- Analizar conexiones estrella (Y) y delta (Δ)
+- Analizar conexiones [estrella](../../../glossary.md#estrella) (Y) y [delta](../../../glossary.md#delta) (Δ)
 - Calcular voltajes y corrientes en sistemas balanceados
 - Aplicar equivalentes monofásicos
 
@@ -23,8 +23,8 @@ n ──────┼────── neutro
 
 **Características:**
 - Punto neutro común
-- Corriente de línea = corriente de fase
-- Voltaje de línea = √3 × voltaje de fase
+- [Corriente](../../../glossary.md#corriente) de línea = corriente de fase
+- [Voltaje](../../../glossary.md#voltaje) de línea = √3 × voltaje de fase
 
 **Relaciones:**
 $$I_L = I_f$$
@@ -56,7 +56,7 @@ $$\mathbf{I}_a = \mathbf{I}_{ab} - \mathbf{I}_{ca} = \sqrt{3}I_f\angle -30°$$
 ### Sistema Balanceado
 
 Un sistema es **balanceado** cuando:
-- Las tres impedancias de carga son iguales: Za = Zb = Zc = Z
+- Las tres impedancias de [carga](../../../glossary.md#carga) son iguales: Za = Zb = Zc = Z
 - Los voltajes de fuente están balanceados
 
 ### Equivalente Monofásico

@@ -1,12 +1,12 @@
 # PR-01: Resonancia en Circuito RLC Serie ⭐⭐⭐
 
 ## Enunciado
-Un circuito RLC serie tiene R = 10Ω, L = 10mH y C = 10μF. Determine:
-a) La frecuencia de resonancia f₀
+Un [circuito](../../../glossary.md#circuito) RLC serie tiene R = 10Ω, L = 10mH y C = 10μF. Determine:
+a) La [frecuencia](../../../glossary.md#frecuencia) de [resonancia](../../../glossary.md#resonancia) f₀
 b) El factor de calidad Q
 c) El ancho de banda BW
 d) Las frecuencias de corte (mitad de potencia)
-e) La impedancia y corriente a la frecuencia de resonancia si Vs = 10V
+e) La [impedancia](../../../glossary.md#impedancia) y [corriente](../../../glossary.md#corriente) a la frecuencia de resonancia si Vs = 10V
 
 ## Diagrama del Circuito
 
@@ -145,7 +145,7 @@ $$V_L = I_0 \times X_L = 1 \times 31.62 = 31.62\text{ V}$$
 
 $$V_C = I_0 \times X_C = 1 \times 31.62 = 31.62\text{ V}$$
 
-**Verificación LVK:**
+**Verificación [LVK](../../../glossary.md#lvk):**
 $$V_s = V_R + V_L + V_C = 10 + j31.62 - j31.62 = 10\text{ V ✓}$$
 
 Los voltajes en L y C son iguales en magnitud pero opuestos en fase, se cancelan.
@@ -209,4 +209,4 @@ f = 589 Hz:  I = 0.707A, θ = +45°
 - Factor de calidad Q = ω₀L/R = 1/(ω₀CR)
 - Ancho de banda BW = f₀/Q = R/(2πL)
 - Frecuencias de corte a -3dB
-- Amplificación de voltaje Q en L y C
+- Amplificación de [voltaje](../../../glossary.md#voltaje) Q en L y C

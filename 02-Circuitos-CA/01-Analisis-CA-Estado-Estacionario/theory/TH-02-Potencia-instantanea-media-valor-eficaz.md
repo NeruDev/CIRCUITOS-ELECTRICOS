@@ -2,14 +2,14 @@
 
 ## Objetivos
 - Calcular potencia instantánea y promedio
-- Comprender el valor eficaz (RMS)
-- Definir el factor de potencia
+- Comprender el [valor eficaz](../../../glossary.md#valor-eficaz) (RMS)
+- Definir el [factor de potencia](../../../glossary.md#factor-potencia)
 
 ## Contenido
 
 ### Potencia Instantánea
 
-La potencia instantánea es el producto del voltaje y la corriente instantáneos:
+La potencia instantánea es el producto del [voltaje](../../../glossary.md#voltaje) y la [corriente](../../../glossary.md#corriente) instantáneos:
 
 $$p(t) = v(t) \cdot i(t)$$
 
@@ -44,7 +44,7 @@ $$I_{rms} = \frac{I_m}{\sqrt{2}} \approx 0.707 I_m$$
 
 ### Significado del Valor Eficaz
 
-El valor eficaz de una señal CA produce la misma potencia en una resistencia que una señal DC del mismo valor.
+El valor eficaz de una señal CA produce la misma potencia en una [resistencia](../../../glossary.md#resistencia) que una señal DC del mismo valor.
 
 **Ejemplo:** 120 V AC (eficaz) produce la misma potencia que 120 V DC.
 
@@ -65,7 +65,7 @@ $$pf = \cos\theta$$
 
 $$P = S \cdot pf = V_{rms} I_{rms} \cos\theta$$
 
-Donde S = potencia aparente.
+Donde S = [potencia aparente](../../../glossary.md#potencia-aparente).
 
 ### Tabla de Valores
 

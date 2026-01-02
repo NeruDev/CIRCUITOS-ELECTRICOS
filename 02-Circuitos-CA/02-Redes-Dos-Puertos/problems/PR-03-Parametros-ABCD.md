@@ -3,8 +3,8 @@
 ## Enunciado
 Para el cuadripolo mostrado, determine:
 a) Los parámetros ABCD
-b) La impedancia de entrada con carga ZL = 100Ω
-c) La ganancia de voltaje Av = V₂/V₁
+b) La [impedancia](../../../glossary.md#impedancia) de entrada con [carga](../../../glossary.md#carga) ZL = 100Ω
+c) La ganancia de [voltaje](../../../glossary.md#voltaje) Av = V₂/V₁
 d) Los parámetros ABCD cuando dos redes idénticas se conectan en cascada
 
 Datos: R₁ = 50Ω, R₂ = 100Ω (configuración L)
@@ -88,14 +88,14 @@ Puerto 2 en cortocircuito. R₂ queda en paralelo con el cortocircuito (R₂ efe
 
 $$B = \frac{V_1}{I_2}\bigg|_{V_2=0}$$
 
-Con V₂ = 0: La corriente I₁ = V₁/R₁ (toda va por R₁).
+Con V₂ = 0: La [corriente](../../../glossary.md#corriente) I₁ = V₁/R₁ (toda va por R₁).
 La corriente I₂ que entra al puerto 2 es la que sale de R₂ hacia el cortocircuito.
 
 Con cortocircuito en puerto 2: I₂ = -I₁ (la corriente que entra es igual a la que sale, pero I₂ entra al puerto 2)
 
 Espera, analicemos mejor:
 - V₂ = 0 significa cortocircuito
-- I₁ fluye por R₁, llega al nodo, y se divide entre R₂ (a tierra) y el cortocircuito (puerto 2)
+- I₁ fluye por R₁, llega al [nodo](../../../glossary.md#nodo), y se divide entre R₂ (a tierra) y el cortocircuito (puerto 2)
 - Pero con V₂ = 0, todo el voltaje V₁ cae en R₁
 - La corriente por R₂ = V(nodo)/R₂ = 0/R₂ = 0 (el nodo está a 0V)
 - I₂ = I₁ (toda la corriente va al cortocircuito)

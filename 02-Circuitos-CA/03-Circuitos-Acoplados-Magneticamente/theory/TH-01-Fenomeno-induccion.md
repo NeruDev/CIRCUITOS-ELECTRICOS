@@ -1,8 +1,8 @@
 # TH-01: El Fenómeno de la Inducción
 
 ## Objetivos
-- Comprender la ley de Faraday
-- Relacionar flujo magnético con voltaje inducido
+- Comprender la [ley de](../../../glossary.md#ley-ohm) Faraday
+- Relacionar flujo magnético con [voltaje](../../../glossary.md#voltaje) inducido
 - Establecer las bases del acoplamiento magnético
 
 ## Contenido
@@ -70,4 +70,4 @@ $$W = \frac{1}{2}Li^2 = \frac{1}{2}\frac{\Phi^2}{L}$$
 ## Conceptos Clave
 - Fem inducida proporcional a dΦ/dt
 - Ley de Lenz: oposición al cambio
-- Base del transformador y acoplamiento
+- Base del [transformador](../../../glossary.md#transformador) y acoplamiento

@@ -1,15 +1,15 @@
 # TH-02: Teoremas de Thévenin y Norton
 
 ## Objetivos
-- Obtener el equivalente de Thévenin de un circuito
-- Obtener el equivalente de Norton de un circuito
+- Obtener el equivalente de [Thévenin](../../../glossary.md#[thevenin](../../../glossary.md#thevenin)) de un [circuito](../../../glossary.md#circuito)
+- Obtener el equivalente de [Norton](../../../glossary.md#[norton](../../../glossary.md#norton)) de un circuito
 - Relacionar ambos equivalentes
 
 ## Contenido
 
 ### Teorema de Thévenin
 
-> Cualquier circuito lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de voltaje Vₜₕ en serie con una resistencia Rₜₕ.
+> Cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de [voltaje](../../../glossary.md#voltaje) Vₙₕ en serie con una [resistencia](../../../glossary.md#resistencia) Rₙₕ.
 
 ```
 Circuito original:           Equivalente Thévenin:
@@ -23,7 +23,7 @@ Circuito original:           Equivalente Thévenin:
 
 ### Teorema de Norton
 
-> Cualquier circuito lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de corriente Iₙ en paralelo con una resistencia Rₙ.
+> Cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de [corriente](../../../glossary.md#corriente) Iₙ en paralelo con una [resistencia](../../../glossary.md#resistencia) Rₙ.
 
 ```
 Equivalente Norton:
@@ -36,7 +36,7 @@ Equivalente Norton:
 
 ### Cálculo de Parámetros
 
-**Voltaje de Thévenin (Vₜₕ):**
+**[Voltaje](../../../glossary.md#voltaje) de Thévenin (Vₜₕ):**
 Voltaje de circuito abierto entre los terminales a y b.
 $$V_{th} = V_{ab(circuito\ abierto)}$$
 
@@ -44,7 +44,7 @@ $$V_{th} = V_{ab(circuito\ abierto)}$$
 Corriente de cortocircuito entre los terminales a y b.
 $$I_N = I_{ab(cortocircuito)}$$
 
-**Resistencia equivalente (Rₜₕ = Rₙ):**
+**[Resistencia](../../../glossary.md#resistencia) equivalente (Rₜₕ = Rₙ):**
 
 *Método 1:* Apagar todas las fuentes independientes y calcular la resistencia vista desde a-b.
 
@@ -62,7 +62,7 @@ $$R_{th} = R_N$$
 ### Procedimiento Paso a Paso
 
 1. **Identificar** los terminales de interés (a, b)
-2. **Desconectar** la carga
+2. **Desconectar** la [carga](../../../glossary.md#carga)
 3. **Calcular Vₜₕ:** voltaje entre a y b (circuito abierto)
 4. **Calcular Rₜₕ:** 
    - Apagar fuentes independientes

@@ -2,9 +2,9 @@
 
 ## Enunciado
 Para la red de dos puertos mostrada, determine:
-a) Los parámetros Z (impedancia)
-b) La impedancia de entrada Zin con una carga ZL = 50Ω
-c) La ganancia de voltaje Av = V₂/V₁ con la carga ZL
+a) Los parámetros Z ([impedancia](../../../glossary.md#impedancia))
+b) La impedancia de entrada Zin con una [carga](../../../glossary.md#carga) ZL = 50Ω
+c) La ganancia de [voltaje](../../../glossary.md#voltaje) Av = V₂/V₁ con la carga ZL
 d) Verifique la condición de reciprocidad
 
 Datos: R₁ = 100Ω, R₂ = 200Ω, R₃ = 50Ω
@@ -59,7 +59,7 @@ $$V_2 = Z_{21}I_1 + Z_{22}I_2$$
 
 **Cálculo de Z₁₁ (I₂ = 0, puerto 2 abierto):**
 
-Con I₂ = 0, la corriente I₁ fluye por R₁, R₂ y R₃ en serie:
+Con I₂ = 0, la [corriente](../../../glossary.md#corriente) I₁ fluye por R₁, R₂ y R₃ en serie:
 $$Z_{11} = \frac{V_1}{I_1}\bigg|_{I_2=0} = R_1 + R_2 + R_3$$
 $$Z_{11} = 100 + 200 + 50 = 350\text{ Ω}$$
 
@@ -81,10 +81,10 @@ $$Z_{12} = \frac{V_1}{I_2}\bigg|_{I_1=0} = R_1 = 100\text{ Ω}$$
 
 **Espera, esto no es correcto para una red T.** Reanalicemos:
 
-Para una red T simétrica, el voltaje de transferencia se calcula con la resistencia compartida:
+Para una red T simétrica, el voltaje de transferencia se calcula con la [resistencia](../../../glossary.md#resistencia) compartida:
 
 En la red T:
-- Rama serie izquierda: R₁ (conecta puerto 1 al nodo central)
+- Rama serie izquierda: R₁ (conecta puerto 1 al [nodo](../../../glossary.md#nodo) central)
 - Rama derivación: R₃ (conecta nodo central a tierra)
 - Rama serie derecha: R₂ (conecta nodo central al puerto 2)
 
@@ -93,7 +93,7 @@ Con I₂ = 0 (puerto 2 abierto), I₁ fluye por R₁ y luego se divide... No, co
 
 En realidad, con puerto 2 abierto, la corriente va por R₁, luego tiene dos caminos: por R₃ a tierra o por R₂ hacia el puerto 2 abierto (no fluye corriente por R₂ si está abierto).
 
-Vamos a redefinir el circuito:
+Vamos a redefinir el [circuito](../../../glossary.md#circuito):
 
 ```
     I₁ →         Nodo A         I₂ →

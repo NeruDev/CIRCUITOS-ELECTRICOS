@@ -1,7 +1,7 @@
 # TH-04: Teorema de Reciprocidad
 
 ## Objetivos
-- Comprender el teorema de reciprocidad
+- Comprender el [teorema de](../../../glossary.md#norton) reciprocidad
 - Aplicar el teorema en análisis de circuitos
 - Identificar las condiciones de aplicabilidad
 
@@ -13,7 +13,7 @@
 
 ### Condiciones de Aplicabilidad
 
-El teorema de reciprocidad aplica cuando el circuito es:
+El [teorema de](../../../glossary.md#thevenin) reciprocidad aplica cuando el [circuito](../../../glossary.md#circuito) es:
 
 1. **Lineal:** Contiene solo elementos lineales
 2. **Bilateral:** Los elementos conducen igual en ambas direcciones
@@ -24,7 +24,7 @@ El teorema de reciprocidad aplica cuando el circuito es:
 
 #### Forma 1: Fuente de Voltaje - Respuesta de Corriente
 
-Si una fuente de voltaje V en la posición 1 produce una corriente I en la posición 2, entonces la misma fuente V en la posición 2 producirá la misma corriente I en la posición 1.
+Si una fuente de [voltaje](../../../glossary.md#voltaje) V en la posición 1 produce una [corriente](../../../glossary.md#corriente) I en la posición 2, entonces la misma fuente V en la posición 2 producirá la misma corriente I en la posición 1.
 
 ```
 Caso A:                      Caso B:
@@ -45,8 +45,8 @@ Si una fuente de corriente I en la posición 1 produce un voltaje V en la posici
 ### Relación con Parámetros de Red
 
 Para redes de dos puertos, el teorema de reciprocidad implica:
-- z₁₂ = z₂₁ (parámetros de impedancia)
-- y₁₂ = y₂₁ (parámetros de admitancia)
+- z₁₂ = z₂₁ (parámetros de [impedancia](../../../glossary.md#impedancia))
+- y₁₂ = y₂₁ (parámetros de [admitancia](../../../glossary.md#admitancia))
 
 ### Ejemplo de Aplicación
 

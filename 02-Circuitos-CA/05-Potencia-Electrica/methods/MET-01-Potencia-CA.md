@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-La potencia en circuitos CA tiene varias componentes: potencia activa (real), potencia reactiva y potencia aparente. El análisis correcto de potencia es fundamental para el diseño eficiente de sistemas eléctricos.
+La potencia en circuitos CA tiene varias componentes: [potencia activa](../../../glossary.md#potencia-activa) (real), [potencia reactiva](../../../glossary.md#potencia-reactiva) y [potencia aparente](../../../glossary.md#potencia-aparente). El análisis correcto de potencia es fundamental para el diseño eficiente de sistemas eléctricos.
 
 ---
 
@@ -14,7 +14,7 @@ $$p(t) = v(t) \cdot i(t)$$
 Para señales sinusoidales:
 $$p(t) = \frac{V_m I_m}{2}[\cos\theta + \cos(2\omega t + \theta)]$$
 
-Donde θ = ángulo de impedancia (diferencia de fase entre v e i)
+Donde θ = ángulo de [impedancia](../../../glossary.md#impedancia) (diferencia de fase entre v e i)
 
 ### Potencia Activa (Real)
 $$P = \frac{V_m I_m}{2}\cos\theta = V_{rms} I_{rms} \cos\theta$$
@@ -27,7 +27,7 @@ $$Q = \frac{V_m I_m}{2}\sin\theta = V_{rms} I_{rms} \sin\theta$$
 
 - Unidades: VAR (Volt-Ampere Reactivo)
 - Representa energía intercambiada con elementos reactivos
-- Q > 0: carga inductiva (consume VARs)
+- Q > 0: [carga](../../../glossary.md#carga) inductiva (consume VARs)
 - Q < 0: carga capacitiva (genera VARs)
 
 ### Potencia Aparente
@@ -39,7 +39,7 @@ $$S = V_{rms} I_{rms}$$
 ### Potencia Compleja
 $$\mathbf{S} = P + jQ = \mathbf{V}\mathbf{I}^*$$
 
-Donde $\mathbf{I}^*$ es el conjugado de la corriente.
+Donde $\mathbf{I}^*$ es el conjugado de la [corriente](../../../glossary.md#corriente).
 
 ---
 
@@ -75,7 +75,7 @@ $$fp = \cos\theta = \frac{P}{S}$$
 ## Pasos del Método
 
 ### Paso 1: Identificar Voltaje y Corriente
-- Determinar V e I (valores RMS o pico)
+- Determinar V e I (valores [RMS](../../../glossary.md#valor-eficaz) o pico)
 - Identificar el ángulo de fase de cada uno
 
 ### Paso 2: Calcular el Ángulo de Potencia
@@ -105,7 +105,7 @@ $$I_{rms} = \frac{I_m}{\sqrt{2}} = \frac{8}{\sqrt{2}} = 5.66\text{ A}$$
 #### **Paso 2: Ángulo de potencia**
 $$\theta = \theta_V - \theta_I = 20° - (-10°) = 30°$$
 
-El voltaje adelanta a la corriente → **carga inductiva** → fp atrasado
+El [voltaje](../../../glossary.md#voltaje) adelanta a la corriente → **carga inductiva** → fp atrasado
 
 #### **Paso 3: Potencias**
 $$P = V_{rms}I_{rms}\cos\theta = (120.2)(5.66)\cos 30°$$
@@ -126,14 +126,14 @@ $$S = \sqrt{P^2 + Q^2} = \sqrt{589^2 + 340^2} = 680\text{ VA}$$ ✓
 $$\boxed{P = 589\text{ W}, \quad Q = 340\text{ VAR}, \quad S = 680\text{ VA}, \quad fp = 0.866\text{ atrasado}}$$
 
 ### Explicación
-El ángulo positivo de θ indica que la corriente atrasa al voltaje (carga inductiva). El factor de potencia de 0.866 significa que solo el 86.6% de la potencia aparente se convierte en trabajo útil.
+El ángulo positivo de θ indica que la corriente atrasa al voltaje (carga inductiva). El [factor de potencia](../../../glossary.md#factor-potencia) de 0.866 significa que solo el 86.6% de la potencia aparente se convierte en trabajo útil.
 
 ---
 
 ## Ejemplo Clásico 2: Corrección del Factor de Potencia
 
 ### Enunciado
-Una carga de 50 kW opera con factor de potencia de 0.7 atrasado desde una línea de 480 V. Determine el capacitor necesario para corregir el factor de potencia a 0.95 atrasado.
+Una carga de 50 kW opera con factor de potencia de 0.7 atrasado desde una línea de 480 V. Determine el [capacitor](../../../glossary.md#capacitancia) necesario para corregir el factor de potencia a 0.95 atrasado.
 
 ### Diagrama
 ```

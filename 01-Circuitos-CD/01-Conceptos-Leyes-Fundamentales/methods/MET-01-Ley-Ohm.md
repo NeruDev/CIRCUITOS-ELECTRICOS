@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-La **Ley de Ohm** establece la relación fundamental entre voltaje (V), corriente (I) y resistencia (R) en un elemento resistivo. Es la base para el análisis de cualquier circuito eléctrico.
+La **[Ley de](../../../glossary.md#ley-ohm) [Ohm](../../../glossary.md#ohm-unidad)** establece la relación fundamental entre [voltaje](../../../glossary.md#voltaje) (V), [corriente](../../../glossary.md#corriente) (I) y [resistencia](../../../glossary.md#resistencia) (R) en un elemento resistivo. Es la base para el análisis de cualquier [circuito](../../../glossary.md#circuito) eléctrico.
 
 $$V = I \cdot R$$
 

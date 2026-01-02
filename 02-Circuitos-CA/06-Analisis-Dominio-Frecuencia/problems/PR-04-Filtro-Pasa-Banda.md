@@ -2,9 +2,9 @@
 
 ## Enunciado
 Diseñe un filtro pasa-banda RLC serie con las siguientes especificaciones:
-- Frecuencia central f₀ = 10 kHz
+- [Frecuencia](../../../glossary.md#frecuencia) central f₀ = 10 kHz
 - Ancho de banda BW = 1 kHz
-- Impedancia de entrada 1 kΩ a la frecuencia de resonancia
+- [Impedancia](../../../glossary.md#impedancia) de entrada 1 kΩ a la frecuencia de [resonancia](../../../glossary.md#resonancia)
 
 Determine:
 a) Los valores de R, L y C
@@ -66,7 +66,7 @@ De la especificación de impedancia:
 $$\boxed{R = 1\text{ k}\Omega}$$
 
 **Cálculo de L:**
-Del ancho de banda para circuito serie:
+Del ancho de banda para [circuito](../../../glossary.md#circuito) serie:
 $$BW = \frac{R}{2\pi L} \Rightarrow L = \frac{R}{2\pi \times BW}$$
 
 $$L = \frac{1000}{2\pi \times 1000} = \frac{1}{2\pi} = 0.159\text{ H} = 159.15\text{ mH}$$

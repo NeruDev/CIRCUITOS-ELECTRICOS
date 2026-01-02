@@ -18,8 +18,8 @@ Los métodos de análisis de CD se aplican directamente en CA usando:
 
 **Procedimiento:**
 1. Convertir todas las fuentes y elementos al dominio fasorial
-2. Seleccionar nodo de referencia
-3. Aplicar LCK en cada nodo usando fasores
+2. Seleccionar [nodo](../../../glossary.md#nodo) de referencia
+3. Aplicar [LCK](../../../glossary.md#lck) en cada nodo usando fasores
 4. Resolver el sistema de ecuaciones complejas
 
 **Formulación:**
@@ -34,8 +34,8 @@ Donde **Y** es la matriz de admitancias (números complejos).
 
 **Procedimiento:**
 1. Convertir al dominio fasorial
-2. Asignar corrientes de malla fasoriales
-3. Aplicar LVK en cada malla
+2. Asignar corrientes de [malla](../../../glossary.md#malla) fasoriales
+3. Aplicar [LVK](../../../glossary.md#lvk) en cada malla
 4. Resolver el sistema de ecuaciones complejas
 
 **Formulación:**
@@ -98,7 +98,7 @@ Donde Δ y Δk son determinantes de matrices complejas.
 ### Consideraciones Prácticas
 
 1. Mantener consistencia en unidades (ω fija)
-2. Todas las fuentes deben tener la misma frecuencia
+2. Todas las fuentes deben tener la misma [frecuencia](../../../glossary.md#frecuencia)
 3. Los resultados son fasores; convertir a tiempo si se requiere
 
 ## Conceptos Clave

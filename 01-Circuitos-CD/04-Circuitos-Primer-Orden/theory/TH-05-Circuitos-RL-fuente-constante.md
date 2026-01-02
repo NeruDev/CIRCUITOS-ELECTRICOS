@@ -1,7 +1,7 @@
 # TH-05: Análisis de Circuitos RL con Fuente Constante
 
 ## Objetivos
-- Analizar circuitos RL con fuente de voltaje DC
+- Analizar circuitos RL con fuente de [voltaje](../../../glossary.md#voltaje) DC
 - Calcular la respuesta completa
 - Determinar condiciones iniciales y finales
 
@@ -18,7 +18,7 @@
   ○─────┴─────────○
 ```
 
-En t = 0, se conecta una fuente V al circuito RL.
+En t = 0, se conecta una fuente V al [circuito](../../../glossary.md#circuito) RL.
 
 ### Ecuación Diferencial
 
@@ -31,14 +31,14 @@ Ecuación diferencial de primer orden no homogénea.
 $$i(t) = i_f + (i_0 - i_f)e^{-t/\tau}$$
 
 Donde:
-- i₀ = corriente inicial (t = 0⁻)
+- i₀ = [corriente](../../../glossary.md#corriente) inicial (t = 0⁻)
 - i_f = corriente final (t → ∞)
 - τ = L/R
 
 ### Valores Inicial y Final
 
 **Valor inicial i(0⁺):**
-- La corriente en el inductor no puede cambiar instantáneamente
+- La corriente en el [inductor](../../../glossary.md#inductancia) no puede cambiar instantáneamente
 - i(0⁺) = i(0⁻)
 
 **Valor final i(∞):**

@@ -2,7 +2,7 @@
 
 ## Descripción del Método
 
-El **Principio de Superposición** establece que en un circuito lineal con múltiples fuentes independientes, la respuesta (voltaje o corriente) en cualquier elemento es la suma algebraica de las respuestas causadas por cada fuente actuando sola.
+El **Principio de [Superposición](../../../glossary.md#superposicion)** establece que en un [circuito](../../../glossary.md#circuito) lineal con múltiples fuentes independientes, la respuesta ([voltaje](../../../glossary.md#voltaje) o [corriente](../../../glossary.md#corriente)) en cualquier elemento es la suma algebraica de las respuestas causadas por cada fuente actuando sola.
 
 ### Requisitos
 - El circuito debe ser **lineal** (componentes lineales: R, L, C)
@@ -122,7 +122,7 @@ $$R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{4 \times 6}{4 + 6} = \frac{2
 Corriente total desde la fuente de 6V:
 $$I_T = \frac{6}{R_3 + R_{12}} = \frac{6}{3 + 2.4} = \frac{6}{5.4} = 1.111\text{ A}$$
 
-Usando divisor de corriente para I₂:
+Usando [divisor de corriente](../../../glossary.md#divisor-corriente) para I₂:
 $$I_2 = I_T \times \frac{R_1}{R_1 + R_2} = 1.111 \times \frac{4}{4 + 6} = 1.111 \times 0.4 = 0.444\text{ A}$$
 
 Dirección: hacia arriba (↑), opuesta a I₁
@@ -195,7 +195,7 @@ $$V_{x1} = 10 \times \frac{R_3}{R_1 + R_3} = 10 \times \frac{2k}{2k + 2k} = 10 \
     ●─────────────●────────────────┘
 ```
 
-Ahora R₁ está en paralelo con R₃ (ambos conectados entre el mismo nodo y tierra):
+Ahora R₁ está en paralelo con R₃ (ambos conectados entre el mismo [nodo](../../../glossary.md#nodo) y tierra):
 $$R_{13} = \frac{R_1 \times R_3}{R_1 + R_3} = \frac{2k \times 2k}{2k + 2k} = \frac{4M}{4k} = 1\text{ kΩ}$$
 
 La fuente de corriente ve R₁₃ en serie con R₂:
