@@ -39,6 +39,9 @@ La **impedancia** es la oposición total al flujo de [corriente](../../../glossa
 
 $$\mathbf{Z} = \frac{\mathbf{V}}{\mathbf{I}}$$
 
+![Impedancia en circuito RLC](../media/fig_01_fasor_impedancia.svg)
+*Figura 1: Circuito RLC serie mostrando la impedancia de cada elemento*
+
 Forma general:
 $$\mathbf{Z} = R + jX$$
 

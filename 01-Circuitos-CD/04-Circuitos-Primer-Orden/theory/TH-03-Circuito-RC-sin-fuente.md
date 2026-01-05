@@ -9,14 +9,8 @@
 
 ### Circuito RC sin Fuente
 
-```
-    t=0
-  ○──/──○
-  │     │
-  C     R
-  │     │
-  ○─────○
-```
+![Circuito RC de Primer Orden](../media/fig_01_circuito_rc.svg)
+*Figura 1: Circuito RC de primer orden con switch - Respuesta de carga y descarga*
 
 En t < 0, el [capacitor](../../../glossary.md#capacitancia) tiene un voltaje inicial V₀.
 En t = 0, se cierra el interruptor.

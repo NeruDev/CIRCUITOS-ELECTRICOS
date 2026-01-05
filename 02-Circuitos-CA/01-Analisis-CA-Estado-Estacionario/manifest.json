@@ -14,9 +14,15 @@
     "superposicion",
     "thevenin-norton"
   ],
-  "prerequisites": ["cd-01-conceptos-leyes-fundamentales", "cd-02-tecnicas-analisis-circuitos", "cd-03-teoremas-circuitos"],
+  "prerequisites": [
+    "cd-01-conceptos-leyes-fundamentales",
+    "cd-02-tecnicas-analisis-circuitos",
+    "cd-03-teoremas-circuitos"
+  ],
   "status": "en_desarrollo",
-  "software_requirements": ["Proteus 8.15"],
+  "software_requirements": [
+    "Proteus 8.15"
+  ],
   "difficulty_levels": {
     "conceptual": "⭐",
     "intermedio": "⭐⭐",
@@ -27,8 +33,16 @@
     "methods": "methods/",
     "problems": "problems/",
     "solutions": "solutions/",
-    "simulation": "simulation/"
+    "simulation": "simulation/",
+    "media": "media/"
   },
+  "media": [
+    {
+      "file": "media/fig_01_fasor_impedancia.svg",
+      "source": "media/fig_01_fasor_impedancia.py",
+      "generated_by": "schemdraw"
+    }
+  ],
   "theoryFiles": 8,
   "methodFiles": 0,
   "problemFiles": 0,
@@ -37,12 +51,18 @@
     {
       "ref_id": "REF-001",
       "citation": "Sadiku, M. N. O., & Alexander, C. K. (2013). Fundamentos de Circuitos Eléctricos. 5ta ed. McGraw-Hill.",
-      "chapters": ["Cap. 9", "Cap. 10"]
+      "chapters": [
+        "Cap. 9",
+        "Cap. 10"
+      ]
     },
     {
       "ref_id": "REF-003",
       "citation": "Hayt, W. H., Kemmerly, J. E., & Durbin, S. M. (2012). Análisis de Circuitos en Ingeniería. 8va ed. McGraw-Hill.",
-      "chapters": ["Cap. 9", "Cap. 10"]
+      "chapters": [
+        "Cap. 9",
+        "Cap. 10"
+      ]
     }
   ],
   "validation_status": {
@@ -50,5 +70,6 @@
     "date": null,
     "validator": null,
     "notes": "Pendiente de revisión contra referencias bibliográficas"
-  }
+  },
+  "media_generated_on": "2026-01-05T14:22:16.125655"
 }

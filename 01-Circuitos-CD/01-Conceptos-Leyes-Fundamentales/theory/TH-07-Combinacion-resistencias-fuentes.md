@@ -8,9 +8,17 @@
 ## Contenido
 
 ### Resistencias en Serie
+
+![Resistencias en Serie](../media/fig_06_resistencias_serie.svg)
+*Figura 1: Resistencias en serie - La resistencia equivalente es la suma de todas*
+
 $$R_{eq} = R_1 + R_2 + R_3 + ... + R_n$$
 
 ### Resistencias en Paralelo
+
+![Resistencias en Paralelo](../media/fig_07_resistencias_paralelo.svg)
+*Figura 2: Resistencias en paralelo - La conductancia equivalente es la suma de conductancias*
+
 $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}$$
 
 **Caso especial (dos resistencias):**

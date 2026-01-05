@@ -81,9 +81,23 @@ XX-Nombre-Modulo/
 ├── methods/              # Métodos y procedimientos (MT-XX)
 ├── problems/             # Problemas y ejercicios (PR-XX, EJ-XX)
 ├── simulation/           # Simulaciones Proteus 8.15 (SIM-XX)
+├── media/                # Figuras generadas (fig_XX.svg/png)
 ├── Resumen-Formulas.md   # Fórmulas importantes
 └── manifest.json         # Metadatos del módulo
 ```
+
+## 🎨 Sistema de Figuras
+
+Los diagramas de circuitos se generan automáticamente usando **schemdraw** (Python).
+
+```bash
+# Generar todas las figuras
+cd 00-META/tools
+pip install -r requirements.txt
+python generate_figs.py
+```
+
+📷 **Figuras disponibles:** Ver [Recursos Multimedia en WIKI_INDEX](WIKI_INDEX.md#-recursos-multimedia)
 
 ## 🎯 Niveles de Dificultad
 

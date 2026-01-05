@@ -11,14 +11,8 @@
 
 En un [circuito](../../../glossary.md#circuito) serie, el voltaje se divide proporcionalmente a las resistencias.
 
-```
-      R₁           R₂
-+──/\/\/──┬───/\/\/──┐
-│         │          │
-Vs       v₁         v₂
-│                    │
-└────────────────────┘
-```
+![Divisor de Tensión](../media/fig_04_divisor_tension.svg)
+*Figura 1: Circuito divisor de tensión - El voltaje de salida es proporcional a R2/(R1+R2)*
 
 **Fórmula general:**
 $$v_k = V_s \cdot \frac{R_k}{R_1 + R_2 + ... + R_n}$$
@@ -33,13 +27,8 @@ $$v_2 = V_s \cdot \frac{R_2}{R_1 + R_2}$$
 
 En un circuito paralelo, la corriente se divide inversamente proporcional a las resistencias.
 
-```
-        ┌──/\/\/──┐
-        │   R₁    │i₁
-   Is → ├──/\/\/──┤i₂
-        │   R₂    │
-        └─────────┘
-```
+![Divisor de Corriente](../media/fig_05_divisor_corriente.svg)
+*Figura 2: Circuito divisor de corriente - La corriente se divide inversamente proporcional a R*
 
 **Para dos resistencias en paralelo:**
 $$i_1 = I_s \cdot \frac{R_2}{R_1 + R_2}$$

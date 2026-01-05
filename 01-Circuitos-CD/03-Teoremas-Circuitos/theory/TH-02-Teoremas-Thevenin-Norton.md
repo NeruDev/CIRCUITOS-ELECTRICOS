@@ -11,28 +11,15 @@
 
 > Cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de [voltaje](../../../glossary.md#voltaje) Vₙₕ en serie con una [resistencia](../../../glossary.md#resistencia) Rₙₕ.
 
-```
-Circuito original:           Equivalente Thévenin:
-┌─────────────┐                    Rₜₕ
-│   Circuito  │○ a         ○──/\/\/──○ a
-│   Lineal    │            │
-│             │○ b        Vₜₕ
-└─────────────┘            │
-                           ○─────────○ b
-```
+![Equivalente de Thévenin](../media/fig_01_thevenin.svg)
+*Figura 1: Transformación de un circuito lineal a su equivalente de Thévenin*
 
 ### Teorema de Norton
 
 > Cualquier [circuito](../../../glossary.md#circuito) lineal de dos terminales puede reemplazarse por un circuito equivalente que consiste en una fuente de [corriente](../../../glossary.md#corriente) Iₙ en paralelo con una [resistencia](../../../glossary.md#resistencia) Rₙ.
 
-```
-Equivalente Norton:
-        ○───┬───○ a
-            │
-       Iₙ ↑ ═ Rₙ
-            │
-        ○───┴───○ b
-```
+![Equivalente de Norton](../media/fig_02_norton.svg)
+*Figura 2: Transformación de un circuito lineal a su equivalente de Norton*
 
 ### Cálculo de Parámetros
 

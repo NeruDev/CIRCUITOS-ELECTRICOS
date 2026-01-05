@@ -1,0 +1,24 @@
+# =============================================================================
+# CIRCUITOS ELÉCTRICOS - Dependencias para generación de figuras
+# =============================================================================
+# Instalar con: pip install -r requirements.txt
+# =============================================================================
+
+# Generación de esquemáticos de circuitos
+schemdraw>=0.18
+
+# Backend de renderizado (requerido por schemdraw)
+matplotlib>=3.5
+
+# Procesamiento de imágenes (para PNG export)
+pillow>=9.0
+
+# Manipulación de rutas y archivos (stdlib, incluido para referencia)
+# pathlib - incluido en Python 3.4+
+# glob - incluido en stdlib
+
+# Opcional: Para análisis simbólico + diagramas (lcapy)
+# lcapy>=1.10  # Descomentar si se requiere análisis simbólico
+
+# Opcional: Para optimización de SVG
+# svgwrite>=1.4  # Descomentar si se requiere manipulación avanzada de SVG

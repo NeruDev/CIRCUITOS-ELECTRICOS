@@ -27,6 +27,44 @@ last_updated: 2026-01-05
 
 ---
 
+## 🎨 Recursos Multimedia
+
+> Diagramas de circuitos generados automáticamente con **schemdraw**. Disponibles en SVG y PNG.
+
+### 📂 CD-01: Conceptos y Leyes Fundamentales
+
+| Figura | Descripción | Archivos |
+|--------|-------------|----------|
+| fig_01 | Ley de Ohm - Circuito básico | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.png) |
+| fig_02 | LCK - Corrientes en un nodo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.png) |
+| fig_03 | LVK - Voltajes en una malla | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.png) |
+| fig_04 | Divisor de tensión | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.png) |
+| fig_05 | Divisor de corriente | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.png) |
+| fig_06 | Resistencias en serie | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.png) |
+| fig_07 | Resistencias en paralelo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.png) |
+
+### 📂 CD-03: Teoremas de Circuitos
+
+| Figura | Descripción | Archivos |
+|--------|-------------|----------|
+| fig_01 | Equivalente de Thévenin | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.png) |
+| fig_02 | Equivalente de Norton | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.png) |
+
+### 📂 CD-04: Circuitos de Primer Orden
+
+| Figura | Descripción | Archivos |
+|--------|-------------|----------|
+| fig_01 | Circuito RC | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.png) |
+| fig_02 | Circuito RL | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.png) |
+
+### 📂 CA-01: Análisis CA Estado Estacionario
+
+| Figura | Descripción | Archivos |
+|--------|-------------|----------|
+| fig_01 | Impedancia en circuito RLC | [SVG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.svg) · [PNG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.png) |
+
+---
+
 ## 📁 Árbol de Contenido
 
 ### 📁 00 — META

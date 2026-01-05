@@ -23,6 +23,9 @@ La relación entre [voltaje](../../../glossary.md#[voltaje](../../../glossary.md
 
 $$v = iR$$
 
+![Circuito básico - Ley de Ohm](../media/fig_01_ley_ohm_basico.svg)
+*Figura 1: Circuito básico ilustrando la Ley de Ohm: V = IR*
+
 Donde:
 - v = voltaje (V)
 - i = corriente (A)
@@ -41,6 +44,9 @@ $$p = vi = i²R = \frac{v²}{R}$$
 
 $$\sum_{k=1}^{n} i_k = 0$$
 
+![Ley de Corrientes de Kirchhoff](../media/fig_02_lck_nodo.svg)
+*Figura 2: Ilustración de LCK - Las corrientes que entran a un nodo igualan a las que salen*
+
 **Equivalentemente:** La suma de corrientes que entran a un nodo es igual a la suma de corrientes que salen.
 
 $$\sum i_{entran} = \sum i_{salen}$$
@@ -50,6 +56,9 @@ $$\sum i_{entran} = \sum i_{salen}$$
 > La suma algebraica de los voltajes alrededor de cualquier trayectoria cerrada ([malla](../../../glossary.md#malla)) es igual a cero.
 
 $$\sum_{k=1}^{n} v_k = 0$$
+
+![Ley de Voltajes de Kirchhoff](../media/fig_03_lvk_malla.svg)
+*Figura 3: Ilustración de LVK - La suma de voltajes en una malla cerrada es cero*
 
 **Equivalentemente:** La suma de las elevaciones de voltaje es igual a la suma de las caídas de voltaje.
 

@@ -9,14 +9,8 @@
 
 ### Circuito RL sin Fuente
 
-```
-    t=0
-  ○──/──○
-  │     │
-  L     R
-  │     │
-  ○─────○
-```
+![Circuito RL de Primer Orden](../media/fig_02_circuito_rl.svg)
+*Figura 1: Circuito RL de primer orden - Respuesta de carga y descarga del inductor*
 
 En t < 0, el [inductor](../../../glossary.md#inductancia) tiene una corriente inicial I₀.
 En t = 0, se cierra el interruptor.
