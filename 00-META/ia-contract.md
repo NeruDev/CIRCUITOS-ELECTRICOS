@@ -51,7 +51,7 @@ Los problemas deben etiquetarse por nivel:
 | Prefijo | Tipo de contenido | Ubicación |
 |---------|-------------------|-----------|
 | `TH-XX` | Teoría | `theory/` |
-| `MT-XX` | Métodos/Procedimientos | `methods/` |
+| `MET-XX` | Métodos/Procedimientos | `methods/` |
 | `PR-XX` | Problemas resueltos | `problems/` |
 | `EJ-XX` | Ejercicios propuestos | `problems/` |
 | `SIM-XX` | Simulaciones | `simulation/` |

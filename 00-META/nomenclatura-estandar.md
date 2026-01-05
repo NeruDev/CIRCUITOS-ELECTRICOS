@@ -8,7 +8,7 @@ XX-Nombre-Modulo/
 ├── theory/
 │   └── TH-XX-Nombre-Tema.md
 ├── methods/
-│   └── MT-XX-Nombre-Metodo.md
+│   └── MET-XX-Nombre-Metodo.md
 ├── problems/
 │   ├── PR-XX-Problema-Resuelto.md
 │   └── EJ-XX-Ejercicio-Propuesto.md
@@ -23,7 +23,7 @@ XX-Nombre-Modulo/
 | Prefijo | Tipo | Descripción | Ubicación |
 |---------|------|-------------|-----------|
 | TH-XX | Teoría | Contenido teórico del tema | `theory/` |
-| MT-XX | Método | Procedimientos paso a paso | `methods/` |
+| MET-XX | Método | Procedimientos paso a paso | `methods/` |
 | PR-XX | Problema | Problemas completamente resueltos | `problems/` |
 | EJ-XX | Ejercicio | Ejercicios para práctica | `problems/` |
 | SIM-XX | Simulación | Archivos Proteus 8.15 | `simulation/` |

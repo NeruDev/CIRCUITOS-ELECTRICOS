@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: theory
+topic_id: cd-01-conceptos-leyes-fundamentales
+file_id: TH-01-Introduccion-circuitos
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # TH-01: Introducción a los Circuitos Eléctricos
 
 ## Objetivos

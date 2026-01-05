@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: index
+topic_id: cd-01-conceptos-leyes-fundamentales
+file_id: 00-Intro
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # Módulo 1: Conceptos y Leyes Fundamentales
 
 ## Descripción

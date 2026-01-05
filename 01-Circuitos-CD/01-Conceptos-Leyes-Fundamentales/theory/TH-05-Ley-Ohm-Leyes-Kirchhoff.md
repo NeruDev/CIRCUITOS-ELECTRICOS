@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: theory
+topic_id: cd-01-conceptos-leyes-fundamentales
+file_id: TH-05-Ley-Ohm-Leyes-Kirchhoff
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # TH-05: Ley de Ohm y Leyes de Kirchhoff
 
 ## Objetivos

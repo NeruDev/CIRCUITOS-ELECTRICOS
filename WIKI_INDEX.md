@@ -1,8 +1,18 @@
-# 📚 WIKI INDEX - Directorio Principal
+<!--
+::METADATA::
+type: index
+topic_id: wiki-index
+file_id: WIKI_INDEX
+status: active
+audience: both
+last_updated: 2026-01-05
+-->
 
-> **Navegación centralizada** — Mapa completo del repositorio generado automáticamente.
+# 📚 WIKI INDEX — Directorio Principal
+
+> **Navegación centralizada** — Mapa completo del repositorio de Circuitos Eléctricos.
 >
-> _Última actualización: 2026-01-02 13:34_
+> _Última actualización: 2026-01-05_
 
 ---
 
@@ -10,9 +20,10 @@
 
 | Recurso | Descripción |
 |---------|-------------|
-| 📋 [README Principal](README.md) | Información del repositorio |
-| 📖 [Glosario Completo](glossary.md) | Definiciones de términos |
+| 📋 [README Principal](README.md) | Información del repositorio y skill tree |
+| 📖 [Glosario Completo](glossary.md) | Definiciones de términos técnicos |
 | ⚡ [Constantes Físicas](constants.md) | Valores de referencia |
+| 📚 [Bibliografía General](00-META/bibliografia-general.md) | Referencias bibliográficas validadas |
 
 ---
 
@@ -20,9 +31,22 @@
 
 ### 📁 00 — META
 
+| Archivo | Propósito |
+|---------|-----------|
+| [🤖 Contrato IA](00-META/ia-contract.md) | Directivas globales para asistentes IA |
+| [📚 Bibliografía General](00-META/bibliografia-general.md) | Biblioteca central de referencias |
+| [📝 Nomenclatura Estándar](00-META/nomenclatura-estandar.md) | Convenciones de nombrado |
+| [🔣 Notation Cheatsheet](00-META/notation-cheatsheet.md) | Símbolos y notación |
+| [📖 Guía de Estudio](00-META/study-guide.md) | Guía para estudiantes |
+
 ### 📁 01 — Circuitos CD
 
+> **Índice del módulo:** [00-Index.md](01-Circuitos-CD/00-Index.md)  
+> _Cada subtema incluye `_directives.md` para instrucciones IA-específicas y `solutions/` para soluciones estructuradas._
+
 #### 📂 01 — Conceptos Leyes Fundamentales
+
+> **Directivas IA:** [_directives.md](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/_directives.md) | **Soluciones:** [solutions/](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/solutions/)
 
 **📘 Theory:**
 - [TH-01: Introducción a los Circuitos Eléctricos](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-01-Introduccion-circuitos.md)
@@ -53,7 +77,9 @@
 
 ---
 
-#### 📂 02 — Tecnicas Analisis Circuitos
+#### 📂 02 — Técnicas Análisis Circuitos
+
+> **Directivas IA:** [_directives.md](01-Circuitos-CD/02-Tecnicas-Analisis-Circuitos/_directives.md) | **Soluciones:** [solutions/](01-Circuitos-CD/02-Tecnicas-Analisis-Circuitos/solutions/)
 
 **📘 Theory:**
 - [TH-01: Topología de Redes](01-Circuitos-CD/02-Tecnicas-Analisis-Circuitos/theory/TH-01-Topologia-redes.md)
@@ -75,6 +101,8 @@
 
 #### 📂 03 — Teoremas Circuitos
 
+> **Directivas IA:** [_directives.md](01-Circuitos-CD/03-Teoremas-Circuitos/_directives.md) | **Soluciones:** [solutions/](01-Circuitos-CD/03-Teoremas-Circuitos/solutions/)
+
 **📘 Theory:**
 - [TH-01: Linealidad y Superposición](01-Circuitos-CD/03-Teoremas-Circuitos/theory/TH-01-Linealidad-superposicion.md)
 - [TH-02: Teoremas de Thévenin y Norton](01-Circuitos-CD/03-Teoremas-Circuitos/theory/TH-02-Teoremas-Thevenin-Norton.md)
@@ -95,6 +123,8 @@
 ---
 
 #### 📂 04 — Circuitos Primer Orden
+
+> **Directivas IA:** [_directives.md](01-Circuitos-CD/04-Circuitos-Primer-Orden/_directives.md) | **Soluciones:** [solutions/](01-Circuitos-CD/04-Circuitos-Primer-Orden/solutions/)
 
 **📘 Theory:**
 - [TH-01: Inductancia y Capacitancia - Combinación de Elementos](01-Circuitos-CD/04-Circuitos-Primer-Orden/theory/TH-01-Inductancia-capacitancia-combinaciones.md)
@@ -120,6 +150,8 @@
 
 #### 📂 05 — Circuitos Segundo Orden
 
+> **Directivas IA:** [_directives.md](01-Circuitos-CD/05-Circuitos-Segundo-Orden/_directives.md) | **Soluciones:** [solutions/](01-Circuitos-CD/05-Circuitos-Segundo-Orden/solutions/)
+
 **📘 Theory:**
 - [TH-01: Análisis de Circuitos de Segundo Orden sin Fuentes](01-Circuitos-CD/05-Circuitos-Segundo-Orden/theory/TH-01-Circuitos-segundo-orden-sin-fuentes.md)
 - [TH-02: Análisis de Circuitos de Segundo Orden con Fuentes](01-Circuitos-CD/05-Circuitos-Segundo-Orden/theory/TH-02-Circuitos-segundo-orden-con-fuentes.md)
@@ -138,7 +170,12 @@
 
 ### 📁 02 — Circuitos CA
 
-#### 📂 01 — Analisis CA Estado Estacionario
+> **Índice del módulo:** [00-Index.md](02-Circuitos-CA/00-Index.md)  
+> _Cada subtema incluye `_directives.md` para instrucciones IA-específicas y `solutions/` para soluciones estructuradas._
+
+#### 📂 01 — Análisis CA Estado Estacionario
+
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/solutions/)
 
 **📘 Theory:**
 - [TH-01: Características de la Onda Senoidal](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/theory/TH-01-Onda-senoidal-caracteristicas.md)
@@ -164,6 +201,8 @@
 
 #### 📂 02 — Redes Dos Puertos
 
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/02-Redes-Dos-Puertos/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/02-Redes-Dos-Puertos/solutions/)
+
 **📘 Theory:**
 - [TH-01: Parámetros de Redes de Dos Puertos](02-Circuitos-CA/02-Redes-Dos-Puertos/theory/TH-01-Parametros-redes-dos-puertos.md)
 - [TH-02: Parámetros z, y, h, T](02-Circuitos-CA/02-Redes-Dos-Puertos/theory/TH-02-Parametros-z-y-h-T.md)
@@ -179,7 +218,9 @@
 
 ---
 
-#### 📂 03 — Circuitos Acoplados Magneticamente
+#### 📂 03 — Circuitos Acoplados Magnéticamente
+
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/03-Circuitos-Acoplados-Magneticamente/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/03-Circuitos-Acoplados-Magneticamente/solutions/)
 
 **📘 Theory:**
 - [TH-01: El Fenómeno de la Inducción](02-Circuitos-CA/03-Circuitos-Acoplados-Magneticamente/theory/TH-01-Fenomeno-induccion.md)
@@ -197,7 +238,9 @@
 
 ---
 
-#### 📂 04 — Circuitos Trifasicos
+#### 📂 04 — Circuitos Trifásicos
+
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/04-Circuitos-Trifasicos/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/04-Circuitos-Trifasicos/solutions/)
 
 **📘 Theory:**
 - [TH-01: Generación de CA Trifásica](02-Circuitos-CA/04-Circuitos-Trifasicos/theory/TH-01-Generacion-CA-trifasica.md)
@@ -213,7 +256,9 @@
 
 ---
 
-#### 📂 05 — Potencia Electrica
+#### 📂 05 — Potencia Eléctrica
+
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/05-Potencia-Electrica/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/05-Potencia-Electrica/solutions/)
 
 **📘 Theory:**
 - [TH-01: Potencia Real, Reactiva, Aparente y Compleja. Triángulo de Potencias](02-Circuitos-CA/05-Potencia-Electrica/theory/TH-01-Potencia-real-reactiva-aparente-compleja.md)
@@ -229,7 +274,9 @@
 
 ---
 
-#### 📂 06 — Analisis Dominio Frecuencia
+#### 📂 06 — Análisis Dominio Frecuencia
+
+> **Directivas IA:** [_directives.md](02-Circuitos-CA/06-Analisis-Dominio-Frecuencia/_directives.md) | **Soluciones:** [solutions/](02-Circuitos-CA/06-Analisis-Dominio-Frecuencia/solutions/)
 
 **📘 Theory:**
 - [TH-01: Introducción al Problema de Respuesta en Frecuencia](02-Circuitos-CA/06-Analisis-Dominio-Frecuencia/theory/TH-01-Introduccion-respuesta-frecuencia.md)
@@ -251,10 +298,35 @@
 
 ## 📊 Estadísticas
 
-- **Módulos:** 3
-- **Submódulos:** 11
-- **Archivos indexados:** 115
+| Métrica | Valor |
+|---------|-------|
+| **Módulos** | 2 (CD, CA) |
+| **Subtemas** | 11 |
+| **Archivos de teoría** | 52 |
+| **Archivos de métodos** | 20 |
+| **Archivos de problemas** | 42 |
+| **Total indexado** | ~115+ |
 
 ---
 
-_Generado automáticamente por `link_knowledge_base.py`_
+## 🔗 Enlaces Rápidos por Tipo
+
+### 📚 Referencias Bibliográficas
+- [Bibliografía General](00-META/bibliografia-general.md) — Sadiku, Nilsson, Hayt, Boylestad
+
+### 🧪 Métodos Más Usados
+- [Ley de Ohm](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/methods/MET-01-Ley-Ohm.md)
+- [Análisis Nodal](01-Circuitos-CD/02-Tecnicas-Analisis-Circuitos/methods/MET-01-Analisis-Nodal.md)
+- [Thévenin](01-Circuitos-CD/03-Teoremas-Circuitos/methods/MET-01-Teorema-Thevenin.md)
+- [Fasores](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/methods/MET-01-Fasores.md)
+
+### 📝 Resúmenes de Fórmulas
+- [CD-01: Conceptos Fundamentales](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/Resumen-Formulas.md)
+- [CD-03: Teoremas](01-Circuitos-CD/03-Teoremas-Circuitos/Resumen-Formulas.md)
+- [CA-01: Estado Estacionario](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/Resumen-Formulas.md)
+- [CA-05: Potencia](02-Circuitos-CA/05-Potencia-Electrica/Resumen-Formulas.md)
+
+---
+
+_Generado según plantilla [TEMPLATE_GUIA_NUEVO_REPOSITORIO.md](TEMPLATE_GUIA_NUEVO_REPOSITORIO.md)_  
+_Última actualización: 2026-01-05_

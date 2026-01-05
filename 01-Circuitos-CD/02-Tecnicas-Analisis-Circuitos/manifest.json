@@ -21,10 +21,29 @@
     "theory": "theory/",
     "methods": "methods/",
     "problems": "problems/",
+    "solutions": "solutions/",
     "simulation": "simulation/"
   },
   "theoryFiles": 3,
   "methodFiles": 0,
   "problemFiles": 0,
-  "simulationFiles": 0
+  "simulationFiles": 0,
+  "references": [
+    {
+      "ref_id": "REF-001",
+      "citation": "Sadiku, M. N. O., & Alexander, C. K. (2013). Fundamentos de Circuitos Eléctricos. 5ta ed. McGraw-Hill.",
+      "chapters": ["Cap. 3"]
+    },
+    {
+      "ref_id": "REF-003",
+      "citation": "Hayt, W. H., Kemmerly, J. E., & Durbin, S. M. (2012). Análisis de Circuitos en Ingeniería. 8va ed. McGraw-Hill.",
+      "chapters": ["Cap. 3"]
+    }
+  ],
+  "validation_status": {
+    "validated": false,
+    "date": null,
+    "validator": null,
+    "notes": "Pendiente de revisión contra referencias bibliográficas"
+  }
 }

@@ -1,3 +1,13 @@
+<!--
+::METADATA::
+type: theory
+topic_id: ca-01-analisis-ca-estado-estacionario
+file_id: TH-04-Notacion-fasorial-impedancia-admitancia
+status: stable
+audience: both
+last_updated: 2026-01-05
+-->
+
 # TH-04: Notación Fasorial, Impedancia y Admitancia Compleja
 
 ## Objetivos
