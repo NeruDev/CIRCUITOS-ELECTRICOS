@@ -33,35 +33,35 @@ last_updated: 2026-01-05
 
 ### 📂 CD-01: Conceptos y Leyes Fundamentales
 
-| Figura | Descripción | Archivos |
-|--------|-------------|----------|
-| fig_01 | Ley de Ohm - Circuito básico | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.png) |
-| fig_02 | LCK - Corrientes en un nodo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.png) |
-| fig_03 | LVK - Voltajes en una malla | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.png) |
-| fig_04 | Divisor de tensión | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.png) |
-| fig_05 | Divisor de corriente | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.png) |
-| fig_06 | Resistencias en serie | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.png) |
-| fig_07 | Resistencias en paralelo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.png) |
+| Figura | Descripción | Archivos | Usado en |
+|--------|-------------|----------|----------|
+| fig_01 | Ley de Ohm - Circuito básico | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_01_ley_ohm_basico.png) | [TH-05](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-05-Ley-Ohm-Leyes-Kirchhoff.md) |
+| fig_02 | LCK - Corrientes en un nodo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_02_lck_nodo.png) | [TH-05](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-05-Ley-Ohm-Leyes-Kirchhoff.md) |
+| fig_03 | LVK - Voltajes en una malla | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_03_lvk_malla.png) | [TH-05](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-05-Ley-Ohm-Leyes-Kirchhoff.md) |
+| fig_04 | Divisor de tensión | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_04_divisor_tension.png) | [TH-08](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-08-Divisores-tension-corriente.md) |
+| fig_05 | Divisor de corriente | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_05_divisor_corriente.png) | [TH-08](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-08-Divisores-tension-corriente.md) |
+| fig_06 | Resistencias en serie | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_06_resistencias_serie.png) | [TH-06](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-06-Circuitos-trayectoria-unica-par-nodos.md), [TH-07](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-07-Combinacion-resistencias-fuentes.md) |
+| fig_07 | Resistencias en paralelo | [SVG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.svg) · [PNG](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/media/fig_07_resistencias_paralelo.png) | [TH-06](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-06-Circuitos-trayectoria-unica-par-nodos.md), [TH-07](01-Circuitos-CD/01-Conceptos-Leyes-Fundamentales/theory/TH-07-Combinacion-resistencias-fuentes.md) |
 
 ### 📂 CD-03: Teoremas de Circuitos
 
-| Figura | Descripción | Archivos |
-|--------|-------------|----------|
-| fig_01 | Equivalente de Thévenin | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.png) |
-| fig_02 | Equivalente de Norton | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.png) |
+| Figura | Descripción | Archivos | Usado en |
+|--------|-------------|----------|----------|
+| fig_01 | Equivalente de Thévenin | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_01_thevenin.png) | [TH-02](01-Circuitos-CD/03-Teoremas-Circuitos/theory/TH-02-Teoremas-Thevenin-Norton.md) |
+| fig_02 | Equivalente de Norton | [SVG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.svg) · [PNG](01-Circuitos-CD/03-Teoremas-Circuitos/media/fig_02_norton.png) | [TH-02](01-Circuitos-CD/03-Teoremas-Circuitos/theory/TH-02-Teoremas-Thevenin-Norton.md) |
 
 ### 📂 CD-04: Circuitos de Primer Orden
 
-| Figura | Descripción | Archivos |
-|--------|-------------|----------|
-| fig_01 | Circuito RC | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.png) |
-| fig_02 | Circuito RL | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.png) |
+| Figura | Descripción | Archivos | Usado en |
+|--------|-------------|----------|----------|
+| fig_01 | Circuito RC | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_01_circuito_rc.png) | [TH-02](01-Circuitos-CD/04-Circuitos-Primer-Orden/theory/TH-02-Circuito-RL-sin-fuente.md), [TH-03](01-Circuitos-CD/04-Circuitos-Primer-Orden/theory/TH-03-Circuito-RC-sin-fuente.md), [TH-06](01-Circuitos-CD/04-Circuitos-Primer-Orden/theory/TH-06-Respuesta-natural-forzada.md) |
+| fig_02 | Circuito RL | [SVG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.svg) · [PNG](01-Circuitos-CD/04-Circuitos-Primer-Orden/media/fig_02_circuito_rl.png) | [TH-02](01-Circuitos-CD/04-Circuitos-Primer-Orden/theory/TH-02-Circuito-RL-sin-fuente.md) |
 
 ### 📂 CA-01: Análisis CA Estado Estacionario
 
-| Figura | Descripción | Archivos |
-|--------|-------------|----------|
-| fig_01 | Impedancia en circuito RLC | [SVG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.svg) · [PNG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.png) |
+| Figura | Descripción | Archivos | Usado en |
+|--------|-------------|----------|----------|
+| fig_01 | Impedancia en circuito RLC | [SVG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.svg) · [PNG](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/media/fig_01_fasor_impedancia.png) | [TH-04](02-Circuitos-CA/01-Analisis-CA-Estado-Estacionario/theory/TH-04-Notacion-fasorial-impedancia-admitancia.md) |
 
 ---
 

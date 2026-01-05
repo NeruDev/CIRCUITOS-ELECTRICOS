@@ -11,14 +11,8 @@
 
 En un [circuito](../../../glossary.md#circuito) serie, todos los elementos comparten la **misma [corriente](../../../glossary.md#corriente)**.
 
-```
-    R₁        R₂        R₃
-+──/\/\/──┬──/\/\/──┬──/\/\/──┐
-│         │         │         │
-Vs        v₁        v₂        v₃
-│                             │
-└─────────────────────────────┘
-```
+![Resistencias en Serie](../media/fig_06_resistencias_serie.svg)
+*Circuito serie con resistencias R₁, R₂, R₃*
 
 **Características:**
 - La corriente es igual en todos los elementos: i = i₁ = i₂ = i₃
@@ -34,15 +28,8 @@ $$i = \frac{V_s}{R_{eq}} = \frac{V_s}{R_1 + R_2 + ... + R_n}$$
 
 En un circuito paralelo, todos los elementos comparten el **mismo [voltaje](../../../glossary.md#voltaje)**.
 
-```
-        ┌──/\/\/──┐
-        │   R₁    │
-        ├──/\/\/──┤
-+  Is → │   R₂    │ v
-        ├──/\/\/──┤
-        │   R₃    │
-        └─────────┘
-```
+![Resistencias en Paralelo](../media/fig_07_resistencias_paralelo.svg)
+*Circuito paralelo con resistencias R₁, R₂, R₃*
 
 **Características:**
 - El voltaje es igual en todos los elementos: v = v₁ = v₂ = v₃

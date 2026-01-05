@@ -76,18 +76,11 @@ $$\sum v_{elevaciones} = \sum v_{caídas}$$
 
 ### Ejemplo de Aplicación
 
-```
-    R₁ = 2Ω
-   ┌──/\/\/──┐
-   │         │
-+  │         │ R₂ = 4Ω
-○──┤         ├──/\/\/──┐
-12V│         │         │
--  │         │    R₃ = 6Ω
-   └─────────┴──/\/\/──┘
-```
+Considere un circuito con fuente de 12V y tres resistencias: R₁ = 2Ω, R₂ = 4Ω, R₃ = 6Ω.
 
-Aplicando LVK: 12 - 2i₁ - 4i₂ = 0
+Aplicando LVK en la malla: $12 - 2i_1 - 4i_2 = 0$
+
+Para más ejemplos visuales, consulte la [Figura 3 de LVK](#figura-3).
 
 ## Conceptos Clave
 - Resistencia y conductancia (G = 1/R)

@@ -66,17 +66,16 @@ $$w_R = \int_0^{\infty} i^2R \, dt = \frac{1}{2}LI_0^2$$
 
 ### Gráfica de la Respuesta
 
-```
-i(t)
-│
-I₀├──╮
-│ │   ╲
-│ │     ╲
-│ │       ╲____
-│ │            ─────
-0 └────────────────── t
-      τ    2τ   3τ
-```
+La respuesta exponencial decreciente del circuito RL:
+
+| Característica | Descripción |
+|---------------|-------------|
+| Valor inicial | i(0) = I₀ |
+| Pendiente inicial | -I₀/τ |
+| Asíntota | i(∞) = 0 |
+| Tiempo de establecimiento | ~5τ |
+
+> **Nota:** Consulte la Figura 1 para una representación visual del circuito RL y su comportamiento.
 
 ## Conceptos Clave
 - Respuesta natural: decaimiento exponencial

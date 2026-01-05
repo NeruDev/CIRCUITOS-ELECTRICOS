@@ -9,22 +9,14 @@
 
 ### Circuito RLC Serie sin Fuente
 
-```
-   ┌──R──L──C──┐
-   │           │
-   └───────────┘
-```
+Un circuito RLC serie consta de: Resistor (R), Inductor (L) y Capacitor (C) conectados en una sola malla.
 
 **Ecuación diferencial:**
 $$\frac{d^2i}{dt^2} + \frac{R}{L}\frac{di}{dt} + \frac{1}{LC}i = 0$$
 
 ### Circuito RLC Paralelo sin Fuente
 
-```
-   ┌──┬──┬──┐
-   R  L  C  │
-   └──┴──┴──┘
-```
+Un circuito RLC paralelo tiene: Resistor (R), Inductor (L) y Capacitor (C) conectados entre el mismo par de nodos.
 
 **Ecuación diferencial:**
 $$\frac{d^2v}{dt^2} + \frac{1}{RC}\frac{dv}{dt} + \frac{1}{LC}v = 0$$

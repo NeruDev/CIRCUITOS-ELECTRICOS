@@ -66,17 +66,16 @@ $$w_R = \int_0^{\infty} \frac{v^2}{R} \, dt = \frac{1}{2}CV_0^2$$
 
 ### Gráfica de la Respuesta
 
-```
-v(t)
-│
-V₀├──╮
-│ │   ╲
-│ │     ╲
-│ │       ╲____
-│ │            ─────
-0 └────────────────── t
-      τ    2τ   3τ
-```
+La respuesta exponencial decreciente del circuito RC:
+
+| Característica | Descripción |
+|---------------|-------------|
+| Valor inicial | v(0) = V₀ |
+| Pendiente inicial | -V₀/τ |
+| Asíntota | v(∞) = 0 |
+| Tiempo de establecimiento | ~5τ |
+
+> **Nota:** Consulte la Figura 1 para una representación visual del circuito RC y su comportamiento.
 
 ### Dualidad RL-RC
 

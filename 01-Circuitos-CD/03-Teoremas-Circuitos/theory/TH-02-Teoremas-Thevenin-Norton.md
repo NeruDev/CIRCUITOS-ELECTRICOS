@@ -58,20 +58,15 @@ $$R_{th} = R_N$$
 
 ### Ejemplo
 
-```
-    4Ω         2Ω
-○──/\/\/──┬──/\/\/──○ a
-│         │         
-12V      6Ω        
-│         │         
-○─────────┴─────────○ b
-```
+Considere un circuito con: fuente de 12V, R = 4Ω en serie con la fuente, R = 6Ω en paralelo al nodo, y R = 2Ω hacia los terminales a-b.
 
 **Vₜₕ:** Divisor de voltaje
 $$V_{th} = 12 \times \frac{6}{4+6} = 7.2V$$
 
 **Rₜₕ:** (fuente apagada)
 $$R_{th} = 2 + (4 \| 6) = 2 + 2.4 = 4.4Ω$$
+
+> **Nota:** Consulte las Figuras 1 y 2 para visualizar los circuitos equivalentes de Thévenin y Norton.
 
 ## Aplicaciones
 - Simplificación de circuitos

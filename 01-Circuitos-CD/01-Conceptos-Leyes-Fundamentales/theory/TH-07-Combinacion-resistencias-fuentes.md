@@ -29,14 +29,26 @@ $$R_{eq} = \frac{R}{n}$$
 
 ### Transformación Delta-Estrella (Δ → Y)
 
-```
-Delta (Δ):                 Estrella (Y):
-    a                          a
-   /\                          |
-  Ra Rb                       R₁
- /    \                        |
-b──Rc──c                   b──R₂─○─R₃──c
-```
+<table>
+<tr>
+<td>
+
+**Configuración Delta (Δ):**
+- Ra conecta nodos a-b
+- Rb conecta nodos a-c  
+- Rc conecta nodos b-c
+
+</td>
+<td>
+
+**Configuración Estrella (Y):**
+- R₁ conecta nodo a al centro
+- R₂ conecta nodo b al centro
+- R₃ conecta nodo c al centro
+
+</td>
+</tr>
+</table>
 
 **De Delta a Estrella:**
 $$R_1 = \frac{R_a \cdot R_b}{R_a + R_b + R_c}$$

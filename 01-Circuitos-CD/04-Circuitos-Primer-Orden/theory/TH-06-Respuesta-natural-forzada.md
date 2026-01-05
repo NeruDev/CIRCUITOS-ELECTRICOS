@@ -69,13 +69,9 @@ Donde:
 
 ### Ejemplo: Circuito RC con fuente
 
-```
-Vs──/──R──┬──○
-          │
-          C
-          │
-──────────┴──○
-```
+Considere un circuito RC con fuente de voltaje DC (Vs), resistor (R) en serie, y capacitor (C) conectado a los terminales de salida.
+
+Consulte la [Figura 1 del circuito RC](../media/fig_01_circuito_rc.svg) para visualizar esta configuración.
 
 **Respuesta del voltaje en C:**
 
