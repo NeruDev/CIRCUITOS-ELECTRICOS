@@ -66,8 +66,8 @@ La magnitud se expresa frecuentemente en decibeles (dB):
 
 $$|H|_{dB} = 20\log_{10}|H|$$
 
-| |H| | dB |
-|-----|-----|
+| \|H\| | dB |
+|-------|-----|
 | 1 | 0 |
 | 0.707 | -3 |
 | 0.5 | -6 |

@@ -32,8 +32,8 @@ $$b = r\sin\theta$$
 
 ## Impedancias
 
-| Elemento | Z | |Z| | θ |
-|----------|---|-----|---|
+| Elemento | Z | Magnitud | θ |
+|----------|---|----------|---|
 | Resistor | R | R | 0° |
 | Inductor | jωL | ωL | 90° |
 | Capacitor | 1/(jωC) = -j/(ωC) | 1/(ωC) | -90° |

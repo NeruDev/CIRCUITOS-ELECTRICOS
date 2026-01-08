@@ -1,4 +1,18 @@
-# Guía de Estudio - Circuitos Eléctricos
+<!--
+::METADATA::
+type: reference
+topic_id: meta-study-guide
+file_id: study-guide
+status: active
+audience: student
+last_updated: 2026-01-08
+-->
+
+# 📖 Guía de Estudio - Circuitos Eléctricos
+
+> **Propósito:** Guía de navegación y ruta de aprendizaje para estudiantes.
+
+---
 
 ## Organización del Repositorio
 

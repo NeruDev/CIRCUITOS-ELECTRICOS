@@ -1,5 +1,26 @@
-# CIRCUITOS-ELECTRICOS
-Cursos de Circuitos Eléctricos de Ingeniería Electrónica
+<!--
+::METADATA::
+type: index
+topic_id: repo-readme
+file_id: README
+status: active
+audience: both
+last_updated: 2026-01-08
+-->
+
+# 📚 CIRCUITOS-ELECTRICOS
+
+> **Repositorio de conocimiento estructurado** para cursos de Circuitos Eléctricos de Ingeniería Electrónica.
+
+## 🧭 Navegación Rápida
+
+| Para... | Ir a... |
+|---------|---------|
+| 📖 Estudiantes | [Guía de Estudio](00-META/study-guide.md) |
+| 🤖 Asistentes IA | [Contrato IA](00-META/ia-contract.md) |
+| 📋 Contenido completo | [Índice Wiki](WIKI_INDEX.md) |
+| 📚 Definiciones | [Glosario](glossary.md) |
+| 📊 Estado del repo | [Auditoría](AUDITORIA_ESTADO_REPO.md) |
 
 ## 📚 Estructura del Repositorio
 

@@ -161,7 +161,7 @@ P (W)
 | Parámetro | Valor |
 |-----------|-------|
 | a) ZL óptima | **40 - j30 Ω** |
-| a) |ZL| | **50 Ω** |
+| a) \|ZL\| | **50 Ω** |
 | b) P máxima | **62.5 W** |
 | c) P fuente | **62.5 W** |
 | d) Eficiencia | **50%** |

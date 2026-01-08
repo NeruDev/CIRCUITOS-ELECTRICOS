@@ -51,7 +51,7 @@ last_updated: 2026-01-05
 | $Q$ | Factor de calidad |
 | $BW$ | Ancho de banda |
 | $\omega_c$ | Frecuencia de corte |
-| $|H|_{dB}$ | Magnitud en decibeles |
+| $\lvert H \rvert_{dB}$ | Magnitud en decibeles |
 
 ### 3. Fórmulas Clave
 
